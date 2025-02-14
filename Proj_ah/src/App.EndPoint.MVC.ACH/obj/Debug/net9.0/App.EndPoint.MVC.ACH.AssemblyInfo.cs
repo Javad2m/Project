@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("App.EndPoint.MVC.ACH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+397dd48c4ce2f58261a8c2f4fda516c5c508d79a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1d2d9088c57ccc6ceb03ba09128b997a8b30062")]
 [assembly: System.Reflection.AssemblyProductAttribute("App.EndPoint.MVC.ACH")]
 [assembly: System.Reflection.AssemblyTitleAttribute("App.EndPoint.MVC.ACH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

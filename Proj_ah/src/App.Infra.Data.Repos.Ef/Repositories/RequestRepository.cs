@@ -26,10 +26,11 @@ public class RequestRepository : IRequestRepository
             Customer = model.Customer,
             CreatedAt = DateTime.Now,
             DoneTime = model.DoneTime,
-            Status = model.Status,
+            Status = Domain.Core.Enum.RequestStatusEnum.CheckingAndWaitingExpert,
             Description = model.Description,
             CustomerId = model.CustomerId,
             BasePrice = model.BasePrice,
+            
 
         };
         try
