@@ -14,6 +14,6 @@ public class Category
     public string? ImagePath { get; set; }
     public List<SubCategory>? SubCategories { get; set; }
     public bool IsActive { get; set; }
-
+    public bool IsDeleted { get; set; } = false;
     public DateTime CreatAt { get; set; }
 }

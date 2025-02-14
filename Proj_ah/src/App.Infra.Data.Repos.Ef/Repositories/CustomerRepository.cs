@@ -48,7 +48,7 @@ public class CustomerRepository : ICustomerRepository
 
         if (customer == null) return false;
         try { 
-        customer.IsActive = false;
+        customer.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
         return true;
         }
@@ -96,5 +96,21 @@ public class CustomerRepository : ICustomerRepository
         {
             return false;
         }
+    }
+
+    public async Task<CustomerDTO>? GetById(int? id, CancellationToken cancellationToken)
+    {
+        var customer = await _context.Customers
+            .Select(model => new CustomerDTO
+            {
+                Id = model.Id,
+                FirstName = model.FirstName,
+                LastName = model.LastName,                
+                City = model.City,
+                
+            }).AsNoTracking()
+            .FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
+
+        return customer ?? new CustomerDTO();
     }
 }

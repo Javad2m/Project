@@ -33,7 +33,7 @@ public class Request
     public float BasePrice { get; set; }
 
 
-
+    public bool IsDeleted { get; set; } = false;
 
 
 

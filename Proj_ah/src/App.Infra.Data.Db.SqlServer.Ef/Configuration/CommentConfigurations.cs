@@ -23,8 +23,7 @@ public class CommentConfigurations : IEntityTypeConfiguration<Comment>
         builder.Property(c => c.CreatAt)
             .IsRequired();
 
-        builder.Property(c => c.Score)
-            .IsRequired(false);
+      
 
         builder.Property(c => c.IsActive)
             .HasDefaultValue(true);

@@ -34,6 +34,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -63,6 +64,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     Title = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     ImagePath = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false),
                     CreatAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValueSql: "GETDATE()")
                 },
                 constraints: table =>
@@ -117,7 +119,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     Wallet = table.Column<decimal>(type: "decimal(18,2)", nullable: false, defaultValue: 0m),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValueSql: "GETDATE()"),
                     IsActive = table.Column<bool>(type: "bit", nullable: false, defaultValue: true),
-                    ApplicationUserId = table.Column<int>(type: "int", nullable: false)
+                    ApplicationUserId = table.Column<int>(type: "int", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -154,8 +157,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                 name: "AspNetUserLogins",
                 columns: table => new
                 {
-                    LoginProvider = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
-                    ProviderKey = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
+                    LoginProvider = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ProviderKey = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     ProviderDisplayName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -199,8 +202,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                 columns: table => new
                 {
                     UserId = table.Column<int>(type: "int", nullable: false),
-                    LoginProvider = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
+                    LoginProvider = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Value = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -224,7 +227,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     ImagePath = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false, defaultValue: true),
-                    CreatAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValueSql: "GETDATE()")
+                    CreatAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValueSql: "GETDATE()"),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -253,6 +257,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     ApplicationUserId = table.Column<int>(type: "int", nullable: false),
                     CityId = table.Column<int>(type: "int", nullable: true),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValueSql: "GETDATE()"),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false),
                     CityId1 = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -295,6 +300,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     ApplicationUserId = table.Column<int>(type: "int", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
                     Gender = table.Column<int>(type: "int", nullable: true),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false),
                     CityId1 = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -329,7 +335,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     ImagePath = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
                     SubCategoryId = table.Column<int>(type: "int", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false, defaultValue: true),
-                    CreatAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValueSql: "GETDATE()")
+                    CreatAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValueSql: "GETDATE()"),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -351,8 +358,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     CommentText = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
                     CreatAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CustomerId = table.Column<int>(type: "int", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false),
                     ExpertId = table.Column<int>(type: "int", nullable: false),
-                    Score = table.Column<int>(type: "int", nullable: true),
+                    Score = table.Column<int>(type: "int", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false, defaultValue: true),
                     IsAccept = table.Column<bool>(type: "bit", nullable: false, defaultValue: false)
                 },
@@ -408,6 +416,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DoneTime = table.Column<DateTime>(type: "datetime2", nullable: true),
                     BasePrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false),
                     CustomerId1 = table.Column<int>(type: "int", nullable: true),
                     ServiceSubCategoryId1 = table.Column<int>(type: "int", nullable: true)
                 },
@@ -472,7 +481,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     SuggestedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     SuggestedDo = table.Column<DateTime>(type: "datetime2", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: false, defaultValue: true),
-                    Status = table.Column<int>(type: "int", nullable: false)
+                    Status = table.Column<int>(type: "int", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -502,25 +512,25 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
-                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "IsDeleted", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { 1, 0, "d255353f-43dc-4877-b886-134ba8cf5819", "Admin@gmail.com", false, false, null, "ADMIN@GMAIL.COM", "ADMIN@GMAIL.COM", "AQAAAAIAAYagAAAAEKyK2zP/1bwNESPsevVkfWzJGl4VguQ6aW0lEHQMm2bmIQzI1gv99CWzYAxFn5T7ZQ==", null, false, "660ecaca-bb13-4da7-add8-66dafe257675", false, "Admin@gmail.com" },
-                    { 2, 0, "5b6d3993-fecc-4276-900a-2fa324b6ff9c", "Javad@gmail.com", false, false, null, "JAVAD@GMAIL.COM", "JAVAD@GMAIL.COM", "AQAAAAIAAYagAAAAEDnxfJR++/pcpSShBf6XfgbqOdsCpPSWgNEukqshUL7yFqWSE6RghDZ7qdD9Iea9Gg==", null, false, "a29e8086-cf43-426a-a913-6535b88fc93e", false, "Javad@gmail.com" },
-                    { 3, 0, "c8950bd3-6016-4875-9024-16807c7623ef", "Ali@gmail.com", false, false, null, "ALI@GMAIL.COM", "ALI@GMAIL.COM", "AQAAAAIAAYagAAAAEBDvdXlGJMNMm8i8mbIwVpjqcfZacl/lCXHmHViCgD8U85N5fYlU23fIARnX+Lm07A==", null, false, "d579d2c7-6aa9-4069-98ea-f5505655b453", false, "Ali@gmail.com" }
+                    { 1, 0, "62c52fac-4bc3-47ec-9c63-ec4f582d186c", "Admin@gmail.com", false, false, false, null, "ADMIN@GMAIL.COM", "ADMIN@GMAIL.COM", "AQAAAAIAAYagAAAAEI6IJjCz2LAZYJNusNu2APyeTeVTVizwMiY5gZDTteUwJMjX4hXKGSKoFMhQw9jhXg==", null, false, "b91b4de7-ab64-42f2-a5b1-1fa3a9525e3f", false, "Admin@gmail.com" },
+                    { 2, 0, "ca67a02c-0e0d-42a5-a743-875ce378e308", "Javad@gmail.com", false, false, false, null, "JAVAD@GMAIL.COM", "JAVAD@GMAIL.COM", "AQAAAAIAAYagAAAAEHCdfk44tZXQ59TgH3yMh2ZRbXRuAQOTs4lluHi/WQhhVz6pSLlwlOXeP+ppsM0DLg==", null, false, "10b19a55-7b10-45b2-b02e-4c3a5e5d570e", false, "Javad@gmail.com" },
+                    { 3, 0, "e365a241-0db6-4a65-a03c-c2dbebd1554f", "Ali@gmail.com", false, false, false, null, "ALI@GMAIL.COM", "ALI@GMAIL.COM", "AQAAAAIAAYagAAAAEEGlrO/2riHuqYSKkh9WM4YRCHqgP90g9tc/iqPmJOpk+S0ymMbwd++wnDlDVROPTw==", null, false, "be73f1ea-9583-4e00-8576-d376741c5d56", false, "Ali@gmail.com" }
                 });
 
             migrationBuilder.InsertData(
                 table: "Categories",
-                columns: new[] { "Id", "CreatAt", "ImagePath", "IsActive", "Title" },
+                columns: new[] { "Id", "CreatAt", "ImagePath", "IsActive", "IsDeleted", "Title" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1642), "\\Images\\icon\\tamiz.png", true, "تمیز کاری" },
-                    { 2, new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1993), "\\Images\\icon\\sakhteman.png", true, "ساختمان" },
-                    { 3, new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1996), "\\Images\\icon\\ashya.png", true, "تعمیرات اشیا" },
-                    { 4, new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1997), "\\Images\\icon\\asbabkeshi.png", true, "اسباب کشی و حمل بار" },
-                    { 5, new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1998), "\\Images\\icon\\khodro.png", true, "خودرو" },
-                    { 6, new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1999), "\\Images\\icon\\zibaii.png", true, "سلامت و زیبایی" }
+                    { 1, new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5147), "\\Images\\icon\\tamiz.png", true, false, "تمیز کاری" },
+                    { 2, new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5387), "\\Images\\icon\\sakhteman.png", true, false, "ساختمان" },
+                    { 3, new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5389), "\\Images\\icon\\ashya.png", true, false, "تعمیرات اشیا" },
+                    { 4, new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5390), "\\Images\\icon\\asbabkeshi.png", true, false, "اسباب کشی و حمل بار" },
+                    { 5, new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5392), "\\Images\\icon\\khodro.png", true, false, "خودرو" },
+                    { 6, new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5393), "\\Images\\icon\\zibaii.png", true, false, "سلامت و زیبایی" }
                 });
 
             migrationBuilder.InsertData(
@@ -557,8 +567,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
 
             migrationBuilder.InsertData(
                 table: "Admins",
-                columns: new[] { "Id", "ApplicationUserId", "CreatedAt", "Email", "FirstName", "ImagePath", "IsActive", "LastName", "Wallet" },
-                values: new object[] { 1, 1, new DateTime(2025, 2, 14, 0, 30, 24, 386, DateTimeKind.Local).AddTicks(5206), "Admin@gmail.com", "Javad", null, true, "Moradi", 100.5m });
+                columns: new[] { "Id", "ApplicationUserId", "CreatedAt", "Email", "FirstName", "ImagePath", "IsActive", "IsDeleted", "LastName", "Wallet" },
+                values: new object[] { 1, 1, new DateTime(2025, 2, 14, 10, 37, 17, 849, DateTimeKind.Local).AddTicks(4321), "Admin@gmail.com", "Javad", null, true, false, "Moradi", 100.5m });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
@@ -572,126 +582,126 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
 
             migrationBuilder.InsertData(
                 table: "Customers",
-                columns: new[] { "Id", "ApplicationUserId", "CityId", "CityId1", "CreatedAt", "FirstName", "ImagePath", "IsActive", "LastName", "Mail", "PhoneNumber" },
-                values: new object[] { 1, 2, 1, null, new DateTime(2025, 2, 14, 0, 30, 24, 398, DateTimeKind.Local).AddTicks(1423), "Javad", null, true, "Sadeghi", "Javad@gmail.com", null });
+                columns: new[] { "Id", "ApplicationUserId", "CityId", "CityId1", "CreatedAt", "FirstName", "ImagePath", "IsActive", "IsDeleted", "LastName", "Mail", "PhoneNumber" },
+                values: new object[] { 1, 2, 1, null, new DateTime(2025, 2, 14, 10, 37, 17, 862, DateTimeKind.Local).AddTicks(3691), "Javad", null, true, false, "Sadeghi", "Javad@gmail.com", null });
 
             migrationBuilder.InsertData(
                 table: "Experts",
-                columns: new[] { "Id", "ApplicationUserId", "CityId", "CityId1", "CreatedAt", "Description", "Email", "FirstName", "Gender", "ImagePath", "LastName", "PhoneNumber" },
-                values: new object[] { 1, 3, 1, null, new DateTime(2025, 2, 14, 0, 30, 24, 401, DateTimeKind.Local).AddTicks(4399), "Expert in web development and software architecture.", "Ali@gmail.com", "Ali", 1, null, "Abd", null });
+                columns: new[] { "Id", "ApplicationUserId", "CityId", "CityId1", "CreatedAt", "Description", "Email", "FirstName", "Gender", "ImagePath", "IsDeleted", "LastName", "PhoneNumber" },
+                values: new object[] { 1, 3, 1, null, new DateTime(2025, 2, 14, 10, 37, 17, 866, DateTimeKind.Local).AddTicks(8495), "Expert in web development and software architecture.", "Ali@gmail.com", "Ali", 1, null, false, "Abd", null });
 
             migrationBuilder.InsertData(
                 table: "SubCategories",
-                columns: new[] { "Id", "CategoryId", "CreatAt", "ImagePath", "IsActive", "Title" },
+                columns: new[] { "Id", "CategoryId", "CreatAt", "ImagePath", "IsActive", "IsDeleted", "Title" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(4965), null, true, "نظافت و پذیرایی" },
-                    { 2, 1, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5079), null, true, "شستشو" },
-                    { 3, 1, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5081), null, true, "کارواش و دیتیلینگ" },
-                    { 4, 2, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5082), null, true, "سرمایش و گرمایش" },
-                    { 5, 2, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5083), null, true, "تعمیرات ساختمان" },
-                    { 6, 2, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5084), null, true, "لوله کشی" },
-                    { 7, 2, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5085), null, true, "طراحی و بازسازی ساختمان" },
-                    { 8, 2, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5086), null, true, "برقکاری" },
-                    { 9, 2, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5087), null, true, "چوب و کابینت" },
-                    { 10, 2, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5088), null, true, "خدمات شیشه ای ساختمان" },
-                    { 11, 2, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5089), null, true, "باغبانی و فضای سبز" },
-                    { 12, 3, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5090), null, true, "نصب و تعمیر لوازم خانگی" },
-                    { 13, 3, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5091), null, true, "خدمات کامپیوتری" },
-                    { 14, 3, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5092), null, true, "تعمیرات موبایل" },
-                    { 15, 4, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5093), null, true, "باربری و جابجایی" },
-                    { 16, 5, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5094), null, true, "خدمات و تعمیرات خودرو" },
-                    { 17, 5, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5095), null, true, "کارواش و دیتیلینگ" },
-                    { 18, 6, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5096), null, true, "زیبایی بانوان" },
-                    { 19, 6, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5097), null, true, "پزشکی و پرستاری" },
-                    { 20, 6, new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5098), null, true, "حیوانات خانگی" }
+                    { 1, 1, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(507), null, true, false, "نظافت و پذیرایی" },
+                    { 2, 1, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(618), null, true, false, "شستشو" },
+                    { 3, 1, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(620), null, true, false, "کارواش و دیتیلینگ" },
+                    { 4, 2, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(621), null, true, false, "سرمایش و گرمایش" },
+                    { 5, 2, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(622), null, true, false, "تعمیرات ساختمان" },
+                    { 6, 2, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(623), null, true, false, "لوله کشی" },
+                    { 7, 2, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(624), null, true, false, "طراحی و بازسازی ساختمان" },
+                    { 8, 2, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(625), null, true, false, "برقکاری" },
+                    { 9, 2, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(626), null, true, false, "چوب و کابینت" },
+                    { 10, 2, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(627), null, true, false, "خدمات شیشه ای ساختمان" },
+                    { 11, 2, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(628), null, true, false, "باغبانی و فضای سبز" },
+                    { 12, 3, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(629), null, true, false, "نصب و تعمیر لوازم خانگی" },
+                    { 13, 3, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(630), null, true, false, "خدمات کامپیوتری" },
+                    { 14, 3, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(631), null, true, false, "تعمیرات موبایل" },
+                    { 15, 4, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(632), null, true, false, "باربری و جابجایی" },
+                    { 16, 5, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(633), null, true, false, "خدمات و تعمیرات خودرو" },
+                    { 17, 5, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(634), null, true, false, "کارواش و دیتیلینگ" },
+                    { 18, 6, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(635), null, true, false, "زیبایی بانوان" },
+                    { 19, 6, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(636), null, true, false, "پزشکی و پرستاری" },
+                    { 20, 6, new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(637), null, true, false, "حیوانات خانگی" }
                 });
 
             migrationBuilder.InsertData(
                 table: "ServiceSubCategories",
-                columns: new[] { "Id", "CreatAt", "ImagePath", "IsActive", "SubCategoryId", "Title" },
+                columns: new[] { "Id", "CreatAt", "ImagePath", "IsActive", "IsDeleted", "SubCategoryId", "Title" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2309), "\\Images\\services\\1.jpg", true, 1, "خدمات نظافت و منزل" },
-                    { 2, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2572), "\\Images\\services\\2.jpg", true, 1, "سرویس ویژه نظافت" },
-                    { 3, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2574), "\\Images\\services\\3.jpg", true, 1, "سرویس لوکس نظافت" },
-                    { 4, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2575), "\\Images\\services\\4.jpg", true, 1, "نظافت راه پله" },
-                    { 5, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2577), "\\Images\\services\\5.jpg", true, 1, "سرویس نظافت فوری" },
-                    { 6, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2578), "\\Images\\services\\6.jpg", true, 1, "پذیرایی" },
-                    { 7, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2579), "\\Images\\services\\7.jpg", true, 1, "کارگر ساده" },
-                    { 8, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2580), "\\Images\\services\\8.jpg", true, 1, "سمپاشی فضای داخلی" },
-                    { 9, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2581), "\\Images\\services\\9.jpg", true, 2, "شستشو در محل" },
-                    { 10, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2582), "\\Images\\services\\10.jpg", true, 2, "قالیشویی" },
-                    { 11, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2596), "\\Images\\services\\11.png", true, 2, "خشکشویی" },
-                    { 12, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2597), "\\Images\\services\\12.jpg", true, 2, "پرده شویی" },
-                    { 13, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2598), "\\Images\\services\\13.jpg", true, 3, "کارواش سیار" },
-                    { 14, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2599), "\\Images\\services\\14.jpg", true, 3, "سرامیک خودرو" },
-                    { 15, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2600), "\\Images\\services\\15.jpg", true, 3, "موتورشویی خودرو" },
-                    { 16, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2601), "\\Images\\services\\16.jpg", true, 4, "تعمیر و سرویس پکیج" },
-                    { 17, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2602), "\\Images\\services\\17.jpg", true, 4, "تعمیر و سرویس آبگرم کن" },
-                    { 18, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2603), "\\Images\\services\\18.jpg", true, 4, "نصب و تعمیر شوفاژ" },
-                    { 19, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2604), "\\Images\\services\\19.jpg", true, 4, "تعمیر و نگهداری موتورخانه" },
-                    { 20, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2605), "\\Images\\services\\20.jpg", true, 5, "سنگ کاری" },
-                    { 21, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2606), "\\Images\\services\\21.jpeg", true, 5, "نقاشی ساختمان" },
-                    { 22, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2607), "\\Images\\services\\22.jpg", true, 5, "نصب کاغذ دیواری" },
-                    { 23, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2608), "\\Images\\services\\23.jpg", true, 5, "ساخت و نصب توری" },
-                    { 24, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2609), "\\Images\\services\\24.jpg", true, 5, "بنایی" },
-                    { 25, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2610), "\\Images\\services\\25.jpg", true, 5, "کلید سازی" },
-                    { 26, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2611), "\\Images\\services\\26.jpg", true, 5, "دریل کاری" },
-                    { 27, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2612), "\\Images\\services\\27.jpg", true, 6, "خدمات لوله کشی ساختمان" },
-                    { 28, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2613), "\\Images\\services\\28.jpg", true, 6, "پمپ و منبع آب" },
-                    { 29, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2622), "\\Images\\services\\29.webp", true, 6, "لوله کشی گاز" },
-                    { 30, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2623), "\\Images\\services\\30.jpg", true, 6, "نصب و تعمیر وال هنگ" },
-                    { 31, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2625), "\\Images\\services\\31.webp", true, 7, "خدمات بازسازی خانه" },
-                    { 32, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2626), "\\Images\\services\\32.jpg", true, 7, "مشاوره و بازسازی خانه" },
-                    { 33, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2627), "\\Images\\services\\33.jpg", true, 7, "دکوراسیون و طراحی ساختمان" },
-                    { 34, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2628), "\\Images\\services\\34.jpg", true, 8, "سیم کشی و کابل کشی" },
-                    { 35, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2629), "\\Images\\services\\35.jpg", true, 8, "رفع اتصالی" },
-                    { 36, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2630), "\\Images\\services\\36.jpg", true, 8, "نصب لوستر و چراغ" },
-                    { 37, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2631), "\\Images\\services\\37.jpg", true, 8, "کلید و پریز" },
-                    { 38, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2632), "\\Images\\services\\38.png", true, 8, "نصب و تعویز فیوز" },
-                    { 39, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2633), "\\Images\\services\\39.jpg", true, 8, "نصب و تعمیر کرکره برقی" },
-                    { 40, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2634), "\\Images\\services\\40.webp", true, 9, "نجاری" },
-                    { 41, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2635), "\\Images\\services\\41.jpg", true, 9, "تعمیرات مبلمان" },
-                    { 42, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2636), "\\Images\\services\\42.jpg", true, 9, "خدمات درب چوبی و ضدسرقت" },
-                    { 43, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2637), "\\Images\\services\\43.png", true, 10, "پارتیشن شیشه ای" },
-                    { 44, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2638), "\\Images\\services\\44.jpg", true, 10, "شیشه بری و آینه کاری" },
-                    { 45, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2639), "\\Images\\services\\45.jpg", true, 10, "هندریل شیشه ای" },
-                    { 46, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2640), "\\Images\\services\\46.jpg", true, 10, "شیشه ریلی اسلاید" },
-                    { 47, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2648), "\\Images\\services\\47.webp", true, 11, "خدمات باغبانی" },
-                    { 48, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2649), "\\Images\\services\\48.jpg", true, 11, "کاشت و تعویض گلدان" },
-                    { 49, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2650), "\\Images\\services\\49.webp", true, 11, "مشاوره گل و گیاه" },
-                    { 50, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2651), "\\Images\\services\\50.jpg", true, 12, "تعمیر جارو برقی" },
-                    { 51, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2652), "\\Images\\services\\51.jpg", true, 12, "تعمیر چرخ خیاطی" },
-                    { 52, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2653), "\\Images\\services\\52.jpg", true, 12, "تعمیر پنکه" },
-                    { 53, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2654), "\\Images\\services\\53.jpg", true, 13, "تعمیر کامپیوتر و لپ تاب" },
-                    { 54, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2655), "\\Images\\services\\54.jpg", true, 13, "تعمیر ماشین های اداری" },
-                    { 55, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2657), "\\Images\\services\\55.jpg", true, 13, "مودم و اینترنت" },
-                    { 56, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2677), "\\Images\\services\\56.jpg", true, 14, "خدمات نرم افزاری" },
-                    { 57, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2679), "\\Images\\services\\57.jpg", true, 14, "خدمات باتری" },
-                    { 58, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2680), "\\Images\\services\\58.webp", true, 14, "خدمات دوربین" },
-                    { 59, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2681), "\\Images\\services\\59.jpg", true, 15, "خدمات اسباب کشی" },
-                    { 60, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2682), "\\Images\\services\\60.jpg", true, 15, "سرویس بسته بندی" },
-                    { 61, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2683), "\\Images\\services\\61.jpg", true, 15, "کارگر جابه جایی" },
-                    { 62, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2684), "\\Images\\services\\62.webp", true, 15, "اجاره انبار و سوله" },
-                    { 63, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2685), "\\Images\\services\\63.jpg", true, 16, "خدمات خودرو" },
-                    { 64, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2686), "\\Images\\services\\64.jpg", true, 16, "باتری به باتری" },
-                    { 65, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2687), "\\Images\\services\\65.png", true, 16, "امداد خودرو" },
-                    { 66, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2688), "\\Images\\services\\66.jpg", true, 16, "حمل خودرو" },
-                    { 67, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2689), "\\Images\\services\\67.jpg", true, 17, "کارواش سیار" },
-                    { 68, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2690), "\\Images\\services\\68.jpg", true, 17, "کارواش نانو" },
-                    { 69, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2691), "\\Images\\services\\69.jpg", true, 17, "موتورشویی خودرو" },
-                    { 70, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2692), "\\Images\\services\\70.jpg", true, 17, "احیای رنگ" },
-                    { 71, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2693), "\\Images\\services\\71.jpg", true, 18, "خدمات ناخن" },
-                    { 72, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2694), "\\Images\\services\\72.jpg", true, 18, "رنگ مو بانوان" },
-                    { 73, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2695), "\\Images\\services\\73.jpg", true, 18, "براشینگ مو" },
-                    { 74, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2696), "\\Images\\services\\74.jpg", true, 18, "کوتاهی مو بانوان" },
-                    { 75, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2697), "\\Images\\services\\75.jpg", true, 19, "مراقبت و نگهداری" },
-                    { 76, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2698), "\\Images\\services\\76.jpg", true, 19, "معاینه پزشکی" },
-                    { 77, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2699), "\\Images\\services\\77.webp", true, 19, "پیراپزشکی" },
-                    { 78, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2700), "\\Images\\services\\78.jpg", true, 20, "هتل های حیوانات خانگی" },
-                    { 79, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2701), "\\Images\\services\\79.jpg", true, 20, "خدمات دامپزشکی در محل" },
-                    { 80, new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2702), "\\Images\\services\\80.jpg", true, 20, "خدمات شستشو و آراش حیوانات خانگی" }
+                    { 1, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8253), "\\Images\\services\\1.jpg", true, false, 1, "خدمات نظافت و منزل" },
+                    { 2, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8464), "\\Images\\services\\2.jpg", true, false, 1, "سرویس ویژه نظافت" },
+                    { 3, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8465), "\\Images\\services\\3.jpg", true, false, 1, "سرویس لوکس نظافت" },
+                    { 4, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8467), "\\Images\\services\\4.jpg", true, false, 1, "نظافت راه پله" },
+                    { 5, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8468), "\\Images\\services\\5.jpg", true, false, 1, "سرویس نظافت فوری" },
+                    { 6, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8469), "\\Images\\services\\6.jpg", true, false, 1, "پذیرایی" },
+                    { 7, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8470), "\\Images\\services\\7.jpg", true, false, 1, "کارگر ساده" },
+                    { 8, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8471), "\\Images\\services\\8.jpg", true, false, 1, "سمپاشی فضای داخلی" },
+                    { 9, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8472), "\\Images\\services\\9.jpg", true, false, 2, "شستشو در محل" },
+                    { 10, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8473), "\\Images\\services\\10.jpg", true, false, 2, "قالیشویی" },
+                    { 11, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8474), "\\Images\\services\\11.png", true, false, 2, "خشکشویی" },
+                    { 12, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8476), "\\Images\\services\\12.jpg", true, false, 2, "پرده شویی" },
+                    { 13, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8477), "\\Images\\services\\13.jpg", true, false, 3, "کارواش سیار" },
+                    { 14, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8478), "\\Images\\services\\14.jpg", true, false, 3, "سرامیک خودرو" },
+                    { 15, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8479), "\\Images\\services\\15.jpg", true, false, 3, "موتورشویی خودرو" },
+                    { 16, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8480), "\\Images\\services\\16.jpg", true, false, 4, "تعمیر و سرویس پکیج" },
+                    { 17, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8491), "\\Images\\services\\17.jpg", true, false, 4, "تعمیر و سرویس آبگرم کن" },
+                    { 18, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8492), "\\Images\\services\\18.jpg", true, false, 4, "نصب و تعمیر شوفاژ" },
+                    { 19, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8493), "\\Images\\services\\19.jpg", true, false, 4, "تعمیر و نگهداری موتورخانه" },
+                    { 20, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8494), "\\Images\\services\\20.jpg", true, false, 5, "سنگ کاری" },
+                    { 21, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8495), "\\Images\\services\\21.jpeg", true, false, 5, "نقاشی ساختمان" },
+                    { 22, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8496), "\\Images\\services\\22.jpg", true, false, 5, "نصب کاغذ دیواری" },
+                    { 23, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8497), "\\Images\\services\\23.jpg", true, false, 5, "ساخت و نصب توری" },
+                    { 24, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8498), "\\Images\\services\\24.jpg", true, false, 5, "بنایی" },
+                    { 25, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8500), "\\Images\\services\\25.jpg", true, false, 5, "کلید سازی" },
+                    { 26, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8501), "\\Images\\services\\26.jpg", true, false, 5, "دریل کاری" },
+                    { 27, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8502), "\\Images\\services\\27.jpg", true, false, 6, "خدمات لوله کشی ساختمان" },
+                    { 28, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8503), "\\Images\\services\\28.jpg", true, false, 6, "پمپ و منبع آب" },
+                    { 29, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8504), "\\Images\\services\\29.webp", true, false, 6, "لوله کشی گاز" },
+                    { 30, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8505), "\\Images\\services\\30.jpg", true, false, 6, "نصب و تعمیر وال هنگ" },
+                    { 31, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8506), "\\Images\\services\\31.webp", true, false, 7, "خدمات بازسازی خانه" },
+                    { 32, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8507), "\\Images\\services\\32.jpg", true, false, 7, "مشاوره و بازسازی خانه" },
+                    { 33, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8509), "\\Images\\services\\33.jpg", true, false, 7, "دکوراسیون و طراحی ساختمان" },
+                    { 34, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8510), "\\Images\\services\\34.jpg", true, false, 8, "سیم کشی و کابل کشی" },
+                    { 35, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8518), "\\Images\\services\\35.jpg", true, false, 8, "رفع اتصالی" },
+                    { 36, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8519), "\\Images\\services\\36.jpg", true, false, 8, "نصب لوستر و چراغ" },
+                    { 37, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8520), "\\Images\\services\\37.jpg", true, false, 8, "کلید و پریز" },
+                    { 38, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8522), "\\Images\\services\\38.png", true, false, 8, "نصب و تعویز فیوز" },
+                    { 39, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8523), "\\Images\\services\\39.jpg", true, false, 8, "نصب و تعمیر کرکره برقی" },
+                    { 40, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8524), "\\Images\\services\\40.webp", true, false, 9, "نجاری" },
+                    { 41, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8525), "\\Images\\services\\41.jpg", true, false, 9, "تعمیرات مبلمان" },
+                    { 42, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8526), "\\Images\\services\\42.jpg", true, false, 9, "خدمات درب چوبی و ضدسرقت" },
+                    { 43, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8527), "\\Images\\services\\43.png", true, false, 10, "پارتیشن شیشه ای" },
+                    { 44, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8528), "\\Images\\services\\44.jpg", true, false, 10, "شیشه بری و آینه کاری" },
+                    { 45, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8529), "\\Images\\services\\45.jpg", true, false, 10, "هندریل شیشه ای" },
+                    { 46, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8531), "\\Images\\services\\46.jpg", true, false, 10, "شیشه ریلی اسلاید" },
+                    { 47, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8532), "\\Images\\services\\47.webp", true, false, 11, "خدمات باغبانی" },
+                    { 48, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8533), "\\Images\\services\\48.jpg", true, false, 11, "کاشت و تعویض گلدان" },
+                    { 49, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8534), "\\Images\\services\\49.webp", true, false, 11, "مشاوره گل و گیاه" },
+                    { 50, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8535), "\\Images\\services\\50.jpg", true, false, 12, "تعمیر جارو برقی" },
+                    { 51, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8536), "\\Images\\services\\51.jpg", true, false, 12, "تعمیر چرخ خیاطی" },
+                    { 52, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8537), "\\Images\\services\\52.jpg", true, false, 12, "تعمیر پنکه" },
+                    { 53, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8545), "\\Images\\services\\53.jpg", true, false, 13, "تعمیر کامپیوتر و لپ تاب" },
+                    { 54, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8547), "\\Images\\services\\54.jpg", true, false, 13, "تعمیر ماشین های اداری" },
+                    { 55, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8548), "\\Images\\services\\55.jpg", true, false, 13, "مودم و اینترنت" },
+                    { 56, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8549), "\\Images\\services\\56.jpg", true, false, 14, "خدمات نرم افزاری" },
+                    { 57, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8550), "\\Images\\services\\57.jpg", true, false, 14, "خدمات باتری" },
+                    { 58, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8551), "\\Images\\services\\58.webp", true, false, 14, "خدمات دوربین" },
+                    { 59, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8552), "\\Images\\services\\59.jpg", true, false, 15, "خدمات اسباب کشی" },
+                    { 60, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8553), "\\Images\\services\\60.jpg", true, false, 15, "سرویس بسته بندی" },
+                    { 61, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8555), "\\Images\\services\\61.jpg", true, false, 15, "کارگر جابه جایی" },
+                    { 62, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8556), "\\Images\\services\\62.webp", true, false, 15, "اجاره انبار و سوله" },
+                    { 63, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8557), "\\Images\\services\\63.jpg", true, false, 16, "خدمات خودرو" },
+                    { 64, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8558), "\\Images\\services\\64.jpg", true, false, 16, "باتری به باتری" },
+                    { 65, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8559), "\\Images\\services\\65.png", true, false, 16, "امداد خودرو" },
+                    { 66, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8560), "\\Images\\services\\66.jpg", true, false, 16, "حمل خودرو" },
+                    { 67, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8561), "\\Images\\services\\67.jpg", true, false, 17, "کارواش سیار" },
+                    { 68, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8562), "\\Images\\services\\68.jpg", true, false, 17, "کارواش نانو" },
+                    { 69, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8563), "\\Images\\services\\69.jpg", true, false, 17, "موتورشویی خودرو" },
+                    { 70, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8564), "\\Images\\services\\70.jpg", true, false, 17, "احیای رنگ" },
+                    { 71, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8565), "\\Images\\services\\71.jpg", true, false, 18, "خدمات ناخن" },
+                    { 72, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8567), "\\Images\\services\\72.jpg", true, false, 18, "رنگ مو بانوان" },
+                    { 73, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8568), "\\Images\\services\\73.jpg", true, false, 18, "براشینگ مو" },
+                    { 74, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8569), "\\Images\\services\\74.jpg", true, false, 18, "کوتاهی مو بانوان" },
+                    { 75, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8570), "\\Images\\services\\75.jpg", true, false, 19, "مراقبت و نگهداری" },
+                    { 76, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8571), "\\Images\\services\\76.jpg", true, false, 19, "معاینه پزشکی" },
+                    { 77, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8572), "\\Images\\services\\77.webp", true, false, 19, "پیراپزشکی" },
+                    { 78, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8573), "\\Images\\services\\78.jpg", true, false, 20, "هتل های حیوانات خانگی" },
+                    { 79, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8574), "\\Images\\services\\79.jpg", true, false, 20, "خدمات دامپزشکی در محل" },
+                    { 80, new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8575), "\\Images\\services\\80.jpg", true, false, 20, "خدمات شستشو و آراش حیوانات خانگی" }
                 });
 
             migrationBuilder.CreateIndex(

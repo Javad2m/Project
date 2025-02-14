@@ -306,3 +306,4 @@ C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\obj\Debug\net9.0\App.EndPoint.MVC.ACH.sourcelink.json

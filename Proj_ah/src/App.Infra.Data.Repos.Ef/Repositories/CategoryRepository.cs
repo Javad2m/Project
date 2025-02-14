@@ -3,6 +3,7 @@ using App.Domain.Core.Dto;
 using App.Domain.Core.Entities;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,7 +48,7 @@ public class CategoryRepository : ICategoryRepository
 
         if (category == null) return;
 
-        category.IsActive = false;
+        category.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
     }
 
@@ -84,5 +85,18 @@ public class CategoryRepository : ICategoryRepository
         {
             return false;
         }
+    }
+
+    public async Task<CategoryDTO> GetCategoryById(int categoryId, CancellationToken cancellationToken)
+    {
+
+        var category = await _context.Categories
+            .Select(c => new CategoryDTO
+            {
+                Id = c.Id,
+                Title = c.Title,
+            }).AsNoTracking().FirstOrDefaultAsync(a => a.Id == categoryId, cancellationToken);
+
+        return category;
     }
 }

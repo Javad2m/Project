@@ -40,5 +40,6 @@ public class Expert
     public GenderEnum? Gender { get; set; }
 
     public List<Suggestion>? Suggestions { get; set; }
+    public bool IsDeleted { get; set; } = false;
 
 }

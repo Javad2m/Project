@@ -19,4 +19,5 @@ public class SubCategory
     public List<ServiceSubCategory>? ServiceSubCategories { get; set; }
     public bool IsActive { get; set; }
     public DateTime CreatAt { get; set; }
+    public bool IsDeleted { get; set; } = false;
 }

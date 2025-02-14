@@ -1,4 +1,5 @@
 ﻿using App.Domain.Core.Dto;
+using App.Domain.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,4 +14,6 @@ public interface IExpertRepository
     Task DeleteExpertById(int id, CancellationToken cancellationToken);
     Task<List<ExpertDTO>> GetAllExperts(CancellationToken cancellationToken);
     Task UpdateExpert(ExpertDTO model, CancellationToken cancellationToken);
+
+    Task<ExpertDTO>? GetExpertById(int id, CancellationToken cancellationToken);
 }

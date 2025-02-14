@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250213210025_init")]
+    [Migration("20250214070718_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -60,6 +60,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(true);
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -82,10 +85,11 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 1,
                             ApplicationUserId = 1,
-                            CreatedAt = new DateTime(2025, 2, 14, 0, 30, 24, 386, DateTimeKind.Local).AddTicks(5206),
+                            CreatedAt = new DateTime(2025, 2, 14, 10, 37, 17, 849, DateTimeKind.Local).AddTicks(4321),
                             Email = "Admin@gmail.com",
                             FirstName = "Javad",
                             IsActive = true,
+                            IsDeleted = false,
                             LastName = "Moradi",
                             Wallet = 100.5m
                         });
@@ -111,6 +115,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<bool>("LockoutEnabled")
@@ -163,15 +170,16 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d255353f-43dc-4877-b886-134ba8cf5819",
+                            ConcurrencyStamp = "62c52fac-4bc3-47ec-9c63-ec4f582d186c",
                             Email = "Admin@gmail.com",
                             EmailConfirmed = false,
+                            IsDeleted = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKyK2zP/1bwNESPsevVkfWzJGl4VguQ6aW0lEHQMm2bmIQzI1gv99CWzYAxFn5T7ZQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEI6IJjCz2LAZYJNusNu2APyeTeVTVizwMiY5gZDTteUwJMjX4hXKGSKoFMhQw9jhXg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "660ecaca-bb13-4da7-add8-66dafe257675",
+                            SecurityStamp = "b91b4de7-ab64-42f2-a5b1-1fa3a9525e3f",
                             TwoFactorEnabled = false,
                             UserName = "Admin@gmail.com"
                         },
@@ -179,15 +187,16 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 2,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5b6d3993-fecc-4276-900a-2fa324b6ff9c",
+                            ConcurrencyStamp = "ca67a02c-0e0d-42a5-a743-875ce378e308",
                             Email = "Javad@gmail.com",
                             EmailConfirmed = false,
+                            IsDeleted = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "JAVAD@GMAIL.COM",
                             NormalizedUserName = "JAVAD@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDnxfJR++/pcpSShBf6XfgbqOdsCpPSWgNEukqshUL7yFqWSE6RghDZ7qdD9Iea9Gg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHCdfk44tZXQ59TgH3yMh2ZRbXRuAQOTs4lluHi/WQhhVz6pSLlwlOXeP+ppsM0DLg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "a29e8086-cf43-426a-a913-6535b88fc93e",
+                            SecurityStamp = "10b19a55-7b10-45b2-b02e-4c3a5e5d570e",
                             TwoFactorEnabled = false,
                             UserName = "Javad@gmail.com"
                         },
@@ -195,15 +204,16 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 3,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c8950bd3-6016-4875-9024-16807c7623ef",
+                            ConcurrencyStamp = "e365a241-0db6-4a65-a03c-c2dbebd1554f",
                             Email = "Ali@gmail.com",
                             EmailConfirmed = false,
+                            IsDeleted = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ALI@GMAIL.COM",
                             NormalizedUserName = "ALI@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBDvdXlGJMNMm8i8mbIwVpjqcfZacl/lCXHmHViCgD8U85N5fYlU23fIARnX+Lm07A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEGlrO/2riHuqYSKkh9WM4YRCHqgP90g9tc/iqPmJOpk+S0ymMbwd++wnDlDVROPTw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d579d2c7-6aa9-4069-98ea-f5505655b453",
+                            SecurityStamp = "be73f1ea-9583-4e00-8576-d376741c5d56",
                             TwoFactorEnabled = false,
                             UserName = "Ali@gmail.com"
                         });
@@ -396,6 +406,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -409,49 +422,55 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 1,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1642),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5147),
                             ImagePath = "\\Images\\icon\\tamiz.png",
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "تمیز کاری"
                         },
                         new
                         {
                             Id = 2,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1993),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5387),
                             ImagePath = "\\Images\\icon\\sakhteman.png",
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "ساختمان"
                         },
                         new
                         {
                             Id = 3,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1996),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5389),
                             ImagePath = "\\Images\\icon\\ashya.png",
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "تعمیرات اشیا"
                         },
                         new
                         {
                             Id = 4,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1997),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5390),
                             ImagePath = "\\Images\\icon\\asbabkeshi.png",
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "اسباب کشی و حمل بار"
                         },
                         new
                         {
                             Id = 5,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1998),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5392),
                             ImagePath = "\\Images\\icon\\khodro.png",
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "خودرو"
                         },
                         new
                         {
                             Id = 6,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 388, DateTimeKind.Local).AddTicks(1999),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 851, DateTimeKind.Local).AddTicks(5393),
                             ImagePath = "\\Images\\icon\\zibaii.png",
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "سلامت و زیبایی"
                         });
                 });
@@ -487,7 +506,10 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(true);
 
-                    b.Property<int?>("Score")
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Score")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -534,6 +556,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(false);
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("LastName")
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
@@ -569,9 +594,10 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                             Id = 1,
                             ApplicationUserId = 2,
                             CityId = 1,
-                            CreatedAt = new DateTime(2025, 2, 14, 0, 30, 24, 398, DateTimeKind.Local).AddTicks(1423),
+                            CreatedAt = new DateTime(2025, 2, 14, 10, 37, 17, 862, DateTimeKind.Local).AddTicks(3691),
                             FirstName = "Javad",
                             IsActive = true,
+                            IsDeleted = false,
                             LastName = "Sadeghi",
                             Mail = "Javad@gmail.com",
                             Wallet = 0m
@@ -625,6 +651,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(false);
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("LastName")
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
@@ -655,12 +684,13 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                             Id = 1,
                             ApplicationUserId = 3,
                             CityId = 1,
-                            CreatedAt = new DateTime(2025, 2, 14, 0, 30, 24, 401, DateTimeKind.Local).AddTicks(4399),
+                            CreatedAt = new DateTime(2025, 2, 14, 10, 37, 17, 866, DateTimeKind.Local).AddTicks(8495),
                             Description = "Expert in web development and software architecture.",
                             Email = "Ali@gmail.com",
                             FirstName = "Ali",
                             Gender = 1,
                             IsActive = false,
+                            IsDeleted = false,
                             LastName = "Abd",
                             Wallet = 0m
                         });
@@ -692,6 +722,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
 
                     b.Property<DateTime?>("DoneTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<int>("ServiceSubCategoryId")
                         .HasColumnType("int");
@@ -737,6 +770,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(true);
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("SubCategoryId")
                         .HasColumnType("int");
 
@@ -755,720 +791,800 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 1,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2309),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8253),
                             ImagePath = "\\Images\\services\\1.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 1,
                             Title = "خدمات نظافت و منزل"
                         },
                         new
                         {
                             Id = 2,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2572),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8464),
                             ImagePath = "\\Images\\services\\2.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 1,
                             Title = "سرویس ویژه نظافت"
                         },
                         new
                         {
                             Id = 3,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2574),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8465),
                             ImagePath = "\\Images\\services\\3.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 1,
                             Title = "سرویس لوکس نظافت"
                         },
                         new
                         {
                             Id = 4,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2575),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8467),
                             ImagePath = "\\Images\\services\\4.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 1,
                             Title = "نظافت راه پله"
                         },
                         new
                         {
                             Id = 5,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2577),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8468),
                             ImagePath = "\\Images\\services\\5.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 1,
                             Title = "سرویس نظافت فوری"
                         },
                         new
                         {
                             Id = 6,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2578),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8469),
                             ImagePath = "\\Images\\services\\6.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 1,
                             Title = "پذیرایی"
                         },
                         new
                         {
                             Id = 7,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2579),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8470),
                             ImagePath = "\\Images\\services\\7.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 1,
                             Title = "کارگر ساده"
                         },
                         new
                         {
                             Id = 8,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2580),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8471),
                             ImagePath = "\\Images\\services\\8.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 1,
                             Title = "سمپاشی فضای داخلی"
                         },
                         new
                         {
                             Id = 9,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2581),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8472),
                             ImagePath = "\\Images\\services\\9.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 2,
                             Title = "شستشو در محل"
                         },
                         new
                         {
                             Id = 10,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2582),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8473),
                             ImagePath = "\\Images\\services\\10.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 2,
                             Title = "قالیشویی"
                         },
                         new
                         {
                             Id = 11,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2596),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8474),
                             ImagePath = "\\Images\\services\\11.png",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 2,
                             Title = "خشکشویی"
                         },
                         new
                         {
                             Id = 12,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2597),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8476),
                             ImagePath = "\\Images\\services\\12.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 2,
                             Title = "پرده شویی"
                         },
                         new
                         {
                             Id = 13,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2598),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8477),
                             ImagePath = "\\Images\\services\\13.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 3,
                             Title = "کارواش سیار"
                         },
                         new
                         {
                             Id = 14,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2599),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8478),
                             ImagePath = "\\Images\\services\\14.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 3,
                             Title = "سرامیک خودرو"
                         },
                         new
                         {
                             Id = 15,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2600),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8479),
                             ImagePath = "\\Images\\services\\15.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 3,
                             Title = "موتورشویی خودرو"
                         },
                         new
                         {
                             Id = 16,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2601),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8480),
                             ImagePath = "\\Images\\services\\16.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 4,
                             Title = "تعمیر و سرویس پکیج"
                         },
                         new
                         {
                             Id = 17,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2602),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8491),
                             ImagePath = "\\Images\\services\\17.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 4,
                             Title = "تعمیر و سرویس آبگرم کن"
                         },
                         new
                         {
                             Id = 18,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2603),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8492),
                             ImagePath = "\\Images\\services\\18.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 4,
                             Title = "نصب و تعمیر شوفاژ"
                         },
                         new
                         {
                             Id = 19,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2604),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8493),
                             ImagePath = "\\Images\\services\\19.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 4,
                             Title = "تعمیر و نگهداری موتورخانه"
                         },
                         new
                         {
                             Id = 20,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2605),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8494),
                             ImagePath = "\\Images\\services\\20.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 5,
                             Title = "سنگ کاری"
                         },
                         new
                         {
                             Id = 21,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2606),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8495),
                             ImagePath = "\\Images\\services\\21.jpeg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 5,
                             Title = "نقاشی ساختمان"
                         },
                         new
                         {
                             Id = 22,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2607),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8496),
                             ImagePath = "\\Images\\services\\22.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 5,
                             Title = "نصب کاغذ دیواری"
                         },
                         new
                         {
                             Id = 23,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2608),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8497),
                             ImagePath = "\\Images\\services\\23.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 5,
                             Title = "ساخت و نصب توری"
                         },
                         new
                         {
                             Id = 24,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2609),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8498),
                             ImagePath = "\\Images\\services\\24.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 5,
                             Title = "بنایی"
                         },
                         new
                         {
                             Id = 25,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2610),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8500),
                             ImagePath = "\\Images\\services\\25.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 5,
                             Title = "کلید سازی"
                         },
                         new
                         {
                             Id = 26,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2611),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8501),
                             ImagePath = "\\Images\\services\\26.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 5,
                             Title = "دریل کاری"
                         },
                         new
                         {
                             Id = 27,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2612),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8502),
                             ImagePath = "\\Images\\services\\27.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 6,
                             Title = "خدمات لوله کشی ساختمان"
                         },
                         new
                         {
                             Id = 28,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2613),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8503),
                             ImagePath = "\\Images\\services\\28.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 6,
                             Title = "پمپ و منبع آب"
                         },
                         new
                         {
                             Id = 29,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2622),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8504),
                             ImagePath = "\\Images\\services\\29.webp",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 6,
                             Title = "لوله کشی گاز"
                         },
                         new
                         {
                             Id = 30,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2623),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8505),
                             ImagePath = "\\Images\\services\\30.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 6,
                             Title = "نصب و تعمیر وال هنگ"
                         },
                         new
                         {
                             Id = 31,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2625),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8506),
                             ImagePath = "\\Images\\services\\31.webp",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 7,
                             Title = "خدمات بازسازی خانه"
                         },
                         new
                         {
                             Id = 32,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2626),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8507),
                             ImagePath = "\\Images\\services\\32.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 7,
                             Title = "مشاوره و بازسازی خانه"
                         },
                         new
                         {
                             Id = 33,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2627),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8509),
                             ImagePath = "\\Images\\services\\33.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 7,
                             Title = "دکوراسیون و طراحی ساختمان"
                         },
                         new
                         {
                             Id = 34,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2628),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8510),
                             ImagePath = "\\Images\\services\\34.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 8,
                             Title = "سیم کشی و کابل کشی"
                         },
                         new
                         {
                             Id = 35,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2629),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8518),
                             ImagePath = "\\Images\\services\\35.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 8,
                             Title = "رفع اتصالی"
                         },
                         new
                         {
                             Id = 36,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2630),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8519),
                             ImagePath = "\\Images\\services\\36.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 8,
                             Title = "نصب لوستر و چراغ"
                         },
                         new
                         {
                             Id = 37,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2631),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8520),
                             ImagePath = "\\Images\\services\\37.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 8,
                             Title = "کلید و پریز"
                         },
                         new
                         {
                             Id = 38,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2632),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8522),
                             ImagePath = "\\Images\\services\\38.png",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 8,
                             Title = "نصب و تعویز فیوز"
                         },
                         new
                         {
                             Id = 39,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2633),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8523),
                             ImagePath = "\\Images\\services\\39.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 8,
                             Title = "نصب و تعمیر کرکره برقی"
                         },
                         new
                         {
                             Id = 40,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2634),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8524),
                             ImagePath = "\\Images\\services\\40.webp",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 9,
                             Title = "نجاری"
                         },
                         new
                         {
                             Id = 41,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2635),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8525),
                             ImagePath = "\\Images\\services\\41.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 9,
                             Title = "تعمیرات مبلمان"
                         },
                         new
                         {
                             Id = 42,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2636),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8526),
                             ImagePath = "\\Images\\services\\42.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 9,
                             Title = "خدمات درب چوبی و ضدسرقت"
                         },
                         new
                         {
                             Id = 43,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2637),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8527),
                             ImagePath = "\\Images\\services\\43.png",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 10,
                             Title = "پارتیشن شیشه ای"
                         },
                         new
                         {
                             Id = 44,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2638),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8528),
                             ImagePath = "\\Images\\services\\44.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 10,
                             Title = "شیشه بری و آینه کاری"
                         },
                         new
                         {
                             Id = 45,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2639),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8529),
                             ImagePath = "\\Images\\services\\45.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 10,
                             Title = "هندریل شیشه ای"
                         },
                         new
                         {
                             Id = 46,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2640),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8531),
                             ImagePath = "\\Images\\services\\46.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 10,
                             Title = "شیشه ریلی اسلاید"
                         },
                         new
                         {
                             Id = 47,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2648),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8532),
                             ImagePath = "\\Images\\services\\47.webp",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 11,
                             Title = "خدمات باغبانی"
                         },
                         new
                         {
                             Id = 48,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2649),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8533),
                             ImagePath = "\\Images\\services\\48.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 11,
                             Title = "کاشت و تعویض گلدان"
                         },
                         new
                         {
                             Id = 49,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2650),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8534),
                             ImagePath = "\\Images\\services\\49.webp",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 11,
                             Title = "مشاوره گل و گیاه"
                         },
                         new
                         {
                             Id = 50,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2651),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8535),
                             ImagePath = "\\Images\\services\\50.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 12,
                             Title = "تعمیر جارو برقی"
                         },
                         new
                         {
                             Id = 51,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2652),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8536),
                             ImagePath = "\\Images\\services\\51.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 12,
                             Title = "تعمیر چرخ خیاطی"
                         },
                         new
                         {
                             Id = 52,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2653),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8537),
                             ImagePath = "\\Images\\services\\52.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 12,
                             Title = "تعمیر پنکه"
                         },
                         new
                         {
                             Id = 53,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2654),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8545),
                             ImagePath = "\\Images\\services\\53.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 13,
                             Title = "تعمیر کامپیوتر و لپ تاب"
                         },
                         new
                         {
                             Id = 54,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2655),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8547),
                             ImagePath = "\\Images\\services\\54.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 13,
                             Title = "تعمیر ماشین های اداری"
                         },
                         new
                         {
                             Id = 55,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2657),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8548),
                             ImagePath = "\\Images\\services\\55.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 13,
                             Title = "مودم و اینترنت"
                         },
                         new
                         {
                             Id = 56,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2677),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8549),
                             ImagePath = "\\Images\\services\\56.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 14,
                             Title = "خدمات نرم افزاری"
                         },
                         new
                         {
                             Id = 57,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2679),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8550),
                             ImagePath = "\\Images\\services\\57.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 14,
                             Title = "خدمات باتری"
                         },
                         new
                         {
                             Id = 58,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2680),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8551),
                             ImagePath = "\\Images\\services\\58.webp",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 14,
                             Title = "خدمات دوربین"
                         },
                         new
                         {
                             Id = 59,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2681),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8552),
                             ImagePath = "\\Images\\services\\59.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 15,
                             Title = "خدمات اسباب کشی"
                         },
                         new
                         {
                             Id = 60,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2682),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8553),
                             ImagePath = "\\Images\\services\\60.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 15,
                             Title = "سرویس بسته بندی"
                         },
                         new
                         {
                             Id = 61,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2683),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8555),
                             ImagePath = "\\Images\\services\\61.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 15,
                             Title = "کارگر جابه جایی"
                         },
                         new
                         {
                             Id = 62,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2684),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8556),
                             ImagePath = "\\Images\\services\\62.webp",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 15,
                             Title = "اجاره انبار و سوله"
                         },
                         new
                         {
                             Id = 63,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2685),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8557),
                             ImagePath = "\\Images\\services\\63.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 16,
                             Title = "خدمات خودرو"
                         },
                         new
                         {
                             Id = 64,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2686),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8558),
                             ImagePath = "\\Images\\services\\64.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 16,
                             Title = "باتری به باتری"
                         },
                         new
                         {
                             Id = 65,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2687),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8559),
                             ImagePath = "\\Images\\services\\65.png",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 16,
                             Title = "امداد خودرو"
                         },
                         new
                         {
                             Id = 66,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2688),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8560),
                             ImagePath = "\\Images\\services\\66.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 16,
                             Title = "حمل خودرو"
                         },
                         new
                         {
                             Id = 67,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2689),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8561),
                             ImagePath = "\\Images\\services\\67.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 17,
                             Title = "کارواش سیار"
                         },
                         new
                         {
                             Id = 68,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2690),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8562),
                             ImagePath = "\\Images\\services\\68.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 17,
                             Title = "کارواش نانو"
                         },
                         new
                         {
                             Id = 69,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2691),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8563),
                             ImagePath = "\\Images\\services\\69.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 17,
                             Title = "موتورشویی خودرو"
                         },
                         new
                         {
                             Id = 70,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2692),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8564),
                             ImagePath = "\\Images\\services\\70.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 17,
                             Title = "احیای رنگ"
                         },
                         new
                         {
                             Id = 71,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2693),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8565),
                             ImagePath = "\\Images\\services\\71.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 18,
                             Title = "خدمات ناخن"
                         },
                         new
                         {
                             Id = 72,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2694),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8567),
                             ImagePath = "\\Images\\services\\72.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 18,
                             Title = "رنگ مو بانوان"
                         },
                         new
                         {
                             Id = 73,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2695),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8568),
                             ImagePath = "\\Images\\services\\73.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 18,
                             Title = "براشینگ مو"
                         },
                         new
                         {
                             Id = 74,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2696),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8569),
                             ImagePath = "\\Images\\services\\74.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 18,
                             Title = "کوتاهی مو بانوان"
                         },
                         new
                         {
                             Id = 75,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2697),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8570),
                             ImagePath = "\\Images\\services\\75.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 19,
                             Title = "مراقبت و نگهداری"
                         },
                         new
                         {
                             Id = 76,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2698),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8571),
                             ImagePath = "\\Images\\services\\76.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 19,
                             Title = "معاینه پزشکی"
                         },
                         new
                         {
                             Id = 77,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2699),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8572),
                             ImagePath = "\\Images\\services\\77.webp",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 19,
                             Title = "پیراپزشکی"
                         },
                         new
                         {
                             Id = 78,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2700),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8573),
                             ImagePath = "\\Images\\services\\78.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 20,
                             Title = "هتل های حیوانات خانگی"
                         },
                         new
                         {
                             Id = 79,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2701),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8574),
                             ImagePath = "\\Images\\services\\79.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 20,
                             Title = "خدمات دامپزشکی در محل"
                         },
                         new
                         {
                             Id = 80,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 408, DateTimeKind.Local).AddTicks(2702),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 873, DateTimeKind.Local).AddTicks(8575),
                             ImagePath = "\\Images\\services\\80.jpg",
                             IsActive = true,
+                            IsDeleted = false,
                             SubCategoryId = 20,
                             Title = "خدمات شستشو و آراش حیوانات خانگی"
                         });
@@ -1499,6 +1615,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(true);
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -1515,160 +1634,180 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(4965),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(507),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "نظافت و پذیرایی"
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5079),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(618),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "شستشو"
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 1,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5081),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(620),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "کارواش و دیتیلینگ"
                         },
                         new
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5082),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(621),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "سرمایش و گرمایش"
                         },
                         new
                         {
                             Id = 5,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5083),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(622),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "تعمیرات ساختمان"
                         },
                         new
                         {
                             Id = 6,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5084),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(623),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "لوله کشی"
                         },
                         new
                         {
                             Id = 7,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5085),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(624),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "طراحی و بازسازی ساختمان"
                         },
                         new
                         {
                             Id = 8,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5086),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(625),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "برقکاری"
                         },
                         new
                         {
                             Id = 9,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5087),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(626),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "چوب و کابینت"
                         },
                         new
                         {
                             Id = 10,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5088),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(627),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "خدمات شیشه ای ساختمان"
                         },
                         new
                         {
                             Id = 11,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5089),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(628),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "باغبانی و فضای سبز"
                         },
                         new
                         {
                             Id = 12,
                             CategoryId = 3,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5090),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(629),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "نصب و تعمیر لوازم خانگی"
                         },
                         new
                         {
                             Id = 13,
                             CategoryId = 3,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5091),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(630),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "خدمات کامپیوتری"
                         },
                         new
                         {
                             Id = 14,
                             CategoryId = 3,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5092),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(631),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "تعمیرات موبایل"
                         },
                         new
                         {
                             Id = 15,
                             CategoryId = 4,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5093),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(632),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "باربری و جابجایی"
                         },
                         new
                         {
                             Id = 16,
                             CategoryId = 5,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5094),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(633),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "خدمات و تعمیرات خودرو"
                         },
                         new
                         {
                             Id = 17,
                             CategoryId = 5,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5095),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(634),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "کارواش و دیتیلینگ"
                         },
                         new
                         {
                             Id = 18,
                             CategoryId = 6,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5096),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(635),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "زیبایی بانوان"
                         },
                         new
                         {
                             Id = 19,
                             CategoryId = 6,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5097),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(636),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "پزشکی و پرستاری"
                         },
                         new
                         {
                             Id = 20,
                             CategoryId = 6,
-                            CreatAt = new DateTime(2025, 2, 14, 0, 30, 24, 409, DateTimeKind.Local).AddTicks(5098),
+                            CreatAt = new DateTime(2025, 2, 14, 10, 37, 17, 875, DateTimeKind.Local).AddTicks(637),
                             IsActive = true,
+                            IsDeleted = false,
                             Title = "حیوانات خانگی"
                         });
                 });
@@ -1695,6 +1834,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
                         .HasDefaultValue(true);
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<bool?>("IsWinner")
                         .HasColumnType("bit");
@@ -1836,12 +1978,10 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<int>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -1894,12 +2034,10 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");

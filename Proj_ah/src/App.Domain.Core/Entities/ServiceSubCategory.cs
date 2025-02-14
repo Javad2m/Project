@@ -22,4 +22,5 @@ public class ServiceSubCategory
     public List<Request>? Requests { get; set; }
 
     public List<Expert>? Experts { get; set; }
+    public bool IsDeleted { get; set; } = false;
 }

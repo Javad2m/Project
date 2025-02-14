@@ -78,7 +78,7 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
 
         if (service == null) return;
 
-        service.IsActive = false;
+        service.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
     }
 }

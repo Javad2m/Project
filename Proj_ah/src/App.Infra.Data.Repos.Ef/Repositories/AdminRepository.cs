@@ -81,9 +81,17 @@ public class AdminRepository : IAdminRepository
     public async Task<bool> Delete(int adminId, CancellationToken cancellationToken)
     {
         var targetAdmin = await GetById(adminId, cancellationToken);
-        targetAdmin.IsActive = false;
+        targetAdmin.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
         return true;
 
+    }
+
+    public async Task<Admin>? GetAdminById(int id, CancellationToken cancellationToken)
+    {
+        var admin = await _context.Admins
+            .FirstOrDefaultAsync(a => a.Id == id, cancellationToken);
+
+        return admin ?? new Admin();
     }
 }

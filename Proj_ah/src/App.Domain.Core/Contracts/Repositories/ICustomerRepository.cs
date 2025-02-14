@@ -13,4 +13,6 @@ public interface ICustomerRepository
     Task<bool> DeleteCustomerById(int id, CancellationToken cancellationToken);
     Task<List<CustomerDTO>> GetAllCustomers(CancellationToken cancellationToken);
     Task<bool> UpdateCustomer(CustomerDTO model, CancellationToken cancellationToken);
+
+    Task<CustomerDTO>? GetById(int? id, CancellationToken cancellationToken);
 }

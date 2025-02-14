@@ -21,5 +21,5 @@ public class Admin
     public bool IsActive { get; set; } = true;
     public int ApplicationUserId { get; set; }
     public ApplicationUser ApplicationUser { get; set; }
-
+    public bool IsDeleted { get; set; } = false;
 }

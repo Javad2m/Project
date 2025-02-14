@@ -48,7 +48,7 @@ public class CommentRepository : ICommentRepository
         var comment = await _context.Comments
             .FirstOrDefaultAsync(c => c.Id == id, cancellationToken);
 
-        _context.Comments.Remove(comment);
+        comment.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
     }
 

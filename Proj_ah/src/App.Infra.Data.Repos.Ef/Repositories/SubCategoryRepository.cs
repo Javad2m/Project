@@ -48,7 +48,7 @@ public class SubCategoryRepository : ISubCategoryRepository
 
         if (sub == null) return;
 
-        sub.IsActive = false;
+        sub.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
     }
 

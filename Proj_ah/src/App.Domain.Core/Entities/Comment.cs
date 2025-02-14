@@ -15,7 +15,7 @@ public class Comment
 
     public int CustomerId { get; set; }
     public Customer Customer { get; set; }
-
+    public bool IsDeleted { get; set; } = false;
     public int ExpertId { get; set; }
     public Expert Expert { get; set; }
 

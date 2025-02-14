@@ -48,7 +48,7 @@ public class ExpertRepository : IExpertRepository
 
         if (expert == null) return;
 
-        expert.IsActive = false;
+        expert.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
     }
 
@@ -88,5 +88,21 @@ public class ExpertRepository : IExpertRepository
 
         await _context.SaveChangesAsync(cancellationToken);
 
+    }
+
+    public async Task<ExpertDTO>? GetExpertById(int id, CancellationToken cancellationToken)
+    {
+        var expert = await _context.Experts
+            .Select(c => new ExpertDTO
+            {
+                Id = c.Id,
+                FirstName = c.FirstName,
+                LastName = c.LastName,
+                Email = c.Email,
+
+            })
+            .FirstOrDefaultAsync(e => e.Id == id, cancellationToken);
+
+        return expert ?? new ExpertDTO();
     }
 }

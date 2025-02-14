@@ -14,5 +14,7 @@ public interface ICategoryRepository
     Task<List<CategoryDTO>> GetAllCategories(CancellationToken cancellationToken);
     Task<bool> UpdateCategory(CategoryDTO model, CancellationToken cancellationToken);
 
+    Task<CategoryDTO> GetCategoryById(int categoryId, CancellationToken cancellationToken);
+
 
 }

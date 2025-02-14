@@ -28,5 +28,5 @@ public class Suggestion
     public bool IsActive { get; set; }
 
     public SuggestionStatusEnum Status { get; set; }
-
+    public bool IsDeleted { get; set; } = false;
 }

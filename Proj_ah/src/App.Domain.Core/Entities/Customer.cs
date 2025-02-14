@@ -34,6 +34,6 @@ public class Customer
 
     public List<Request>? Requests { get; set; }
 
-
+    public bool IsDeleted { get; set; } = false;
 
 }

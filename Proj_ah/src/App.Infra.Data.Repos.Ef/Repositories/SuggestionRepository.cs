@@ -49,7 +49,7 @@ public class SuggestionRepository : ISuggestionRepository
         var sug = await _context.Suggestions
            .FirstOrDefaultAsync(b => b.Id == id, cancellationToken);
 
-        sug.IsActive = false;
+        sug.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
     }
 
