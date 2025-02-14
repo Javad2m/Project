@@ -1,0 +1,633 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\App.EndPoint.MVC.ACH.bundle.scp.css",
+      "PackagePath": "staticwebassets\\App.EndPoint.MVC.ACH.tgdd1f3q8n.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\icon\\asbabkeshi.png",
+      "PackagePath": "staticwebassets\\Images\\icon\\asbabkeshi.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\icon\\ashya.png",
+      "PackagePath": "staticwebassets\\Images\\icon\\ashya.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\icon\\khodro.png",
+      "PackagePath": "staticwebassets\\Images\\icon\\khodro.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\icon\\saier.png",
+      "PackagePath": "staticwebassets\\Images\\icon\\saier.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\icon\\sakhteman.png",
+      "PackagePath": "staticwebassets\\Images\\icon\\sakhteman.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\icon\\sazman.png",
+      "PackagePath": "staticwebassets\\Images\\icon\\sazman.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\icon\\tamiz.png",
+      "PackagePath": "staticwebassets\\Images\\icon\\tamiz.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\icon\\zibaii.png",
+      "PackagePath": "staticwebassets\\Images\\icon\\zibaii.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\10.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\11.png",
+      "PackagePath": "staticwebassets\\Images\\services\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\12.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\13.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\14.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\15.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\16.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\17.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\18.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\19.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\20.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\21.jpeg",
+      "PackagePath": "staticwebassets\\Images\\services\\21.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\22.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\23.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\24.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\25.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\26.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\27.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\28.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\29.webp",
+      "PackagePath": "staticwebassets\\Images\\services\\29.webp"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\30.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\31.webp",
+      "PackagePath": "staticwebassets\\Images\\services\\31.webp"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\32.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\33.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\34.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\35.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\36.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\36.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\37.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\38.png",
+      "PackagePath": "staticwebassets\\Images\\services\\38.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\39.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\39.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\4.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\40.webp",
+      "PackagePath": "staticwebassets\\Images\\services\\40.webp"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\41.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\41.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\42.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\43.png",
+      "PackagePath": "staticwebassets\\Images\\services\\43.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\44.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\45.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\46.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\46.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\47.webp",
+      "PackagePath": "staticwebassets\\Images\\services\\47.webp"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\48.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\48.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\49.webp",
+      "PackagePath": "staticwebassets\\Images\\services\\49.webp"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\5.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\50.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\50.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\51.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\52.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\52.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\53.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\53.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\54.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\54.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\55.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\55.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\56.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\56.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\57.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\57.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\58.webp",
+      "PackagePath": "staticwebassets\\Images\\services\\58.webp"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\59.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\59.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\6.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\60.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\60.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\61.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\62.webp",
+      "PackagePath": "staticwebassets\\Images\\services\\62.webp"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\63.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\63.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\64.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\64.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\65.png",
+      "PackagePath": "staticwebassets\\Images\\services\\65.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\66.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\67.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\67.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\68.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\68.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\69.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\69.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\7.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\70.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\70.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\71.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\71.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\72.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\72.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\73.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\73.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\74.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\74.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\75.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\75.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\76.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\76.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\77.webp",
+      "PackagePath": "staticwebassets\\Images\\services\\77.webp"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\78.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\78.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\79.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\79.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\8.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\80.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\80.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\services\\9.jpg",
+      "PackagePath": "staticwebassets\\Images\\services\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.App.EndPoint.MVC.ACH.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.App.EndPoint.MVC.ACH.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.App.EndPoint.MVC.ACH.props",
+      "PackagePath": "build\\App.EndPoint.MVC.ACH.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.App.EndPoint.MVC.ACH.props",
+      "PackagePath": "buildMultiTargeting\\App.EndPoint.MVC.ACH.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.App.EndPoint.MVC.ACH.props",
+      "PackagePath": "buildTransitive\\App.EndPoint.MVC.ACH.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

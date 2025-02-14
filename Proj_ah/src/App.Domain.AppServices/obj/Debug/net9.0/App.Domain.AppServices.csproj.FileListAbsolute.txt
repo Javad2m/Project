@@ -1,0 +1,11 @@
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\bin\Debug\net9.0\App.Domain.AppServices.deps.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\bin\Debug\net9.0\App.Domain.AppServices.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\bin\Debug\net9.0\App.Domain.AppServices.pdb
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\App.Domain.AppServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\App.Domain.AppServices.AssemblyInfoInputs.cache
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\App.Domain.AppServices.AssemblyInfo.cs
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\App.Domain.AppServices.csproj.CoreCompileInputs.cache
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\App.Domain.AppServices.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\refint\App.Domain.AppServices.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\App.Domain.AppServices.pdb
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\ref\App.Domain.AppServices.dll

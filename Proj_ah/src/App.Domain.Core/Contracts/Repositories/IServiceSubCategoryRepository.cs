@@ -1,0 +1,18 @@
+﻿using App.Domain.Core.Dto;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace App.Domain.Core.Contracts.Repositories;
+
+public interface IServiceSubCategoryRepository
+{
+    Task<bool> CreateService(ServiceSubCategoryDTO model, CancellationToken cancellationToken);
+    Task<List<ServiceSubCategoryDTO>> GetAllServices(CancellationToken cancellationToken);
+
+    Task UpdateService(ServiceSubCategoryDTO model, CancellationToken cancellationToken);
+
+    Task DeleteService(ServiceSubCategoryDTO model, CancellationToken cancellationToken);
+}
