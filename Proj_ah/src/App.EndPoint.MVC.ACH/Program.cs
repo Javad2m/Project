@@ -1,6 +1,10 @@
+using App.Domain.AppServices;
+using App.Domain.Core.Contracts.AppServices;
 using App.Domain.Core.Contracts.Repositories;
+using App.Domain.Core.Contracts.Services;
 using App.Domain.Core.Entities;
 using App.Domain.Core.Entities.Configs;
+using App.Domain.Services;
 using App.EndPoint.MVC.ACH.Data;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using App.Infra.Data.Repos.Ef.Repositories;
@@ -23,6 +27,35 @@ builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 builder.Services.AddScoped<IServiceSubCategoryRepository, ServiceSubCategoryRepository>();
 builder.Services.AddScoped<ISubCategoryRepository, SubCategoryRepository>();
 builder.Services.AddScoped<ICityRepository, CityRepository>();
+
+
+// services
+builder.Services.AddScoped<IAdminServices, AdminServices>();
+builder.Services.AddScoped<ICustomerServices, CustomerServices>();
+builder.Services.AddScoped<IExpertServices, ExpertServices>();
+builder.Services.AddScoped<ISuggestionServices, SuggestionServices>();
+builder.Services.AddScoped<IRequestServices, RequestServices>();
+builder.Services.AddScoped<ICategoryServices, CategoryServices>();
+builder.Services.AddScoped<ICommentServices, CommentServices>();
+builder.Services.AddScoped<IServiceSubCategoryServices, ServiceSubCategoryServices>();
+builder.Services.AddScoped<ISubCategoryServices, SubCategoryServices>();
+builder.Services.AddScoped<ICityServices, CityServices>();
+
+
+//appServices
+builder.Services.AddScoped<IAdminAppServices, AdminAppServices>();
+builder.Services.AddScoped<ICustomerAppServices, CustomerAppServices>();
+builder.Services.AddScoped<IExpertAppServices, ExpertAppServices>();
+builder.Services.AddScoped<ISuggestionAppServices, SuggestionAppServices>();
+builder.Services.AddScoped<IRequestAppServices, RequestAppServices>();
+builder.Services.AddScoped<ICategoryAppServices, CategoryAppServices>();
+builder.Services.AddScoped<ICommentAppServices, CommentAppServices>();
+builder.Services.AddScoped<IServiceSubCategoryAppServices, ServiceSubCategoryAppServices>();
+builder.Services.AddScoped<ISubCategoryAppServices, SubCategoryAppServices>();
+builder.Services.AddScoped<ICityAppServices, CityAppServices>();
+
+
+
 
 
 

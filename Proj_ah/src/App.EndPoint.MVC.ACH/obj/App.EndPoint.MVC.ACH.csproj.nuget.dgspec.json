@@ -4,6 +4,75 @@
     "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\App.EndPoint.MVC.ACH.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.AppServices\\App.Domain.AppServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.AppServices\\App.Domain.AppServices.csproj",
+        "projectName": "App.Domain.AppServices",
+        "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.AppServices\\App.Domain.AppServices.csproj",
+        "packagesPath": "C:\\Users\\Notebook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.AppServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Notebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\App.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\App.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -79,6 +148,75 @@
         }
       }
     },
+    "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Services\\App.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Services\\App.Domain.Services.csproj",
+        "projectName": "App.Domain.Services",
+        "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Services\\App.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\Notebook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Notebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\App.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\App.EndPoint.MVC.ACH.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -107,8 +245,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.AppServices\\App.Domain.AppServices.csproj": {
+                "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.AppServices\\App.Domain.AppServices.csproj"
+              },
               "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\App.Domain.Core.csproj": {
                 "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\App.Domain.Core.csproj"
+              },
+              "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Services\\App.Domain.Services.csproj": {
+                "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Services\\App.Domain.Services.csproj"
               },
               "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Infra.Data.Db.SqlServer.Ef\\App.Infra.Data.Db.SqlServer.Ef.csproj": {
                 "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Infra.Data.Db.SqlServer.Ef\\App.Infra.Data.Db.SqlServer.Ef.csproj"

@@ -3185,6 +3185,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "App.Domain.AppServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "App.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/App.Domain.AppServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Domain.AppServices.dll": {}
+        }
+      },
       "App.Domain.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -3197,6 +3210,19 @@
         },
         "runtime": {
           "bin/placeholder/App.Domain.Core.dll": {}
+        }
+      },
+      "App.Domain.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "App.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/App.Domain.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Domain.Services.dll": {}
         }
       },
       "App.Infra.Data.Db.SqlServer.Ef/1.0.0": {
@@ -8488,10 +8514,20 @@
         "version.txt"
       ]
     },
+    "App.Domain.AppServices/1.0.0": {
+      "type": "project",
+      "path": "../App.Domain.AppServices/App.Domain.AppServices.csproj",
+      "msbuildProject": "../App.Domain.AppServices/App.Domain.AppServices.csproj"
+    },
     "App.Domain.Core/1.0.0": {
       "type": "project",
       "path": "../App.Domain.Core/App.Domain.Core.csproj",
       "msbuildProject": "../App.Domain.Core/App.Domain.Core.csproj"
+    },
+    "App.Domain.Services/1.0.0": {
+      "type": "project",
+      "path": "../App.Domain.Services/App.Domain.Services.csproj",
+      "msbuildProject": "../App.Domain.Services/App.Domain.Services.csproj"
     },
     "App.Infra.Data.Db.SqlServer.Ef/1.0.0": {
       "type": "project",
@@ -8506,7 +8542,9 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "App.Domain.AppServices >= 1.0.0",
       "App.Domain.Core >= 1.0.0",
+      "App.Domain.Services >= 1.0.0",
       "App.Infra.Data.Db.SqlServer.Ef >= 1.0.0",
       "App.Infra.Data.Repos.Ef >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 9.0.2",
@@ -8551,8 +8589,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.AppServices\\App.Domain.AppServices.csproj": {
+              "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.AppServices\\App.Domain.AppServices.csproj"
+            },
             "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\App.Domain.Core.csproj": {
               "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\App.Domain.Core.csproj"
+            },
+            "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Services\\App.Domain.Services.csproj": {
+              "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Services\\App.Domain.Services.csproj"
             },
             "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Infra.Data.Db.SqlServer.Ef\\App.Infra.Data.Db.SqlServer.Ef.csproj": {
               "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Infra.Data.Db.SqlServer.Ef\\App.Infra.Data.Db.SqlServer.Ef.csproj"
