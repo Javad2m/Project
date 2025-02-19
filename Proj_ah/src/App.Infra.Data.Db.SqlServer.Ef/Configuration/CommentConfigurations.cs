@@ -42,6 +42,43 @@ public class CommentConfigurations : IEntityTypeConfiguration<Comment>
             .HasForeignKey(c => c.ExpertId)
             .OnDelete(DeleteBehavior.NoAction);
 
-
+        builder.HasData(
+        new Comment
+        {
+            Id = 1,
+            CommentText = "This is a great comment!",
+            CreatAt = DateTime.Now,
+            CustomerId = 1,
+            ExpertId = 1,
+            Score = 5,
+            IsActive = true,
+            IsAccept = true,
+            IsDeleted = false
+        },
+        new Comment
+        {
+            Id = 2,
+            CommentText = "This is another comment.",
+            CreatAt = DateTime.Now,
+            CustomerId = 1,
+            ExpertId = 1,
+            Score = 4,
+            IsActive = true,
+            IsAccept = false,
+            IsDeleted = false
+        },
+          new Comment
+          {
+              Id = 3,
+              CommentText = "This is bad comment.",
+              CreatAt = DateTime.Now,
+              CustomerId = 1,
+              ExpertId = 1,
+              Score = 3,
+              IsActive = true,
+              IsAccept = false,
+              IsDeleted = false
+          }
+    );
     }
 }

@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{DC8CF80B-C06F-47E1-932D-C714B59B1DEE}|src\\App.Infra.Data.Repos.Ef\\App.Infra.Data.Repos.Ef.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.infra.data.repos.ef\\repositories\\requestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC8CF80B-C06F-47E1-932D-C714B59B1DEE}|src\\App.Infra.Data.Repos.Ef\\App.Infra.Data.Repos.Ef.csproj|solutionrelative:src\\app.infra.data.repos.ef\\repositories\\requestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,21 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RequestRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Infra.Data.Repos.Ef\\Repositories\\RequestRepository.cs",
-              "RelativeDocumentMoniker": "src\\App.Infra.Data.Repos.Ef\\Repositories\\RequestRepository.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Infra.Data.Repos.Ef\\Repositories\\RequestRepository.cs",
-              "RelativeToolTip": "src\\App.Infra.Data.Repos.Ef\\Repositories\\RequestRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBwAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T09:55:41.835Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"

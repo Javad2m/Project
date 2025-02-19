@@ -13,6 +13,7 @@ public class Comment
     public string? CommentText { get; set; }
     public DateTime CreatAt { get; set; }
 
+    public int MyProperty { get; set; }
     public int CustomerId { get; set; }
     public Customer Customer { get; set; }
     public bool IsDeleted { get; set; } = false;

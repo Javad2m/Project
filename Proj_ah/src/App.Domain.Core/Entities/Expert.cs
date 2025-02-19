@@ -41,5 +41,5 @@ public class Expert
 
     public List<Suggestion>? Suggestions { get; set; }
     public bool IsDeleted { get; set; } = false;
-
+    public List<Comment>? Comments { get; set; }
 }

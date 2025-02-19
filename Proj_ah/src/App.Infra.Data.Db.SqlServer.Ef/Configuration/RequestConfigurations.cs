@@ -53,6 +53,43 @@ public class RequestConfigurations : IEntityTypeConfiguration<Request>
             .HasForeignKey(i => i.RequestId)
             .OnDelete(DeleteBehavior.Cascade);
 
-
+        builder.HasData(
+       new Request
+       {
+           Id = 1,
+           CustomerId = 1, 
+           Status = RequestStatusEnum.CheckingAndWaitingExpert,
+           Description = "Request for a detailed consultation on product X",
+           ServiceSubCategoryId = 1, 
+           CreatedAt = DateTime.UtcNow,
+           DoneTime = null,
+           BasePrice = 100.00f,
+           IsDeleted = false
+       },
+       new Request
+       {
+           Id = 2,
+           CustomerId = 1, 
+           Status = RequestStatusEnum.CheckingAndWaitingExpert,
+           Description = "Urgent request for a technical issue in product Y",
+           ServiceSubCategoryId = 2, 
+           CreatedAt = DateTime.UtcNow.AddDays(-1),
+           DoneTime = DateTime.UtcNow.AddDays(1),
+           BasePrice = 150.00f,
+           IsDeleted = false
+       },
+       new Request
+       {
+           Id = 3,
+           CustomerId = 1, 
+           Status = RequestStatusEnum.CheckingAndWaitingExpert,
+           Description = "Completed request for installation of service Z",
+           ServiceSubCategoryId = 3,
+           CreatedAt = DateTime.UtcNow.AddDays(-2),
+           DoneTime = DateTime.UtcNow.AddDays(-1),
+           BasePrice = 200.00f,
+           IsDeleted = false
+       }
+   );
     }
 }

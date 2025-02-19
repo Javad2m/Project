@@ -1,4 +1,5 @@
 ﻿using App.Domain.Core.Entities;
+using App.Domain.Core.Enum;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -42,7 +43,50 @@ public class SuggestionConfigurations : IEntityTypeConfiguration<Suggestion>
            .HasForeignKey(s => s.ExpertId)
            .OnDelete(DeleteBehavior.Cascade);
 
-
+        builder.HasData(
+       new Suggestion
+       {
+           Id = 1,
+           RequestId = 1, 
+           ExpertId = 1,  
+           Descripsion = "Detailed consultation suggestion for product X",
+           Amount = 150.00f,
+           IsWinner = false,
+           SuggestedDate = DateTime.UtcNow,
+           SuggestedDo = DateTime.UtcNow.AddDays(1),
+           IsActive = true,
+           Status = SuggestionStatusEnum.AwaitingReview,
+           IsDeleted = false
+       },
+       new Suggestion
+       {
+           Id = 2,
+           RequestId = 2, 
+           ExpertId = 1,  
+           Descripsion = "Urgent technical issue resolution suggestion for product Y",
+           Amount = 200.00f,
+           IsWinner = false,
+           SuggestedDate = DateTime.UtcNow.AddDays(-2),
+           SuggestedDo = DateTime.UtcNow.AddDays(1),
+           IsActive = true,
+           Status = SuggestionStatusEnum.AwaitingReview,
+           IsDeleted = false
+       },
+       new Suggestion
+       {
+           Id = 3,
+           RequestId = 3, 
+           ExpertId = 1,  
+           Descripsion = "Installation suggestion for service Z",
+           Amount = 180.00f,
+           IsWinner = false,
+           SuggestedDate = DateTime.UtcNow.AddDays(-3),
+           SuggestedDo = DateTime.UtcNow.AddDays(2),
+           IsActive = true,
+           Status = SuggestionStatusEnum.AwaitingReview,
+           IsDeleted = false
+       }
+   );
     }
 
 }
