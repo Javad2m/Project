@@ -9,3 +9,8 @@ C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Services\obj\Debug\net9.0\
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Services\obj\Debug\net9.0\refint\App.Domain.Services.dll
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Services\obj\Debug\net9.0\App.Domain.Services.pdb
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Services\obj\Debug\net9.0\ref\App.Domain.Services.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Services\bin\Debug\net9.0\App.Domain.Core.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Services\bin\Debug\net9.0\App.Domain.Core.pdb
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Services\obj\Debug\net9.0\App.Domain.Services.csproj.AssemblyReference.cache
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Services\obj\Debug\net9.0\App.Domain.Services.sourcelink.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Services\obj\Debug\net9.0\App.Doma.EF676C44.Up2Date

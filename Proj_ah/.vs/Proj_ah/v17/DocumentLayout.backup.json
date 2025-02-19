@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9475DF-3C19-4754-8397-B93871920FDB}|src\\App.EndPoint.MVC.ACH\\App.EndPoint.MVC.ACH.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.endpoint.mvc.ach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9475DF-3C19-4754-8397-B93871920FDB}|src\\App.EndPoint.MVC.ACH\\App.EndPoint.MVC.ACH.csproj|solutionrelative:src\\app.endpoint.mvc.ach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB469EB2-B3D9-4589-9667-3553E387CD23}|src\\App.Domain.Services\\App.Domain.Services.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.domain.services\\subcategoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB469EB2-B3D9-4589-9667-3553E387CD23}|src\\App.Domain.Services\\App.Domain.Services.csproj|solutionrelative:src\\app.domain.services\\subcategoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubCategoryServices.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Services\\SubCategoryServices.cs",
+              "RelativeDocumentMoniker": "src\\App.Domain.Services\\SubCategoryServices.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Services\\SubCategoryServices.cs",
+              "RelativeToolTip": "src\\App.Domain.Services\\SubCategoryServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T15:33:16.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\Program.cs",
+              "RelativeDocumentMoniker": "src\\App.EndPoint.MVC.ACH\\Program.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\Program.cs",
+              "RelativeToolTip": "src\\App.EndPoint.MVC.ACH\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:51:40.028Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"

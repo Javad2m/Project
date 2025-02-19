@@ -1,12 +1,33 @@
+using App.Domain.Core.Contracts.Repositories;
 using App.Domain.Core.Entities;
 using App.Domain.Core.Entities.Configs;
 using App.EndPoint.MVC.ACH.Data;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
+using App.Infra.Data.Repos.Ef.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("AppDbContextConnection") ?? throw new InvalidOperationException("Connection string 'AppDbContextConnection' not found.");;
+
+
+
+
+// repo
+builder.Services.AddScoped<IAdminRepository, AdminRepository>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<IExpertRepository, ExpertRepository>();
+builder.Services.AddScoped<ISuggestionRepository, SuggestionRepository>();
+builder.Services.AddScoped<IRequestRepository, RequestRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<IServiceSubCategoryRepository, ServiceSubCategoryRepository>();
+builder.Services.AddScoped<ISubCategoryRepository, SubCategoryRepository>();
+builder.Services.AddScoped<ICityRepository, CityRepository>();
+
+
+
+
+var connectionString = builder.Configuration.GetConnectionString("AppDbContextConnection") ?? throw new InvalidOperationException("Connection string 'AppDbContextConnection' not found."); ;
 
 // Add services to the container.
 //var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -57,7 +78,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>(options =>
 })
     .AddRoles<IdentityRole<int>>()
     .AddEntityFrameworkStores<AppDbContext>();
-    //.AddDefaultTokenProviders();
+//.AddDefaultTokenProviders();
 
 
 

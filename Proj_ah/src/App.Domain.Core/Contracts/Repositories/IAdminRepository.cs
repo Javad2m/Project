@@ -20,7 +20,7 @@ public interface IAdminRepository
 
     Task<bool> Delete(int adminId, CancellationToken cancellationToken);
 
-    Task<Admin>? GetAdminById(int id, CancellationToken cancellationToken);
+    //Task<Admin>? GetAdminById(int id, CancellationToken cancellationToken);
 
 
 }

@@ -87,11 +87,11 @@ public class AdminRepository : IAdminRepository
 
     }
 
-    public async Task<Admin>? GetAdminById(int id, CancellationToken cancellationToken)
-    {
-        var admin = await _context.Admins
-            .FirstOrDefaultAsync(a => a.Id == id, cancellationToken);
+    //public async Task<Admin>? GetAdminById(int id, CancellationToken cancellationToken)
+    //{
+    //    var admin = await _context.Admins
+    //        .FirstOrDefaultAsync(a => a.Id == id, cancellationToken);
 
-        return admin ?? new Admin();
-    }
+    //    return admin ?? new Admin();
+    //}
 }
