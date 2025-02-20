@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App.Domain.Core.Dto;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,4 +9,10 @@ namespace App.Domain.Core.Contracts.AppServices;
 
 public interface IServiceSubCategoryAppServices
 {
+    Task<bool> CreateService(ServiceSubCategoryDTO model, CancellationToken cancellationToken);
+    Task<List<ServiceSubCategoryDTO>> GetAllServices(CancellationToken cancellationToken);
+
+    Task UpdateService(ServiceSubCategoryDTO model, CancellationToken cancellationToken);
+
+    Task DeleteService(ServiceSubCategoryDTO model, CancellationToken cancellationToken);
 }

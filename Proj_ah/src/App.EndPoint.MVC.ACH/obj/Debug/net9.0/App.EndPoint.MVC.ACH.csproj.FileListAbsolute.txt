@@ -447,3 +447,13 @@ C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\App.Domain.Services.dll
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\App.Domain.AppServices.pdb
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\App.Domain.Services.pdb
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Serilog.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Serilog.Sinks.File.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\bin\Debug\net9.0\Serilog.Sinks.Seq.dll
