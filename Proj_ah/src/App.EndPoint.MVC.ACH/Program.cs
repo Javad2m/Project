@@ -8,6 +8,7 @@ using App.Domain.Services;
 using App.EndPoint.MVC.ACH.Data;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using App.Infra.Data.Repos.Ef.Repositories;
+using Framework;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -43,6 +44,7 @@ builder.Services.AddScoped<ICityServices, CityServices>();
 
 
 //appServices
+builder.Services.AddScoped<IAccountAppServices, AccountAppServices>();
 builder.Services.AddScoped<IAdminAppServices, AdminAppServices>();
 builder.Services.AddScoped<ICustomerAppServices, CustomerAppServices>();
 builder.Services.AddScoped<IExpertAppServices, ExpertAppServices>();
@@ -110,7 +112,8 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>(options =>
     options.Password.RequireLowercase = false;
 })
     .AddRoles<IdentityRole<int>>()
-    .AddEntityFrameworkStores<AppDbContext>();
+    .AddEntityFrameworkStores<AppDbContext>()
+ .AddErrorDescriber<PersianIdentityErrorDescriber>();
 //.AddDefaultTokenProviders();
 
 

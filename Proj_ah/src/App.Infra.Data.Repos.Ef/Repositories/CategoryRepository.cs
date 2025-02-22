@@ -52,15 +52,10 @@ public class CategoryRepository : ICategoryRepository
         await _context.SaveChangesAsync(cancellationToken);
     }
 
-    public async Task<List<CategoryDTO>> GetAllCategories(CancellationToken cancellationToken)
+    public async Task<List<Category>> GetAllCategories(CancellationToken cancellationToken)
     {
         var result = await _context.Categories
-            .Select(model => new CategoryDTO
-            {
-                Id = model.Id,
-                Title = model.Title,
-
-            }).AsNoTracking().ToListAsync(cancellationToken);
+           .AsNoTracking().ToListAsync(cancellationToken);
 
         return result;
     }

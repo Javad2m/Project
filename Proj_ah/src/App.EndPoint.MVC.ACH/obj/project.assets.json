@@ -3808,6 +3808,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "Framework": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.3.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.2",
           "Microsoft.Extensions.Identity.Core": "9.0.2"
         },
@@ -3858,6 +3860,19 @@
         },
         "runtime": {
           "bin/placeholder/App.Infra.Data.Repos.Ef.dll": {}
+        }
+      },
+      "Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Core": "9.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.dll": {}
         }
       }
     }
@@ -9838,6 +9853,11 @@
       "type": "project",
       "path": "../App.Infra.Data.Repos.Ef/App.Infra.Data.Repos.Ef.csproj",
       "msbuildProject": "../App.Infra.Data.Repos.Ef/App.Infra.Data.Repos.Ef.csproj"
+    },
+    "Framework/1.0.0": {
+      "type": "project",
+      "path": "../Framework/Framework.csproj",
+      "msbuildProject": "../Framework/Framework.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9847,6 +9867,7 @@
       "App.Domain.Services >= 1.0.0",
       "App.Infra.Data.Db.SqlServer.Ef >= 1.0.0",
       "App.Infra.Data.Repos.Ef >= 1.0.0",
+      "Framework >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 9.0.2",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.2",
       "Microsoft.AspNetCore.Identity.UI >= 9.0.2",
@@ -9906,6 +9927,9 @@
             },
             "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Infra.Data.Repos.Ef\\App.Infra.Data.Repos.Ef.csproj": {
               "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Infra.Data.Repos.Ef\\App.Infra.Data.Repos.Ef.csproj"
+            },
+            "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\Framework\\Framework.csproj": {
+              "projectPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\Framework\\Framework.csproj"
             }
           }
         }

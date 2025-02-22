@@ -1,0 +1,13 @@
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\bin\Debug\net9.0\Framework.deps.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\bin\Debug\net9.0\Framework.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\bin\Debug\net9.0\Framework.pdb
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\obj\Debug\net9.0\Framework.csproj.AssemblyReference.cache
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\obj\Debug\net9.0\Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\obj\Debug\net9.0\Framework.AssemblyInfoInputs.cache
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\obj\Debug\net9.0\Framework.AssemblyInfo.cs
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\obj\Debug\net9.0\Framework.csproj.CoreCompileInputs.cache
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\obj\Debug\net9.0\Framework.sourcelink.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\obj\Debug\net9.0\Framework.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\obj\Debug\net9.0\refint\Framework.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\obj\Debug\net9.0\Framework.pdb
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\Framework\obj\Debug\net9.0\ref\Framework.dll

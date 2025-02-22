@@ -16,3 +16,5 @@ C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Repos.Ef\bin\Debug\net
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Repos.Ef\obj\Debug\net9.0\App.Infra.Data.Repos.Ef.csproj.AssemblyReference.cache
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Repos.Ef\obj\Debug\net9.0\App.Infr.B170AF2F.Up2Date
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Repos.Ef\obj\Debug\net9.0\App.Infra.Data.Repos.Ef.sourcelink.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Repos.Ef\bin\Debug\net9.0\Framework.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Repos.Ef\bin\Debug\net9.0\Framework.pdb

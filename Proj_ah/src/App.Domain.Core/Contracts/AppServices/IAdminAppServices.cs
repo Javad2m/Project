@@ -14,4 +14,6 @@ public interface IAdminAppServices
     Task DeleteAdminById(int id, CancellationToken cancellationToken);
     Task<List<Admin>> GetAllAdmins(CancellationToken cancellationToken);
     Task UpdateAdmin(AdminDTO model, CancellationToken cancellationToken);
+
+    //Task<int> AdminCount(CancellationToken cancellationToken);
 }

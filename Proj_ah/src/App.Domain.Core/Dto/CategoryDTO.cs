@@ -1,4 +1,5 @@
 ﻿using App.Domain.Core.Entities;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ public class CategoryDTO
 {
     public int Id { get; set; }
     public string? Title { get; set; }
-    public string? ImagePath { get; set; }
+    public IFormFile? ImagePath { get; set; }
     public List<SubCategory>? SubCategories { get; set; }
 
 }

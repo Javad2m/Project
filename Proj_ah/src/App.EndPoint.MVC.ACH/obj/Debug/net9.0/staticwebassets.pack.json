@@ -2,7 +2,983 @@
   "Files": [
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\App.EndPoint.MVC.ACH.bundle.scp.css",
-      "PackagePath": "staticwebassets\\App.EndPoint.MVC.ACH.tgdd1f3q8n.bundle.scp.css"
+      "PackagePath": "staticwebassets\\App.EndPoint.MVC.ACH.ttniejhbbo.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\css\\colors.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\css\\colors.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\css\\effects.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\css\\effects.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\css\\style.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSans(FaNum)_Medium.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSans(FaNum)_Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSansWeb(FaNum).eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSansWeb(FaNum).eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSansWeb(FaNum)_Bold.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSansWeb(FaNum)_Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSansWeb(FaNum)_Light.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSansWeb(FaNum)_Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSansWeb(FaNum)_Medium.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSansWeb(FaNum)_Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSansWeb(FaNum)_UltraLight.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\eot\\IRANSansWeb(FaNum)_UltraLight.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\ttf\\IRANSansWeb(FaNum).ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\ttf\\IRANSansWeb(FaNum).ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\ttf\\IRANSansWeb(FaNum)_Bold.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\ttf\\IRANSansWeb(FaNum)_Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\ttf\\IRANSansWeb(FaNum)_Light.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\ttf\\IRANSansWeb(FaNum)_Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\ttf\\IRANSansWeb(FaNum)_Medium.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\ttf\\IRANSansWeb(FaNum)_Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\ttf\\IRANSansWeb(FaNum)_UltraLight.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\ttf\\IRANSansWeb(FaNum)_UltraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\woff2\\IRANSansWeb(FaNum.html",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\woff2\\IRANSansWeb(FaNum.html"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum).woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum).woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum)_Bold.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum)_Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum)_Light.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum)_Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum)_Medium.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum)_Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum)_UltraLight.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum)_UltraLight.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum.html",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans-fanum\\woff\\IRANSansWeb(FaNum.html"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb(NoEn).eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb(NoEn).eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb(NoEn)_Bold.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb(NoEn)_Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb(NoEn)_Light.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb(NoEn)_Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb(NoEn)_Medium.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb(NoEn)_Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb(NoEn)_UltraLight.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb(NoEn)_UltraLight.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb_Bold.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb_Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb_Light.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb_Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb_Medium.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb_Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb_UltraLight.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\eot\\IRANSansWeb_UltraLight.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb(NoEn).ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb(NoEn).ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb(NoEn)_Bold.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb(NoEn)_Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb(NoEn)_Light.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb(NoEn)_Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb(NoEn)_Medium.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb(NoEn)_Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb(NoEn)_UltraLight.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb(NoEn)_UltraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb_Bold.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb_Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb_Light.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb_Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb_Medium.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb_Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb_UltraLight.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\ttf\\IRANSansWeb_UltraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb(NoEn).woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb(NoEn).woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb(NoEn)_Bold.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb(NoEn)_Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb(NoEn)_Light.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb(NoEn)_Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb(NoEn)_Medium.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb(NoEn)_Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb(NoEn)_UltraLight.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb(NoEn)_UltraLight.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb_Bold.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb_Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb_Light.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb_Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb_Medium.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb_Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb_UltraLight.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff2\\IRANSansWeb_UltraLight.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb(NoEn).woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb(NoEn).woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb(NoEn)_Bold.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb(NoEn)_Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb(NoEn)_Light.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb(NoEn)_Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb(NoEn)_Medium.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb(NoEn)_Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb(NoEn)_UltraLight.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb(NoEn)_UltraLight.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb_Bold.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb_Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb_Light.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb_Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb_Medium.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb_Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb_UltraLight.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\fonts\\iransans\\woff\\IRANSansWeb_UltraLight.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\AjaxLoader.gif",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\AjaxLoader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\bg\\blur-dark.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\bg\\blur-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\bg\\blur.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\bg\\blur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\logo.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\other\\bird.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\other\\bird.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\other\\birds.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\other\\birds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\other\\hafez-tomb.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\other\\hafez-tomb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\1.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\2.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\3.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\4.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\5.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\thumb\\1.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\thumb\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\thumb\\2.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\thumb\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\thumb\\3.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\thumb\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\thumb\\4.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\thumb\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\thumb\\5.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\thumb\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\sidebar-bg\\thumb\\no-image.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\thumb\\no-image.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\user\\128.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\user\\128.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\user\\32.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\user\\32.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\user\\48.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\user\\48.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\user\\64.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\user\\64.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\user\\customer.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\user\\customer.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\images\\user\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\user\\placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\core.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\core.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\ammap.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\ammap.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\bar-chart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\bar-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\calendar-kama.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\calendar-kama.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\calendar-ui.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\calendar-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\calendar.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\change-password.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\change-password.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\ckeditor.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\clock.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\clock.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\cropper.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\cropper.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\dashboard1.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\dashboard1.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\dashboard2.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\dashboard2.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\datatable-export.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\datatable-export.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\datatable.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\datatable.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\edit-profile.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\edit-profile.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\forget.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\forget.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\googlemap.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\googlemap.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\icons.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\icons.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\knob.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\knob.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\ladda.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\ladda.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\leaflet.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\leaflet.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\line-chart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\line-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\login.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\nestable.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\nestable.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\noty.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\noty.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\pie-chart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\pie-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\realtime-chart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\realtime-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\register.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\register.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\select2.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\summernote.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\summernote.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\swal.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\swal.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\under_construction.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\under_construction.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\validation.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\validation.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\js\\pages\\wizard.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\js\\pages\\wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\ammap3\\ammap\\ammap.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\ammap3\\ammap\\ammap.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\ammap3\\ammap\\ammap.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\ammap3\\ammap\\ammap.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\ammap3\\ammap\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\ammap3\\ammap\\lang\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\ammap3\\ammap\\maps\\js\\iranHighFa.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\ammap3\\ammap\\maps\\js\\iranHighFa.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\ammap3\\ammap\\maps\\js\\worldLow.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\ammap3\\ammap\\maps\\js\\worldLow.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\bootstrap\\bootstrap5\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\bootstrap\\bootstrap5\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\bootstrap\\bootstrap5\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\bootstrap\\bootstrap5\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\chart.js\\dist\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\chart.js\\dist\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\ckeditor-full\\ckeditor.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\ckeditor-full\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\clockpicker\\dist\\jquery-clockpicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\clockpicker\\dist\\jquery-clockpicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\clockpicker\\dist\\jquery-clockpicker.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\clockpicker\\dist\\jquery-clockpicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\cropper\\css\\cropper.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\cropper\\css\\cropper.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\cropper\\js\\cropper.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\cropper\\js\\cropper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\css\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\css\\jquery.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\DataTables-1.10.16\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\js\\export\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\js\\export\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\js\\export\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\js\\export\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\js\\export\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\js\\export\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\js\\export\\fa.json",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\js\\export\\fa.json"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\js\\export\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\js\\export\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\js\\export\\jszip.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\js\\export\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\js\\export\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\js\\export\\pdfmake.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\js\\export\\vfs_fonts-iransans.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\js\\export\\vfs_fonts-iransans.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\data-table\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\data-table\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\datepicker\\calendar.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\datepicker\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\datepicker\\images\\ui-icons_d8e7f3_256x240.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\datepicker\\images\\ui-icons_d8e7f3_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\datepicker\\jquery-ui-1.10.1.custom.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\datepicker\\jquery-ui-1.10.1.custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\datepicker\\jquery.ui.datepicker-cc-fa.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\datepicker\\jquery.ui.datepicker-cc-fa.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\datepicker\\jquery.ui.datepicker-cc.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\datepicker\\jquery.ui.datepicker-cc.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\datepicker\\jquery.ui.datepicker1.8-all.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\datepicker\\jquery.ui.datepicker1.8-all.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\icheck.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\icheck.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\_all.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\_all.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\aero.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\aero.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\aero@2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\aero@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\blue.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\blue.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\blue@2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\blue@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\green.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\green.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\green@2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\green@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\grey.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\grey.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\grey@2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\grey@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\orange.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\orange.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\orange@2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\orange@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\pink.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\pink.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\pink@2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\pink@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\purple.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\purple.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\purple@2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\purple@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\red.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\red.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\red@2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\red@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\square.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\square.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\square@2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\square@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\yellow.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\yellow.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\iCheck\\skins\\square\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\iCheck\\skins\\square\\yellow@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\jquery-incremental-counter\\jquery.incremental-counter.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\jquery-incremental-counter\\jquery.incremental-counter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\jquery-knob\\dist\\jquery.knob.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\jquery-knob\\dist\\jquery.knob.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\jquery-mask\\jquery.mask.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\jquery-mask\\jquery.mask.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\jquery-migrate\\jquery-migrate-1.2.1.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\jquery-migrate\\jquery-migrate-1.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\jquery-validation\\src\\localization\\messages_fa.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\jquery-validation\\src\\localization\\messages_fa.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\jquery.countdown\\dist\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\jquery.countdown\\dist\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\jquery\\dist\\jquery-3.6.1.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\jquery\\dist\\jquery-3.6.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\kamadatepicker\\kamadatepicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\kamadatepicker\\kamadatepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\kamadatepicker\\kamadatepicker.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\kamadatepicker\\kamadatepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\ladda\\dist\\ladda-themeless.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\ladda\\dist\\ladda-themeless.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\ladda\\dist\\ladda.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\ladda\\dist\\ladda.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\ladda\\dist\\spin.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\ladda\\dist\\spin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\leaflet\\images\\layers-2x.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\leaflet\\images\\layers-2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\leaflet\\images\\layers.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\leaflet\\images\\layers.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\leaflet\\images\\marker-icon.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\leaflet\\images\\marker-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\leaflet\\leaflet.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\leaflet\\leaflet.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\leaflet\\leaflet.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\leaflet\\leaflet.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\malihu-custom-scrollbar-plugin\\mCSB_buttons.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\malihu-custom-scrollbar-plugin\\mCSB_buttons.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\metisMenu\\dist\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\metisMenu\\dist\\metisMenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\metisMenu\\dist\\metisMenu.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\metisMenu\\dist\\metisMenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\morris.js\\morris.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\morris.js\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\morris.js\\morris.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\morris.js\\morris.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\nestable\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\nestable\\jquery.nestable.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\nestable\\nestable.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\nestable\\nestable.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\noty\\css\\flat.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\noty\\css\\flat.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\noty\\js\\noty\\packaged\\jquery.noty.packaged.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\noty\\js\\noty\\packaged\\jquery.noty.packaged.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\paper-ripple\\dist\\PaperRipple.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\paper-ripple\\dist\\PaperRipple.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\paper-ripple\\dist\\paper-ripple.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\paper-ripple\\dist\\paper-ripple.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\persian-date\\persian-date.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\persian-date\\persian-date.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\persian-datepicker\\css\\persian-datepicker.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\persian-datepicker\\css\\persian-datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\persian-datepicker\\js\\persian-datepicker.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\persian-datepicker\\js\\persian-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\screenfull\\dist\\screenfull.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\screenfull\\dist\\screenfull.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\select2\\dist\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\select2\\dist\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\select2\\dist\\js\\i18n\\fa.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\select2\\dist\\js\\i18n\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\select2\\dist\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\select2\\dist\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\simple-line-icons\\css\\simple-line-icons.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\simple-line-icons\\css\\simple-line-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsb26c.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsb26c.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsb26c.svg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsb26c.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsb26c.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsb26c.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsb26c.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsb26c.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsb26c.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsb26c.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\stepy\\lib\\jquery.stepy.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\stepy\\lib\\jquery.stepy.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\stepy\\lib\\jquery.stepy.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\stepy\\lib\\jquery.stepy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\summernote\\dist\\font\\summernote.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\summernote\\dist\\font\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\summernote\\dist\\font\\summernote.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\summernote\\dist\\font\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\summernote\\dist\\font\\summernote.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\summernote\\dist\\font\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\summernote\\dist\\font\\summernote.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\summernote\\dist\\font\\summernote.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\summernote\\dist\\font\\summernoted41d.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\summernote\\dist\\font\\summernoted41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\summernote\\dist\\summernote.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\summernote\\dist\\summernote.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\summernote\\dist\\summernote.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\summernote\\dist\\summernote.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\sweetalert2\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\sweetalert2\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\sweetalert2\\dist\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\sweetalert2\\dist\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\switchery\\dist\\switchery.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\switchery\\dist\\switchery.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\AdminTemplate\\plugins\\switchery\\dist\\switchery.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\switchery\\dist\\switchery.min.css"
     },
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.MVC.ACH\\wwwroot\\Images\\icon\\asbabkeshi.png",

@@ -41,10 +41,10 @@ public class SubCategoryRepository : ISubCategoryRepository
         }
     }
 
-    public async Task DeleteSub(SubCategoryDTO model, CancellationToken cancellationToken)
+    public async Task DeleteSub(int id, CancellationToken cancellationToken)
     {
         var sub = await _context.SubCategories
-            .FirstOrDefaultAsync(s => s.Id == model.Id, cancellationToken);
+            .FirstOrDefaultAsync(s => s.Id == id, cancellationToken);
 
         if (sub == null) return;
 
@@ -58,7 +58,7 @@ public class SubCategoryRepository : ISubCategoryRepository
            .Select(model => new SubCategoryDTO
            {
                Id = model.Id,
-               Title = model.Title,           
+               Title = model.Title,
                CategoryId = model.CategoryId,
 
 

@@ -1,6 +1,7 @@
 ﻿using App.Domain.Core.Contracts.AppServices;
 using App.Domain.Core.Contracts.Services;
 using App.Domain.Core.Dto;
+using App.Domain.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +26,7 @@ public class CategoryAppServices : ICategoryAppServices
     public async Task DeleteCategoryById(int id, CancellationToken cancellationToken)
     => await _categoryServices.DeleteCategoryById(id, cancellationToken);
 
-    public async Task<List<CategoryDTO>> GetAllCategories(CancellationToken cancellationToken)
+    public async Task<List<Category>> GetAllCategories(CancellationToken cancellationToken)
     => await _categoryServices.GetAllCategories(cancellationToken);
 
     public async Task<CategoryDTO> GetCategoryById(int categoryId, CancellationToken cancellationToken)

@@ -82,7 +82,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 1,
                             ApplicationUserId = 1,
-                            CreatedAt = new DateTime(2025, 2, 19, 16, 19, 37, 602, DateTimeKind.Local).AddTicks(9135),
+                            CreatedAt = new DateTime(2025, 2, 21, 20, 25, 49, 366, DateTimeKind.Local).AddTicks(5920),
                             Email = "Admin@gmail.com",
                             FirstName = "Javad",
                             IsActive = true,
@@ -167,16 +167,16 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1570a142-c6dd-4204-8ba5-77a6fc387d34",
+                            ConcurrencyStamp = "50c8f809-6d45-4e29-9231-094ba541a44f",
                             Email = "Admin@gmail.com",
                             EmailConfirmed = false,
                             IsDeleted = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEATq4zNmZDJ7neZSPKsq1+FQfV1tHmn7EtCOeeTZhN/ee0gCjHKpAwUH2+FA6Us2ZA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENOPVWpIZn5WQq4YPkhHD2HgDeujX9ArE2R5/vbL8nD961mV/LMUxSmWl5cELl714g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4dc5c85c-09a1-4f4f-9fb5-0f63548da942",
+                            SecurityStamp = "819b5ed1-00d4-4524-9f98-fd9bec7a844f",
                             TwoFactorEnabled = false,
                             UserName = "Admin@gmail.com"
                         },
@@ -184,16 +184,16 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 2,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5981cd09-8c0a-42b4-9905-aa1d6194595c",
+                            ConcurrencyStamp = "95b300b2-a183-4451-960f-e19418ba090b",
                             Email = "Javad@gmail.com",
                             EmailConfirmed = false,
                             IsDeleted = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "JAVAD@GMAIL.COM",
                             NormalizedUserName = "JAVAD@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHcxcdVC1xBhPsQ31ljSMyH33DJ0elB7PS1DiP8Pq1/PAXlIol4wvEtekM+Q3jv/KA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPYEi8h0I4UqFNMcecdMf8CMX1yprdRz0EWXjggq0V2PCcDIoXRMEVW7TmzBe+BUtg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "af06ccc8-9a2e-48cb-89a6-d0124370cdcd",
+                            SecurityStamp = "543fbe77-59e4-4269-b001-20ca460d6353",
                             TwoFactorEnabled = false,
                             UserName = "Javad@gmail.com"
                         },
@@ -201,16 +201,16 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 3,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f7a817ae-002c-4534-8237-8c81eccdc2b5",
+                            ConcurrencyStamp = "b484839b-88a0-4053-be64-1d34c48761be",
                             Email = "Ali@gmail.com",
                             EmailConfirmed = false,
                             IsDeleted = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ALI@GMAIL.COM",
                             NormalizedUserName = "ALI@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAENXPGoRaaSWWAbzbJrno6W3ICYwSZSoqEqCbm73gMQDghsspCFlRO3JdCRGSpgrKnA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENV9GxQ3hDR9Yb9+upSn4rvZjgbFX8QGH9J7Aoq3VjKfbJgwT2BZ5a0CuaS4A5OtwQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "1529f248-053c-4983-b682-e7ea9a5ff1ec",
+                            SecurityStamp = "3cf40e78-1e71-4f60-ac2c-c7a26ba64d7f",
                             TwoFactorEnabled = false,
                             UserName = "Ali@gmail.com"
                         });
@@ -419,8 +419,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 1,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 604, DateTimeKind.Local).AddTicks(5948),
-                            ImagePath = "\\Images\\icon\\tamiz.png",
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 368, DateTimeKind.Local).AddTicks(3258),
+                            ImagePath = "/assets/img/category/tamiz.png",
                             IsActive = true,
                             IsDeleted = false,
                             Title = "تمیز کاری"
@@ -428,8 +428,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 2,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 604, DateTimeKind.Local).AddTicks(6171),
-                            ImagePath = "\\Images\\icon\\sakhteman.png",
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 368, DateTimeKind.Local).AddTicks(3500),
+                            ImagePath = "/assets/img/category/sakhteman.png",
                             IsActive = true,
                             IsDeleted = false,
                             Title = "ساختمان"
@@ -437,8 +437,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 3,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 604, DateTimeKind.Local).AddTicks(6173),
-                            ImagePath = "\\Images\\icon\\ashya.png",
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 368, DateTimeKind.Local).AddTicks(3502),
+                            ImagePath = "/assets/img/category/ashya.png",
                             IsActive = true,
                             IsDeleted = false,
                             Title = "تعمیرات اشیا"
@@ -446,8 +446,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 4,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 604, DateTimeKind.Local).AddTicks(6174),
-                            ImagePath = "\\Images\\icon\\asbabkeshi.png",
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 368, DateTimeKind.Local).AddTicks(3503),
+                            ImagePath = "/assets/img/category/Asbabkeshi-icon.png",
                             IsActive = true,
                             IsDeleted = false,
                             Title = "اسباب کشی و حمل بار"
@@ -455,8 +455,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 5,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 604, DateTimeKind.Local).AddTicks(6175),
-                            ImagePath = "\\Images\\icon\\khodro.png",
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 368, DateTimeKind.Local).AddTicks(3505),
+                            ImagePath = "/assets/img/category/khodro.png",
                             IsActive = true,
                             IsDeleted = false,
                             Title = "خودرو"
@@ -464,8 +464,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 6,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 604, DateTimeKind.Local).AddTicks(6176),
-                            ImagePath = "\\Images\\icon\\zibaii.png",
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 368, DateTimeKind.Local).AddTicks(3506),
+                            ImagePath = "/assets/img/category/zibaii.png",
                             IsActive = true,
                             IsDeleted = false,
                             Title = "سلامت و زیبایی"
@@ -493,9 +493,6 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     b.Property<int>("ExpertId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ExpertId1")
-                        .HasColumnType("int");
-
                     b.Property<bool>("IsAccept")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
@@ -509,9 +506,6 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int>("MyProperty")
-                        .HasColumnType("int");
-
                     b.Property<int>("Score")
                         .HasColumnType("int");
 
@@ -521,8 +515,6 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
 
                     b.HasIndex("ExpertId");
 
-                    b.HasIndex("ExpertId1");
-
                     b.ToTable("Comments");
 
                     b.HasData(
@@ -530,39 +522,36 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 1,
                             CommentText = "This is a great comment!",
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 610, DateTimeKind.Local).AddTicks(8098),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 371, DateTimeKind.Local).AddTicks(8945),
                             CustomerId = 1,
                             ExpertId = 1,
                             IsAccept = true,
                             IsActive = true,
                             IsDeleted = false,
-                            MyProperty = 0,
                             Score = 5
                         },
                         new
                         {
                             Id = 2,
                             CommentText = "This is another comment.",
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 610, DateTimeKind.Local).AddTicks(8773),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 371, DateTimeKind.Local).AddTicks(9606),
                             CustomerId = 1,
                             ExpertId = 1,
                             IsAccept = false,
                             IsActive = true,
                             IsDeleted = false,
-                            MyProperty = 0,
                             Score = 4
                         },
                         new
                         {
                             Id = 3,
                             CommentText = "This is bad comment.",
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 610, DateTimeKind.Local).AddTicks(8776),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 371, DateTimeKind.Local).AddTicks(9609),
                             CustomerId = 1,
                             ExpertId = 1,
                             IsAccept = false,
                             IsActive = true,
                             IsDeleted = false,
-                            MyProperty = 0,
                             Score = 3
                         });
                 });
@@ -579,9 +568,6 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .HasColumnType("int");
 
                     b.Property<int?>("CityId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("CityId1")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
@@ -630,8 +616,6 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
 
                     b.HasIndex("CityId");
 
-                    b.HasIndex("CityId1");
-
                     b.ToTable("Customers");
 
                     b.HasData(
@@ -640,7 +624,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                             Id = 1,
                             ApplicationUserId = 2,
                             CityId = 1,
-                            CreatedAt = new DateTime(2025, 2, 19, 16, 19, 37, 615, DateTimeKind.Local).AddTicks(8575),
+                            CreatedAt = new DateTime(2025, 2, 21, 20, 25, 49, 372, DateTimeKind.Local).AddTicks(9811),
                             FirstName = "Javad",
                             IsActive = true,
                             IsDeleted = false,
@@ -662,9 +646,6 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .HasColumnType("int");
 
                     b.Property<int?>("CityId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("CityId1")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
@@ -720,8 +701,6 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
 
                     b.HasIndex("CityId");
 
-                    b.HasIndex("CityId1");
-
                     b.ToTable("Experts");
 
                     b.HasData(
@@ -730,7 +709,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                             Id = 1,
                             ApplicationUserId = 3,
                             CityId = 1,
-                            CreatedAt = new DateTime(2025, 2, 19, 16, 19, 37, 619, DateTimeKind.Local).AddTicks(4002),
+                            CreatedAt = new DateTime(2025, 2, 21, 20, 25, 49, 375, DateTimeKind.Local).AddTicks(98),
                             Description = "Expert in web development and software architecture.",
                             Email = "Ali@gmail.com",
                             FirstName = "Ali",
@@ -759,9 +738,6 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CustomerId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Description")
                         .HasMaxLength(2000)
                         .HasColumnType("nvarchar(2000)");
@@ -775,9 +751,6 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                     b.Property<int>("ServiceSubCategoryId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ServiceSubCategoryId1")
-                        .HasColumnType("int");
-
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
@@ -785,11 +758,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
 
                     b.HasIndex("CustomerId");
 
-                    b.HasIndex("CustomerId1");
-
                     b.HasIndex("ServiceSubCategoryId");
-
-                    b.HasIndex("ServiceSubCategoryId1");
 
                     b.ToTable("Requests");
 
@@ -798,7 +767,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 1,
                             BasePrice = 100m,
-                            CreatedAt = new DateTime(2025, 2, 19, 12, 49, 37, 624, DateTimeKind.Utc).AddTicks(4639),
+                            CreatedAt = new DateTime(2025, 2, 21, 16, 55, 49, 377, DateTimeKind.Utc).AddTicks(458),
                             CustomerId = 1,
                             Description = "Request for a detailed consultation on product X",
                             IsDeleted = false,
@@ -809,10 +778,10 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 2,
                             BasePrice = 150m,
-                            CreatedAt = new DateTime(2025, 2, 18, 12, 49, 37, 624, DateTimeKind.Utc).AddTicks(5050),
+                            CreatedAt = new DateTime(2025, 2, 20, 16, 55, 49, 377, DateTimeKind.Utc).AddTicks(861),
                             CustomerId = 1,
                             Description = "Urgent request for a technical issue in product Y",
-                            DoneTime = new DateTime(2025, 2, 20, 12, 49, 37, 624, DateTimeKind.Utc).AddTicks(5138),
+                            DoneTime = new DateTime(2025, 2, 22, 16, 55, 49, 377, DateTimeKind.Utc).AddTicks(937),
                             IsDeleted = false,
                             ServiceSubCategoryId = 2,
                             Status = 1
@@ -821,10 +790,10 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 3,
                             BasePrice = 200m,
-                            CreatedAt = new DateTime(2025, 2, 17, 12, 49, 37, 624, DateTimeKind.Utc).AddTicks(5195),
+                            CreatedAt = new DateTime(2025, 2, 19, 16, 55, 49, 377, DateTimeKind.Utc).AddTicks(1001),
                             CustomerId = 1,
                             Description = "Completed request for installation of service Z",
-                            DoneTime = new DateTime(2025, 2, 18, 12, 49, 37, 624, DateTimeKind.Utc).AddTicks(5196),
+                            DoneTime = new DateTime(2025, 2, 20, 16, 55, 49, 377, DateTimeKind.Utc).AddTicks(1002),
                             IsDeleted = false,
                             ServiceSubCategoryId = 3,
                             Status = 1
@@ -874,7 +843,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 1,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6644),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2056),
                             ImagePath = "\\Images\\services\\1.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -884,7 +853,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 2,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6863),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2295),
                             ImagePath = "\\Images\\services\\2.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -894,7 +863,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 3,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6865),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2297),
                             ImagePath = "\\Images\\services\\3.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -904,7 +873,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 4,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6866),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2298),
                             ImagePath = "\\Images\\services\\4.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -914,7 +883,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 5,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6867),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2299),
                             ImagePath = "\\Images\\services\\5.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -924,7 +893,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 6,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6868),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2300),
                             ImagePath = "\\Images\\services\\6.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -934,7 +903,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 7,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6879),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2301),
                             ImagePath = "\\Images\\services\\7.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -944,7 +913,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 8,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6881),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2302),
                             ImagePath = "\\Images\\services\\8.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -954,7 +923,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 9,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6882),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2303),
                             ImagePath = "\\Images\\services\\9.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -964,7 +933,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 10,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6883),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2305),
                             ImagePath = "\\Images\\services\\10.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -974,7 +943,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 11,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6884),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2306),
                             ImagePath = "\\Images\\services\\11.png",
                             IsActive = true,
                             IsDeleted = false,
@@ -984,7 +953,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 12,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6885),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2307),
                             ImagePath = "\\Images\\services\\12.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -994,7 +963,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 13,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6886),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2308),
                             ImagePath = "\\Images\\services\\13.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1004,7 +973,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 14,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6888),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2309),
                             ImagePath = "\\Images\\services\\14.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1014,7 +983,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 15,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6889),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2318),
                             ImagePath = "\\Images\\services\\15.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1024,7 +993,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 16,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6890),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2319),
                             ImagePath = "\\Images\\services\\16.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1034,7 +1003,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 17,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6891),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2320),
                             ImagePath = "\\Images\\services\\17.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1044,7 +1013,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 18,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6892),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2322),
                             ImagePath = "\\Images\\services\\18.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1054,7 +1023,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 19,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6893),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2323),
                             ImagePath = "\\Images\\services\\19.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1064,7 +1033,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 20,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6894),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2324),
                             ImagePath = "\\Images\\services\\20.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1074,7 +1043,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 21,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6895),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2325),
                             ImagePath = "\\Images\\services\\21.jpeg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1084,7 +1053,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 22,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6896),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2326),
                             ImagePath = "\\Images\\services\\22.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1094,7 +1063,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 23,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6898),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2327),
                             ImagePath = "\\Images\\services\\23.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1104,7 +1073,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 24,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6899),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2328),
                             ImagePath = "\\Images\\services\\24.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1114,7 +1083,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 25,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6907),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2329),
                             ImagePath = "\\Images\\services\\25.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1124,7 +1093,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 26,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6908),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2330),
                             ImagePath = "\\Images\\services\\26.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1134,7 +1103,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 27,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6909),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2331),
                             ImagePath = "\\Images\\services\\27.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1144,7 +1113,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 28,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6910),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2332),
                             ImagePath = "\\Images\\services\\28.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1154,7 +1123,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 29,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6911),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2333),
                             ImagePath = "\\Images\\services\\29.webp",
                             IsActive = true,
                             IsDeleted = false,
@@ -1164,7 +1133,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 30,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6912),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2334),
                             ImagePath = "\\Images\\services\\30.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1174,7 +1143,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 31,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6913),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2335),
                             ImagePath = "\\Images\\services\\31.webp",
                             IsActive = true,
                             IsDeleted = false,
@@ -1184,7 +1153,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 32,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6915),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2337),
                             ImagePath = "\\Images\\services\\32.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1194,7 +1163,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 33,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6916),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2344),
                             ImagePath = "\\Images\\services\\33.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1204,7 +1173,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 34,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6917),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2345),
                             ImagePath = "\\Images\\services\\34.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1214,7 +1183,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 35,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6918),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2347),
                             ImagePath = "\\Images\\services\\35.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1224,7 +1193,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 36,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6919),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2348),
                             ImagePath = "\\Images\\services\\36.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1234,7 +1203,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 37,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6920),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2349),
                             ImagePath = "\\Images\\services\\37.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1244,7 +1213,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 38,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6921),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2350),
                             ImagePath = "\\Images\\services\\38.png",
                             IsActive = true,
                             IsDeleted = false,
@@ -1254,7 +1223,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 39,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6922),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2351),
                             ImagePath = "\\Images\\services\\39.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1264,7 +1233,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 40,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6924),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2352),
                             ImagePath = "\\Images\\services\\40.webp",
                             IsActive = true,
                             IsDeleted = false,
@@ -1274,7 +1243,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 41,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6925),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2353),
                             ImagePath = "\\Images\\services\\41.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1284,7 +1253,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 42,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6926),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2355),
                             ImagePath = "\\Images\\services\\42.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1294,7 +1263,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 43,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6927),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2356),
                             ImagePath = "\\Images\\services\\43.png",
                             IsActive = true,
                             IsDeleted = false,
@@ -1304,7 +1273,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 44,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6935),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2357),
                             ImagePath = "\\Images\\services\\44.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1314,7 +1283,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 45,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6936),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2358),
                             ImagePath = "\\Images\\services\\45.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1324,7 +1293,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 46,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6938),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2359),
                             ImagePath = "\\Images\\services\\46.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1334,7 +1303,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 47,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6939),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2360),
                             ImagePath = "\\Images\\services\\47.webp",
                             IsActive = true,
                             IsDeleted = false,
@@ -1344,7 +1313,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 48,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6940),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2361),
                             ImagePath = "\\Images\\services\\48.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1354,7 +1323,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 49,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6941),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2362),
                             ImagePath = "\\Images\\services\\49.webp",
                             IsActive = true,
                             IsDeleted = false,
@@ -1364,7 +1333,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 50,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6942),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2363),
                             ImagePath = "\\Images\\services\\50.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1374,7 +1343,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 51,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6943),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2371),
                             ImagePath = "\\Images\\services\\51.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1384,7 +1353,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 52,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6944),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2373),
                             ImagePath = "\\Images\\services\\52.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1394,7 +1363,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 53,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6945),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2374),
                             ImagePath = "\\Images\\services\\53.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1404,7 +1373,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 54,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6946),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2375),
                             ImagePath = "\\Images\\services\\54.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1414,7 +1383,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 55,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6948),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2376),
                             ImagePath = "\\Images\\services\\55.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1424,7 +1393,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 56,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6949),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2377),
                             ImagePath = "\\Images\\services\\56.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1434,7 +1403,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 57,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6950),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2378),
                             ImagePath = "\\Images\\services\\57.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1444,7 +1413,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 58,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6951),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2379),
                             ImagePath = "\\Images\\services\\58.webp",
                             IsActive = true,
                             IsDeleted = false,
@@ -1454,7 +1423,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 59,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6952),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2380),
                             ImagePath = "\\Images\\services\\59.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1464,7 +1433,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 60,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6953),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2381),
                             ImagePath = "\\Images\\services\\60.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1474,7 +1443,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 61,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6954),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2382),
                             ImagePath = "\\Images\\services\\61.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1484,7 +1453,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 62,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6963),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2383),
                             ImagePath = "\\Images\\services\\62.webp",
                             IsActive = true,
                             IsDeleted = false,
@@ -1494,7 +1463,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 63,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6964),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2384),
                             ImagePath = "\\Images\\services\\63.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1504,7 +1473,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 64,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6965),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2385),
                             ImagePath = "\\Images\\services\\64.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1514,7 +1483,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 65,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6966),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2386),
                             ImagePath = "\\Images\\services\\65.png",
                             IsActive = true,
                             IsDeleted = false,
@@ -1524,7 +1493,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 66,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6967),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2387),
                             ImagePath = "\\Images\\services\\66.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1534,7 +1503,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 67,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6968),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2388),
                             ImagePath = "\\Images\\services\\67.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1544,7 +1513,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 68,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6970),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2390),
                             ImagePath = "\\Images\\services\\68.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1554,7 +1523,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 69,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6971),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2391),
                             ImagePath = "\\Images\\services\\69.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1564,7 +1533,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 70,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6972),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2392),
                             ImagePath = "\\Images\\services\\70.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1574,7 +1543,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 71,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6973),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2393),
                             ImagePath = "\\Images\\services\\71.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1584,7 +1553,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 72,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6974),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2394),
                             ImagePath = "\\Images\\services\\72.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1594,7 +1563,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 73,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6975),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2395),
                             ImagePath = "\\Images\\services\\73.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1604,7 +1573,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 74,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6976),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2396),
                             ImagePath = "\\Images\\services\\74.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1614,7 +1583,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 75,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6977),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2397),
                             ImagePath = "\\Images\\services\\75.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1624,7 +1593,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 76,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6978),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2398),
                             ImagePath = "\\Images\\services\\76.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1634,7 +1603,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 77,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6979),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2399),
                             ImagePath = "\\Images\\services\\77.webp",
                             IsActive = true,
                             IsDeleted = false,
@@ -1644,7 +1613,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 78,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6981),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2400),
                             ImagePath = "\\Images\\services\\78.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1654,7 +1623,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 79,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6982),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2401),
                             ImagePath = "\\Images\\services\\79.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1664,7 +1633,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         new
                         {
                             Id = 80,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 626, DateTimeKind.Local).AddTicks(6983),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 379, DateTimeKind.Local).AddTicks(2402),
                             ImagePath = "\\Images\\services\\80.jpg",
                             IsActive = true,
                             IsDeleted = false,
@@ -1717,7 +1686,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9078),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3677),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "نظافت و پذیرایی"
@@ -1726,7 +1695,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9196),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3792),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "شستشو"
@@ -1735,7 +1704,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 3,
                             CategoryId = 1,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9198),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3794),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "کارواش و دیتیلینگ"
@@ -1744,7 +1713,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9199),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3795),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "سرمایش و گرمایش"
@@ -1753,7 +1722,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 5,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9200),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3796),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "تعمیرات ساختمان"
@@ -1762,7 +1731,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 6,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9201),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3797),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "لوله کشی"
@@ -1771,7 +1740,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 7,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9202),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3798),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "طراحی و بازسازی ساختمان"
@@ -1780,7 +1749,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 8,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9203),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3799),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "برقکاری"
@@ -1789,7 +1758,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 9,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9204),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3800),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "چوب و کابینت"
@@ -1798,7 +1767,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 10,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9206),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3801),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "خدمات شیشه ای ساختمان"
@@ -1807,7 +1776,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 11,
                             CategoryId = 2,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9207),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3802),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "باغبانی و فضای سبز"
@@ -1816,7 +1785,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 12,
                             CategoryId = 3,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9208),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3803),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "نصب و تعمیر لوازم خانگی"
@@ -1825,7 +1794,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 13,
                             CategoryId = 3,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9209),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3804),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "خدمات کامپیوتری"
@@ -1834,7 +1803,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 14,
                             CategoryId = 3,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9210),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3804),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "تعمیرات موبایل"
@@ -1843,7 +1812,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 15,
                             CategoryId = 4,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9211),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3805),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "باربری و جابجایی"
@@ -1852,7 +1821,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 16,
                             CategoryId = 5,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9212),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3806),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "خدمات و تعمیرات خودرو"
@@ -1861,7 +1830,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 17,
                             CategoryId = 5,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9213),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3807),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "کارواش و دیتیلینگ"
@@ -1870,7 +1839,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 18,
                             CategoryId = 6,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9214),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3808),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "زیبایی بانوان"
@@ -1879,7 +1848,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 19,
                             CategoryId = 6,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9215),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3809),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "پزشکی و پرستاری"
@@ -1888,7 +1857,7 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         {
                             Id = 20,
                             CategoryId = 6,
-                            CreatAt = new DateTime(2025, 2, 19, 16, 19, 37, 627, DateTimeKind.Local).AddTicks(9216),
+                            CreatAt = new DateTime(2025, 2, 21, 20, 25, 49, 380, DateTimeKind.Local).AddTicks(3810),
                             IsActive = true,
                             IsDeleted = false,
                             Title = "حیوانات خانگی"
@@ -1956,8 +1925,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                             IsWinner = false,
                             RequestId = 1,
                             Status = 1,
-                            SuggestedDate = new DateTime(2025, 2, 19, 12, 49, 37, 629, DateTimeKind.Utc).AddTicks(2773),
-                            SuggestedDo = new DateTime(2025, 2, 20, 12, 49, 37, 629, DateTimeKind.Utc).AddTicks(2854)
+                            SuggestedDate = new DateTime(2025, 2, 21, 16, 55, 49, 381, DateTimeKind.Utc).AddTicks(6434),
+                            SuggestedDo = new DateTime(2025, 2, 22, 16, 55, 49, 381, DateTimeKind.Utc).AddTicks(6514)
                         },
                         new
                         {
@@ -1970,8 +1939,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                             IsWinner = false,
                             RequestId = 2,
                             Status = 1,
-                            SuggestedDate = new DateTime(2025, 2, 17, 12, 49, 37, 629, DateTimeKind.Utc).AddTicks(3192),
-                            SuggestedDo = new DateTime(2025, 2, 20, 12, 49, 37, 629, DateTimeKind.Utc).AddTicks(3193)
+                            SuggestedDate = new DateTime(2025, 2, 19, 16, 55, 49, 381, DateTimeKind.Utc).AddTicks(6858),
+                            SuggestedDo = new DateTime(2025, 2, 22, 16, 55, 49, 381, DateTimeKind.Utc).AddTicks(6858)
                         },
                         new
                         {
@@ -1984,8 +1953,8 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                             IsWinner = false,
                             RequestId = 3,
                             Status = 1,
-                            SuggestedDate = new DateTime(2025, 2, 16, 12, 49, 37, 629, DateTimeKind.Utc).AddTicks(3195),
-                            SuggestedDo = new DateTime(2025, 2, 21, 12, 49, 37, 629, DateTimeKind.Utc).AddTicks(3196)
+                            SuggestedDate = new DateTime(2025, 2, 18, 16, 55, 49, 381, DateTimeKind.Utc).AddTicks(6861),
+                            SuggestedDo = new DateTime(2025, 2, 23, 16, 55, 49, 381, DateTimeKind.Utc).AddTicks(6861)
                         });
                 });
 
@@ -2204,14 +2173,10 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .IsRequired();
 
                     b.HasOne("App.Domain.Core.Entities.Expert", "Expert")
-                        .WithMany()
-                        .HasForeignKey("ExpertId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.HasOne("App.Domain.Core.Entities.Expert", null)
                         .WithMany("Comments")
-                        .HasForeignKey("ExpertId1");
+                        .HasForeignKey("ExpertId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Customer");
 
@@ -2227,13 +2192,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .IsRequired();
 
                     b.HasOne("App.Domain.Core.Entities.BaseEntities.City", "City")
-                        .WithMany()
+                        .WithMany("Customers")
                         .HasForeignKey("CityId")
                         .OnDelete(DeleteBehavior.SetNull);
-
-                    b.HasOne("App.Domain.Core.Entities.BaseEntities.City", null)
-                        .WithMany("Customers")
-                        .HasForeignKey("CityId1");
 
                     b.Navigation("ApplicationUser");
 
@@ -2249,13 +2210,9 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
                         .IsRequired();
 
                     b.HasOne("App.Domain.Core.Entities.BaseEntities.City", "City")
-                        .WithMany()
+                        .WithMany("Experts")
                         .HasForeignKey("CityId")
                         .OnDelete(DeleteBehavior.SetNull);
-
-                    b.HasOne("App.Domain.Core.Entities.BaseEntities.City", null)
-                        .WithMany("Experts")
-                        .HasForeignKey("CityId1");
 
                     b.Navigation("ApplicationUser");
 
@@ -2265,24 +2222,16 @@ namespace App.Infra.Data.Db.SqlServer.Ef.Migrations
             modelBuilder.Entity("App.Domain.Core.Entities.Request", b =>
                 {
                     b.HasOne("App.Domain.Core.Entities.Customer", "Customer")
-                        .WithMany()
+                        .WithMany("Requests")
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("App.Domain.Core.Entities.Customer", null)
-                        .WithMany("Requests")
-                        .HasForeignKey("CustomerId1");
-
                     b.HasOne("App.Domain.Core.Entities.ServiceSubCategory", "ServiceSubCategory")
-                        .WithMany()
+                        .WithMany("Requests")
                         .HasForeignKey("ServiceSubCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("App.Domain.Core.Entities.ServiceSubCategory", null)
-                        .WithMany("Requests")
-                        .HasForeignKey("ServiceSubCategoryId1");
 
                     b.Navigation("Customer");
 

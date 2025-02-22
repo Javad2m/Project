@@ -32,4 +32,6 @@ public class AdminAppServices : IAdminAppServices
 
     public async Task UpdateAdmin(AdminDTO model, CancellationToken cancellationToken)
     => await _adminServices.Update(model, cancellationToken);
+
+
 }

@@ -20,8 +20,8 @@ public class SubCategoryAppServices : ISubCategoryAppServices
     public async Task<bool> CreateSub(SubCategoryDTO model, CancellationToken cancellationToken)
    => await _subCategoryServices.CreateSub(model, cancellationToken);
 
-    public async Task DeleteSub(SubCategoryDTO model, CancellationToken cancellationToken)
-    => await _subCategoryServices.DeleteSub(model, cancellationToken);
+    public async Task DeleteSub(int id, CancellationToken cancellationToken)
+    => await _subCategoryServices.DeleteSub(id, cancellationToken);
 
     public async Task<List<SubCategoryDTO>> GetAllSub(CancellationToken cancellationToken)
     => await _subCategoryServices.GetAllSub(cancellationToken);

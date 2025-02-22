@@ -16,3 +16,5 @@ C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Db.SqlServer.Ef\bin\De
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Db.SqlServer.Ef\bin\Debug\net9.0\App.Domain.Core.pdb
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net9.0\App.Infr.7A55DB56.Up2Date
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net9.0\App.Infra.Data.Db.SqlServer.Ef.sourcelink.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Db.SqlServer.Ef\bin\Debug\net9.0\Framework.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Infra.Data.Db.SqlServer.Ef\bin\Debug\net9.0\Framework.pdb

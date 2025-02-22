@@ -14,8 +14,10 @@ public class SubCategoryDTO
     public string? Title { get; set; }
     public string? ImagePath { get; set; }
 
+    public DateTime CreatAt { get; set; }
+
     public int CategoryId { get; set; }
     public Category? Category { get; set; }
     public List<ServiceSubCategory>? ServiceSubCategories { get; set; }
-    
+
 }

@@ -14,3 +14,5 @@ C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\bin\Debug\net9
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\App.Domain.AppServices.csproj.AssemblyReference.cache
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\App.Domain.AppServices.sourcelink.json
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\obj\Debug\net9.0\App.Doma.0BF5E7BD.Up2Date
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\bin\Debug\net9.0\Framework.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.AppServices\bin\Debug\net9.0\Framework.pdb

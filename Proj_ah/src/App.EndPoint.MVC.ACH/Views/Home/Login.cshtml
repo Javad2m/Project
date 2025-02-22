@@ -1,0 +1,55 @@
+﻿@using App.Domain.Core.Dto
+@using App.Domain.Core.Entities
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@model ApplicationUserLoginDTO
+
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+        <div class="card shadow-lg">
+            <div class="card-header bg-primary text-white text-center">
+                <h3>Login</h3>
+            </div>
+            <div class="card-body">
+                @* پیام خطا *@
+                @if (ViewData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
+                }
+
+                <form asp-action="LoginUser" method="post">
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Password" class="form-label"></label>
+                        <input asp-for="Password" class="form-control" type="password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
+                </form>
+
+                <div class="mt-3 text-center">
+                    <a asp-action="ForgotPassword">Forgot Password?</a><br />
+                    <a asp-action="Register">Don't have an account? Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

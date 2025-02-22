@@ -55,11 +55,13 @@ public class ExpertConfigurations : IEntityTypeConfiguration<Expert>
                .HasForeignKey<Expert>(e => e.ApplicationUserId)
                .OnDelete(DeleteBehavior.Cascade);
 
-       
-        builder.HasOne(e => e.City)
-               .WithMany()
-               .HasForeignKey(e => e.CityId)
-               .OnDelete(DeleteBehavior.SetNull);
+
+        
+
+        //builder.HasOne(e => e.City)
+        //       .WithMany()
+        //       .HasForeignKey(e => e.CityId)
+        //       .OnDelete(DeleteBehavior.SetNull);
 
 
         builder.HasMany(e => e.Skills)

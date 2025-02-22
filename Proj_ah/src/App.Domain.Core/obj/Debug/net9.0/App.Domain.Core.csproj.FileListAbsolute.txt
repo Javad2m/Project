@@ -11,3 +11,6 @@ C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Core\obj\Debug\net9.0\App.
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Core\obj\Debug\net9.0\ref\App.Domain.Core.dll
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Core\obj\Debug\net9.0\App.Domain.Core.csproj.AssemblyReference.cache
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Core\obj\Debug\net9.0\App.Domain.Core.sourcelink.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Core\bin\Debug\net9.0\Framework.dll
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Core\bin\Debug\net9.0\Framework.pdb
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.Domain.Core\obj\Debug\net9.0\App.Doma.6AFF751B.Up2Date

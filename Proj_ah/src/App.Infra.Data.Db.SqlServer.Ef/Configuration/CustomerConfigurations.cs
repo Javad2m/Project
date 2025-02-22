@@ -46,20 +46,20 @@ public class CustomerConfigurations : IEntityTypeConfiguration<Customer>
                .HasForeignKey<Customer>(c => c.ApplicationUserId)
                .OnDelete(DeleteBehavior.Cascade);
 
-        builder.HasOne(c => c.City)
-               .WithMany()
-               .HasForeignKey(c => c.CityId)
-               .OnDelete(DeleteBehavior.SetNull);
+        //builder.HasOne(c => c.City)
+        //       .WithMany()
+        //       .HasForeignKey(c => c.CityId)
+        //       .OnDelete(DeleteBehavior.SetNull);
 
         //builder.HasMany(c => c.Comments)
         //       .WithOne()
         //       .HasForeignKey(comment => comment.CustomerId)
         //       .OnDelete(DeleteBehavior.Cascade);
 
-        builder.HasMany(c => c.Requests)
-               .WithOne()
-               .HasForeignKey(request => request.CustomerId)
-               .OnDelete(DeleteBehavior.Cascade);
+        //builder.HasMany(c => c.Requests)
+        //       .WithOne()
+        //       .HasForeignKey(request => request.CustomerId)
+        //       .OnDelete(DeleteBehavior.Cascade);
 
         builder.HasData(new Customer
         {

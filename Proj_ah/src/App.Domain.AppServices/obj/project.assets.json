@@ -830,6 +830,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "Framework": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.3.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.2",
           "Microsoft.Extensions.Identity.Core": "9.0.2"
         },
@@ -838,6 +840,19 @@
         },
         "runtime": {
           "bin/placeholder/App.Domain.Core.dll": {}
+        }
+      },
+      "Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Core": "9.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.dll": {}
         }
       }
     }
@@ -1913,6 +1928,11 @@
       "type": "project",
       "path": "../App.Domain.Core/App.Domain.Core.csproj",
       "msbuildProject": "../App.Domain.Core/App.Domain.Core.csproj"
+    },
+    "Framework/1.0.0": {
+      "type": "project",
+      "path": "../Framework/Framework.csproj",
+      "msbuildProject": "../Framework/Framework.csproj"
     }
   },
   "projectFileDependencyGroups": {

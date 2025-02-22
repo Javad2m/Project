@@ -10,6 +10,6 @@ namespace App.Domain.Core.Contracts.AppServices;
 public interface IAccountAppServices
 {
 
-    Task<bool> Login(ApplicationUserLoginDTO model, CancellationToken cancellationToken);
+    Task<bool> Login(string email , string password, CancellationToken cancellationToken);
     Task<List<IdentityError>> Register(AppliccationUserDTO model, CancellationToken cancellationToken);
 }

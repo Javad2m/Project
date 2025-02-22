@@ -37,10 +37,10 @@ public class CommentConfigurations : IEntityTypeConfiguration<Comment>
        .OnDelete(DeleteBehavior.NoAction);
 
 
-        builder.HasOne(c => c.Expert)
-            .WithMany()
-            .HasForeignKey(c => c.ExpertId)
-            .OnDelete(DeleteBehavior.NoAction);
+        //builder.HasOne(c => c.Expert)
+        //    .WithMany()
+        //    .HasForeignKey(c => c.ExpertId)
+        //    .OnDelete(DeleteBehavior.NoAction);
 
         builder.HasData(
         new Comment
@@ -54,6 +54,7 @@ public class CommentConfigurations : IEntityTypeConfiguration<Comment>
             IsActive = true,
             IsAccept = true,
             IsDeleted = false
+            
         },
         new Comment
         {

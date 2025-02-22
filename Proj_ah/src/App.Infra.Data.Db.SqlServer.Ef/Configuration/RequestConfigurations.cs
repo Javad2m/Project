@@ -33,15 +33,15 @@ public class RequestConfigurations : IEntityTypeConfiguration<Request>
             .IsRequired()
             .HasColumnType("decimal(18,2)");
 
-        builder.HasOne(r => r.Customer)
-            .WithMany()
-            .HasForeignKey(r => r.CustomerId)
-            .OnDelete(DeleteBehavior.Cascade);
+        //builder.HasOne(r => r.Customer)
+        //    .WithMany()
+        //    .HasForeignKey(r => r.CustomerId)
+        //    .OnDelete(DeleteBehavior.Cascade);
 
-        builder.HasOne(r => r.ServiceSubCategory)
-            .WithMany()
-            .HasForeignKey(r => r.ServiceSubCategoryId)
-            .OnDelete(DeleteBehavior.Cascade);
+        //builder.HasOne(r => r.ServiceSubCategory)
+        //    .WithMany()
+        //    .HasForeignKey(r => r.ServiceSubCategoryId)
+        //    .OnDelete(DeleteBehavior.Cascade);
 
         builder.HasMany(r => r.Suggestions)
             .WithOne(s => s.Request)

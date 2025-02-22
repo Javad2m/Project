@@ -14,5 +14,5 @@ public interface ISubCategoryRepository
 
     Task UpdateSub(SubCategoryDTO model, CancellationToken cancellationToken);
 
-    Task DeleteSub(SubCategoryDTO model, CancellationToken cancellationToken);
+    Task DeleteSub(int id, CancellationToken cancellationToken);
 }
