@@ -3,6 +3,7 @@ using App.Domain.Core.Dto;
 using App.Domain.Core.Entities;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,9 +16,13 @@ public class AdminRepository : IAdminRepository
 {
 
     private readonly AppDbContext _context;
-    public AdminRepository(AppDbContext context)
+    private readonly ILogger<AdminRepository> _logger;
+
+    public AdminRepository(AppDbContext context, ILogger<AdminRepository> logger)
     {
         _context = context;
+        _logger = logger;
+
     }
 
 
@@ -35,10 +40,14 @@ public class AdminRepository : IAdminRepository
         {
             await _context.Admins.AddAsync(newAdmin);
             await _context.SaveChangesAsync(cancellationToken);
+            _logger.LogInformation("Admin Added Succesfully");
+
             return true;
         }
         catch (Exception ex)
         {
+            _logger.LogError("admin not created Maybe it has already been added Or there is another error {exception}", ex);
+
             return false;
         }
     }
@@ -54,7 +63,10 @@ public class AdminRepository : IAdminRepository
         targetModel.Email = adminUpdateDto.Email;
         targetModel.ApplicationUser.Email = adminUpdateDto.Email;
 
+
         await _context.SaveChangesAsync(cancellationToken);
+        _logger.LogInformation(" Update Admin ");
+
         return true;
     }
     public async Task<AdminDTO> AdminUpdateInfo(int id, CancellationToken cancellationToken)
@@ -67,15 +79,41 @@ public class AdminRepository : IAdminRepository
             Wallet = a.Wallet
 
         }).AsNoTracking().FirstOrDefaultAsync(a => a.Id == id, cancellationToken);
+        _logger.LogInformation("Update Admin Info");
+
         return model;
     }
 
     public async Task<List<Admin>> GetAll(CancellationToken cancellationToken)
-       => await _context.Admins.AsNoTracking().ToListAsync(cancellationToken);
+
+       => await _context.Admins
+         .Include(a => a.ApplicationUser)
+        .AsNoTracking().ToListAsync(cancellationToken);
 
 
-    public async Task<Admin> GetById(int adminId, CancellationToken cancellationToken)
-      => await _context.Admins.AsNoTracking().FirstOrDefaultAsync(a => a.Id == adminId);
+
+    public async Task<AdminDTO> GetById(int adminId, CancellationToken cancellationToken)
+    {
+
+        var admin = await _context.Admins
+            .Include(e => e.ApplicationUser)
+            .Select(a => new AdminDTO
+            {
+                Id = a.Id,
+                Email = a.ApplicationUser.Email,
+                FirstName = a.FirstName,
+                LastName = a.LastName,
+                Wallet = a.Wallet,
+                IsDeleted = a.IsDeleted
+
+
+            }).AsNoTracking().FirstOrDefaultAsync(a => a.Id == adminId);
+
+        _logger.LogInformation("get admin by id ");
+
+
+        return admin;
+    }
 
 
     public async Task<bool> Delete(int adminId, CancellationToken cancellationToken)
@@ -83,6 +121,8 @@ public class AdminRepository : IAdminRepository
         var targetAdmin = await GetById(adminId, cancellationToken);
         targetAdmin.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
+        _logger.LogInformation("Admin Delete Succesfully");
+
         return true;
 
     }

@@ -52,19 +52,12 @@ public class ExpertRepository : IExpertRepository
         await _context.SaveChangesAsync(cancellationToken);
     }
 
-    public async Task<List<ExpertDTO>> GetAllExperts(CancellationToken cancellationToken)
+    public async Task<List<Expert>> GetAllExperts(CancellationToken cancellationToken)
     {
         var result = await _context.Experts
-            .Select(model => new ExpertDTO
-            {
-                FirstName = model.FirstName,
-                LastName = model.LastName,
-                PhoneNumber = model.PhoneNumber,
-                City = model.City,
-                Skills = model.Skills,
-
-
-            }).ToListAsync(cancellationToken);
+            .Include(a => a.ApplicationUser)
+             .Where(d => d.IsDeleted == false)
+            .ToListAsync(cancellationToken);
 
         return result;
     }

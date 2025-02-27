@@ -57,18 +57,11 @@ public class CustomerRepository : ICustomerRepository
             return false;
         }
     }
-    public async Task<List<CustomerDTO>> GetAllCustomers(CancellationToken cancellationToken)
+    public async Task<List<Customer>> GetAllCustomers(CancellationToken cancellationToken)
     {
         var result = await _context.Customers
-            .Select(model => new CustomerDTO
-            {
-                FirstName = model.FirstName,
-                LastName = model.LastName,            
-                PhoneNumber = model.PhoneNumber,
-                Requests = model.Requests,
-                City = model.City,
-              
-            }).AsNoTracking().ToListAsync(cancellationToken);
+             .Include(a => a.ApplicationUser)
+           .AsNoTracking().ToListAsync(cancellationToken);
 
         return result;
     }

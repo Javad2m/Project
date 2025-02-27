@@ -26,7 +26,7 @@ public class CustomerServices : ICustomerServices
     public async Task<bool> DeleteCustomerById(int id, CancellationToken cancellationToken)
     => await _customerRepository.DeleteCustomerById(id, cancellationToken);
 
-    public async Task<List<CustomerDTO>> GetAllCustomers(CancellationToken cancellationToken)
+    public async Task<List<Customer>> GetAllCustomers(CancellationToken cancellationToken)
      => await _customerRepository.GetAllCustomers(cancellationToken);
 
     public async Task<CustomerDTO>? GetById(int? id, CancellationToken cancellationToken)

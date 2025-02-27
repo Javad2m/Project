@@ -1,7 +1,7 @@
-﻿@* @page
-@model Achar.Endpoint.Razor.Areas.Admin.Pages.Users.AdminUpModel
+﻿@page
+@model App.EndPoint.Razor.ACH.Admin.Pages.Users.AdminUpModel
 @{
-    ViewData["Title"] = "‌ صفحه بروز رسانی کاربران آچار ";
+    ViewData["Title"] = "‌ صفحه بروز رسانی کاربران آچ آچ ";
 }
 
 @if (TempData["ErrorMessage"] != null)
@@ -36,11 +36,11 @@
         <span asp-validation-for="UpAdmin.LastName" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
+   @*  <div class="form-group">
         <label asp-for="UpAdmin.UserName" class="control-label"></label>
         <input asp-for="UpAdmin.UserName" class="form-control" value="@Model.UpAdmin?.UserName" />
         <span asp-validation-for="UpAdmin.UserName" class="text-danger"></span>
-    </div>
+    </div> *@
 
     <div class="form-group">
         <label asp-for="UpAdmin.Email" class="control-label"></label>
@@ -49,9 +49,9 @@
     </div>
 
     <div class="mb-3">
-        <label asp-for="UpAdmin.ImageFile" class="form-label fw-semibold">عکس</label>
-        <input type="file" asp-for="UpAdmin.ImageFile" class="form-control">
-        <span asp-validation-for="UpAdmin.ImageFile" class="text-danger"></span>
+        <label asp-for="UpAdmin.ImagePath" class="form-label fw-semibold">عکس</label>
+        <input type="file" asp-for="UpAdmin.ImagePath" class="form-control">
+        <span asp-validation-for="UpAdmin.ImagePath" class="text-danger"></span>
     </div>
 
     <div class="form-group">
@@ -60,12 +60,11 @@
         <span asp-validation-for="UpAdmin.PhoneNumber" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="UpAdmin.Balance" class="control-label"></label>
-        <input asp-for="UpAdmin.Balance" class="form-control" value="@Model.UpAdmin?.Balance" />
-        <span asp-validation-for="UpAdmin.Balance" class="text-danger"></span>
-    </div>
+  @*   <div class="form-group">
+        <label asp-for="UpAdmin.Wallet" class="control-label"></label>
+        <input asp-for="UpAdmin.Wallet" class="form-control" value="@Model.UpAdmin?.Wallet" />
+        <span asp-validation-for="UpAdmin.Wallet" class="text-danger"></span>
+    </div> *@
 
     <button type="submit" class="btn btn-primary">ذخیره</button>
 </form>
- *@

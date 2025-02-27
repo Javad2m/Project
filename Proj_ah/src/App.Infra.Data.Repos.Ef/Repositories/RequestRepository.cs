@@ -48,6 +48,7 @@ public class RequestRepository : IRequestRepository
     public async Task<List<RequestDTO>> GetAllRequests(CancellationToken cancellationToken)
     {
         var result = await _context.Requests
+             .Where(d => d.IsDeleted == false)
             .Select(model => new RequestDTO
             {
                 Id = model.Id,

@@ -56,6 +56,7 @@ public class SuggestionRepository : ISuggestionRepository
     public async Task<List<SuggestionDTO>> GetAllSuggestion(CancellationToken cancellationToken)
     {
         var result = await _context.Suggestions
+             .Where(d => d.IsDeleted == false)
             .Select(model => new SuggestionDTO
             {
                 Id = model.Id,

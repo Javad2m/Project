@@ -25,7 +25,7 @@ public class ExpertServices : IExpertServices
     public async Task DeleteExpertById(int id, CancellationToken cancellationToken)
     => await _expertRepository.DeleteExpertById(id, cancellationToken);
 
-    public async Task<List<ExpertDTO>> GetAllExperts(CancellationToken cancellationToken)
+    public async Task<List<Expert>> GetAllExperts(CancellationToken cancellationToken)
      => await _expertRepository.GetAllExperts(cancellationToken);
 
     public async Task<ExpertDTO>? GetExpertById(int id, CancellationToken cancellationToken)

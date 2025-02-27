@@ -32,7 +32,11 @@ public class ExpertDTO
     public List<ServiceSubCategory>? Skills { get; set; }
 
     public GenderEnum? Gender { get; set; }
+    public int ApplicationUserId { get; set; }
+    public ApplicationUser ApplicationUser { get; set; }
+    public bool IsActive { get; set; } = false;
 
+    public float Wallet { get; set; }
 
 
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("App.Infra.Data.Repos.Ef")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d30800c241c361564eeccfc04b48a202794e4cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6410c6ac0c799693242c43943ae33556d081f166")]
 [assembly: System.Reflection.AssemblyProductAttribute("App.Infra.Data.Repos.Ef")]
 [assembly: System.Reflection.AssemblyTitleAttribute("App.Infra.Data.Repos.Ef")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

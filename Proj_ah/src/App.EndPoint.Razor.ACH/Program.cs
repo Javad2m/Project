@@ -10,10 +10,18 @@ using App.Infra.Data.Repos.Ef.Repositories;
 using Framework;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Host.ConfigureLogging(o => {
+    o.ClearProviders();
+    o.AddSerilog();
+}).UseSerilog((context, config) =>
+{
+    config.WriteTo.Console();
+    config.WriteTo.Seq("http://localhost:5341", apiKey: "IwCY4CHobFsgkD0fJXw8");
+});
 
 
 

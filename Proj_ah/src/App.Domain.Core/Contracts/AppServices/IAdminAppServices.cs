@@ -10,10 +10,14 @@ namespace App.Domain.Core.Contracts.AppServices;
 
 public interface IAdminAppServices
 {
-    Task CreateAdmin(AdminDTO model, CancellationToken cancellationToken);
-    Task DeleteAdminById(int id, CancellationToken cancellationToken);
+    Task<bool> CreateAdmin(AdminDTO model, CancellationToken cancellationToken);
+    Task<bool> DeleteAdminById(int id, CancellationToken cancellationToken);
     Task<List<Admin>> GetAllAdmins(CancellationToken cancellationToken);
-    Task UpdateAdmin(AdminDTO model, CancellationToken cancellationToken);
+    Task<bool> UpdateAdmin(AdminDTO model, CancellationToken cancellationToken);
+
+    Task<AdminDTO> GetById(int adminId, CancellationToken cancellationToken);
+
+    //Task<float> GetWallet(string mail, CancellationToken cancellationToken);
 
     //Task<int> AdminCount(CancellationToken cancellationToken);
 }

@@ -55,6 +55,7 @@ public class SubCategoryRepository : ISubCategoryRepository
     public async Task<List<SubCategoryDTO>> GetAllSub(CancellationToken cancellationToken)
     {
         var result = await _context.SubCategories
+             .Where(d => d.IsDeleted == false)
            .Select(model => new SubCategoryDTO
            {
                Id = model.Id,

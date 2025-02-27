@@ -24,8 +24,10 @@ public class CustomerDTO
 
     public List<Comment>? Comments { get; set; }
 
+    public int ApplicationUserId { get; set; }
+    public ApplicationUser ApplicationUser { get; set; }
 
-
+    public float Wallet { get; set; }
 
 
 

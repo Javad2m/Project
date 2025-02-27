@@ -55,6 +55,7 @@ public class CategoryRepository : ICategoryRepository
     public async Task<List<Category>> GetAllCategories(CancellationToken cancellationToken)
     {
         var result = await _context.Categories
+            .Where(d=>d.IsDeleted ==  false ) 
            .AsNoTracking().ToListAsync(cancellationToken);
 
         return result;

@@ -34,7 +34,7 @@ public class AdminServices : IAdminServices
     public async Task<List<Admin>> GetAll(CancellationToken cancellationToken)
       => await _adminRepository.GetAll(cancellationToken);
 
-    public async Task<Admin> GetById(int adminId, CancellationToken cancellationToken)
+    public async Task<AdminDTO> GetById(int adminId, CancellationToken cancellationToken)
      => await _adminRepository.GetById(adminId, cancellationToken);
 
     public async Task<bool> Update(AdminDTO adminUpdateDto, CancellationToken cancellationToken)

@@ -55,6 +55,7 @@ public class CommentRepository : ICommentRepository
     public async Task<List<CommentDTO>> GetAllComments(CancellationToken cancellationToken)
     {
         var result = await _context.Comments
+             .Where(d => d.IsDeleted == false)
             .Select(model => new CommentDTO()
             {
                 Id = model.Id,

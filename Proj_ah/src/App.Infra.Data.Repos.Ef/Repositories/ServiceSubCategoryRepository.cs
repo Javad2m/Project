@@ -44,6 +44,7 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
     public async Task<List<ServiceSubCategoryDTO>> GetAllServices(CancellationToken cancellationToken)
     {
         var result = await _context.ServiceSubCategories
+             .Where(d => d.IsDeleted == false)
             .Select(model => new ServiceSubCategoryDTO
             {
                 Id = model.Id,

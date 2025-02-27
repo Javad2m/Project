@@ -15,7 +15,7 @@ public interface IAdminRepository
 
     Task<AdminDTO> AdminUpdateInfo(int id, CancellationToken cancellationToken);
 
-    Task<Admin> GetById(int adminId, CancellationToken cancellationToken);
+    Task<AdminDTO> GetById(int adminId, CancellationToken cancellationToken);
     Task<List<Admin>> GetAll(CancellationToken cancellationToken);
 
     Task<bool> Delete(int adminId, CancellationToken cancellationToken);
