@@ -1,6 +1,0 @@
-C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\wwwroot\assets\img\category\Khodro-icon.png
-C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\wwwroot\assets\img\category\Sakhtman-icon.png
-C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\wwwroot\assets\img\category\Salamat-icon.png
-C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\wwwroot\assets\img\category\Sazeman-icon.png
-C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\wwwroot\assets\img\category\Tamirat-icon.png
-C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\wwwroot\assets\img\category\TamizCari-con.png.png

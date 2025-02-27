@@ -71,10 +71,10 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
 
     }
 
-    public async Task DeleteService(ServiceSubCategoryDTO model, CancellationToken cancellationToken)
+    public async Task DeleteService(int id, CancellationToken cancellationToken)
     {
         var service = await _context.ServiceSubCategories
-            .FirstOrDefaultAsync(s => s.Id == model.Id, cancellationToken);
+            .FirstOrDefaultAsync(s => s.Id == id, cancellationToken);
 
         if (service == null) return;
 

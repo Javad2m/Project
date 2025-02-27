@@ -14,5 +14,5 @@ public interface IServiceSubCategoryRepository
 
     Task UpdateService(ServiceSubCategoryDTO model, CancellationToken cancellationToken);
 
-    Task DeleteService(ServiceSubCategoryDTO model, CancellationToken cancellationToken);
+    Task DeleteService(int id, CancellationToken cancellationToken);
 }

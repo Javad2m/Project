@@ -1,92 +1,82 @@
-﻿//using AcharDomainCore.Contracts.Category;
-//using AcharDomainCore.Contracts.HomeService;
-//using AcharDomainCore.Contracts.SubCategory;
-//using AcharDomainCore.Dtos.SubCategoryDto;
-//using AcharDomainCore.Dtos;
-//using AcharDomainCore.Dtos.HomeServiceDto;
-//using Microsoft.AspNetCore.Mvc;
-//using Microsoft.AspNetCore.Mvc.RazorPages;
-//using Serilog;
+﻿
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
-//namespace Achar.Endpoint.Razor.Areas.Admin.Pages.HomeService
-//{
-//    public class ListHomeServiceModel : PageModel
-//    {
-//        private readonly IHomeServiceAppService _homeServiceAppService;
-//        private readonly ISubCategoryAppService _subCategoryAppService;
-//        private readonly ILogger<IndexModel> _logger;
+using App.Domain.Core.Contracts.AppServices;
+using App.Domain.Core.Dto;
 
-//        public ListHomeServiceModel(IHomeServiceAppService homeServiceAppService, ISubCategoryAppService subCategoryAppService, ILogger<IndexModel> logger)
-//        {
-//            _homeServiceAppService = homeServiceAppService;
-//            _subCategoryAppService = subCategoryAppService;
-//            _logger = logger;
-//        }
+namespace App.EndPoint.Razor.ACH.Admin.Pages.HomeService
+{
+    public class ListHomeServiceModel : PageModel
+    {
+        private readonly IServiceSubCategoryAppServices _serviceSubCategoryAppServices;
+        private readonly ISubCategoryAppServices _subCategoryAppService;
 
-//        [BindProperty]
-//        public List<HomeServiceDto> HomeServices { get; set; }
+        public ListHomeServiceModel(IServiceSubCategoryAppServices serviceSubCategoryAppServices, ISubCategoryAppServices subCategoryAppService)
+        {
+            _serviceSubCategoryAppServices = serviceSubCategoryAppServices;
+            _subCategoryAppService = subCategoryAppService;
+        }
 
-//        [BindProperty]
-//        public HomeServiceDto NewHomeService { get; set; } = new();
+        [BindProperty]
+        public List<ServiceSubCategoryDTO> HomeServices { get; set; }
 
-//        [BindProperty]
-//        public List<SubCategoryDto?> SubCategories { get; set; } = new();
+        [BindProperty]
+        public ServiceSubCategoryDTO NewHomeService { get; set; } = new();
 
-//        [BindProperty]
-//        public SoftDeleteDto Delete { get; set; }
+        [BindProperty]
+        public List<SubCategoryDTO?> SubCategories { get; set; } = new();
 
-//        public async Task OnGet(CancellationToken cancellationToken)
-//        {
-//            HomeServices = await _homeServiceAppService.GetHomeServices(cancellationToken);
-//            SubCategories = await _subCategoryAppService.GetAllSubCategory(cancellationToken);
-//        }
+        [BindProperty]
+        //public SoftDeleteDto Delete { get; set; }
+        public int Delete { get; set; }
 
-//        public async Task<IActionResult> OnPostCreateService(CancellationToken cancellationToken)
-//        {
-//            try
-//            {
-//                await _homeServiceAppService.CreateHomeService(NewHomeService, cancellationToken);
-//                TempData["Success"] = "خدمات با موفقیت ایجاد شد.";
-//                _logger.LogInformation("[{Time}] خدمات با موفقیت ایجاد شد{Time} ", DateTime.UtcNow.ToLongTimeString());
-//            }
-//            catch (Exception ex)
-//            {
-//                TempData["ErrorMessage"] = $"خطایی رخ داد: {ex.Message}";
-//                _logger.LogError(ex, "[{Time}] خطا در ایجاد خدمات{Time} ", DateTime.UtcNow.ToLongTimeString());
-//            }
-//            return RedirectToPage("ListHomeService");
-//        }
+        public async Task OnGet(CancellationToken cancellationToken)
+        {
+            HomeServices = await _serviceSubCategoryAppServices.GetAllServices(cancellationToken);
+            SubCategories = await _subCategoryAppService.GetAllSub(cancellationToken);
+        }
 
-//        public async Task<IActionResult> OnPostUpService(CancellationToken cancellationToken)
-//        {
-//            try
-//            {
-//                await _homeServiceAppService.UpdateHomeService(NewHomeService, cancellationToken);
-//                TempData["Success"] = "خدمات با موفقیت به‌روزرسانی شد.";
-//                _logger.LogInformation("[{Time}] خدمات با موفقیت به‌روزرسانی شد{Time} ", DateTime.UtcNow.ToLongTimeString());
-//            }
-//            catch (Exception ex)
-//            {
-//                TempData["ErrorMessage"] = $"خطایی رخ داد: {ex.Message}";
-//                _logger.LogError(ex, "[{Time}] خطا در به‌روزرسانی خدمات{Time} ", DateTime.UtcNow.ToLongTimeString());
-//            }
-//            return RedirectToPage("ListHomeService");
-//        }
+        public async Task<IActionResult> OnPostCreateService(CancellationToken cancellationToken)
+        {
+            try
+            {
+                await _serviceSubCategoryAppServices.CreateService(NewHomeService, cancellationToken);
+                TempData["Success"] = "خدمات با موفقیت ایجاد شد.";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = $"خطایی رخ داد: {ex.Message}";
+            }
+            return RedirectToPage("ListHomeService");
+        }
 
-//        public async Task<IActionResult> OnPostDeleteService(CancellationToken cancellationToken)
-//        {
-//            try
-//            {
-//                await _homeServiceAppService.DeleteHomeService(Delete, cancellationToken);
-//                TempData["Success"] = "خدمات با موفقیت حذف شد.";
-//                _logger.LogInformation("[{Time}] خدمات با موفقیت حذف شد{Time} ", DateTime.UtcNow.ToLongTimeString());
-//            }
-//            catch (Exception ex)
-//            {
-//                TempData["ErrorMessage"] = "خطا در انجام عملیات";
-//                _logger.LogError(ex, "[{Time}] خطا در حذف خدمات{Time} ", DateTime.UtcNow.ToLongTimeString());
-//            }
-//            return RedirectToPage("ListHomeService");
-//        }
-//    }
-//}
+        public async Task<IActionResult> OnPostUpService(CancellationToken cancellationToken)
+        {
+            try
+            {
+                await _serviceSubCategoryAppServices.UpdateService(NewHomeService, cancellationToken);
+                TempData["Success"] = "خدمات با موفقیت به‌روزرسانی شد.";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = $"خطایی رخ داد: {ex.Message}";
+            }
+            return RedirectToPage("ListHomeService");
+        }
+
+        public async Task<IActionResult> OnPostDeleteService(CancellationToken cancellationToken)
+        {
+            try
+            {
+                await _serviceSubCategoryAppServices.DeleteService(Delete, cancellationToken);
+                TempData["Success"] = "خدمات با موفقیت حذف شد.";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "خطا در انجام عملیات";
+            }
+            return RedirectToPage("ListHomeService");
+        }
+    }
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("App.EndPoint.Razor.ACH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87465f2f284f9ce86cf7a581c5472a706e1d9485")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9be8af07b5da923dbcbf124c454e68e830bf3bc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("App.EndPoint.Razor.ACH")]
 [assembly: System.Reflection.AssemblyTitleAttribute("App.EndPoint.Razor.ACH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
