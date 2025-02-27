@@ -4,9 +4,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 using App.Domain.Core.Contracts.AppServices;
 using App.Domain.Core.Dto;
+using Microsoft.AspNetCore.Authorization;
 
 namespace App.EndPoint.Razor.ACH.Admin.Pages.HomeService
 {
+    [Authorize(Roles = "Admin")]
     public class ListHomeServiceModel : PageModel
     {
         private readonly IServiceSubCategoryAppServices _serviceSubCategoryAppServices;

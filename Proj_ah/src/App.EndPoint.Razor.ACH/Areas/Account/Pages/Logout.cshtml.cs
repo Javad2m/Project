@@ -12,8 +12,9 @@ namespace App.EndPoint.Razor.ACH.Account.Pages
         public async Task<IActionResult> OnGet()
         {
             await _signInManager.SignOutAsync();
+           
 
-            return RedirectToPage("Index");
+            return RedirectToPage("Login");
         }
 
     }

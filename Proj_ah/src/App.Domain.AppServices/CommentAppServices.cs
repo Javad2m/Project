@@ -19,6 +19,9 @@ public class CommentAppServices : ICommentAppServices
 
     }
 
+    public async Task<bool> AcceptComment(CommentAcceptDto commentAcceptDto, CancellationToken cancellationToken)
+    => await _commentServices.AcceptComment(commentAcceptDto, cancellationToken);
+
     public async Task<bool> CreateComment(CommentDTO model, CancellationToken cancellationToken)
     => await _commentServices.CreateComment(model, cancellationToken);
 

@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E86CEEB6-215F-485C-96A8-E0B93DABBFDA}|src\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.domain.core\\enum\\suggestionstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E86CEEB6-215F-485C-96A8-E0B93DABBFDA}|src\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\app.domain.core\\enum\\suggestionstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC8CF80B-C06F-47E1-932D-C714B59B1DEE}|src\\App.Infra.Data.Repos.Ef\\App.Infra.Data.Repos.Ef.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.infra.data.repos.ef\\repositories\\suggestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC8CF80B-C06F-47E1-932D-C714B59B1DEE}|src\\App.Infra.Data.Repos.Ef\\App.Infra.Data.Repos.Ef.csproj|solutionrelative:src\\app.infra.data.repos.ef\\repositories\\suggestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E86CEEB6-215F-485C-96A8-E0B93DABBFDA}|src\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.domain.core\\entities\\suggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E86CEEB6-215F-485C-96A8-E0B93DABBFDA}|src\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\app.domain.core\\entities\\suggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.endpoint.razor.ach\\areas\\admin\\pages\\service\\bid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|solutionrelative:src\\app.endpoint.razor.ach\\areas\\admin\\pages\\service\\bid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.endpoint.razor.ach\\areas\\admin\\pages\\category\\listcategory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|solutionrelative:src\\app.endpoint.razor.ach\\areas\\admin\\pages\\category\\listcategory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SuggestionStatusEnum.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\Enum\\SuggestionStatusEnum.cs",
-              "RelativeDocumentMoniker": "src\\App.Domain.Core\\Enum\\SuggestionStatusEnum.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\Enum\\SuggestionStatusEnum.cs*",
-              "RelativeToolTip": "src\\App.Domain.Core\\Enum\\SuggestionStatusEnum.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Title": "ListCategory.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Category\\ListCategory.cshtml.cs",
+              "RelativeDocumentMoniker": "src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Category\\ListCategory.cshtml.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Category\\ListCategory.cshtml.cs*",
+              "RelativeToolTip": "src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Category\\ListCategory.cshtml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:10:14.193Z",
+              "WhenOpened": "2025-02-27T13:47:17.445Z",
               "EditorCaption": ""
             },
             {
@@ -56,45 +44,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Suggestion.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\Entities\\Suggestion.cs",
-              "RelativeDocumentMoniker": "src\\App.Domain.Core\\Entities\\Suggestion.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Domain.Core\\Entities\\Suggestion.cs",
-              "RelativeToolTip": "src\\App.Domain.Core\\Entities\\Suggestion.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:07:15.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SuggestionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Infra.Data.Repos.Ef\\Repositories\\SuggestionRepository.cs",
-              "RelativeDocumentMoniker": "src\\App.Infra.Data.Repos.Ef\\Repositories\\SuggestionRepository.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.Infra.Data.Repos.Ef\\Repositories\\SuggestionRepository.cs",
-              "RelativeToolTip": "src\\App.Infra.Data.Repos.Ef\\Repositories\\SuggestionRepository.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwEUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:02:30.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Bid.cshtml",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Service\\Bid.cshtml",
-              "RelativeDocumentMoniker": "src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Service\\Bid.cshtml",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Service\\Bid.cshtml",
-              "RelativeToolTip": "src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Service\\Bid.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAiwC8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T11:30:28.525Z",
-              "EditorCaption": ""
             }
           ]
         },

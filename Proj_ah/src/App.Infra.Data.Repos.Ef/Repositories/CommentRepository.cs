@@ -83,4 +83,16 @@ public class CommentRepository : ICommentRepository
         
         
     }
+
+   public async Task<bool> AcceptComment(CommentAcceptDto commentAcceptDto, CancellationToken cancellationToken)
+    {
+        var comment = await _context.Comments.FirstOrDefaultAsync(x => x.Id == commentAcceptDto.Id, cancellationToken);
+        if (comment is null)
+        {
+            return false;
+        }
+        comment.IsAccept = commentAcceptDto.IsAccept;
+        await _context.SaveChangesAsync(cancellationToken);
+        return true;
+    }
 }

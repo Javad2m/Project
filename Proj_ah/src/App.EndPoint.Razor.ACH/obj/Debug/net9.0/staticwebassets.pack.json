@@ -329,8 +329,16 @@
       "PackagePath": "staticwebassets\\AdminTemplate\\images\\sidebar-bg\\thumb\\no-image.png"
     },
     {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\113.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\user\\113.jpg"
+    },
+    {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\128.png",
       "PackagePath": "staticwebassets\\AdminTemplate\\images\\user\\128.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\13.jpg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\images\\user\\13.jpg"
     },
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\32.png",

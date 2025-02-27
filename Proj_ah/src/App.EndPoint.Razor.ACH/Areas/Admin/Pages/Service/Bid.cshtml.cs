@@ -8,9 +8,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using App.Domain.Core.Contracts.AppServices;
 using App.Domain.Core.Dto;
+using Microsoft.AspNetCore.Authorization;
 
 namespace App.EndPoint.Razor.ACH.Admin.Pages.Service
 {
+    [Authorize(Roles = "Admin")]
     public class BidModel : PageModel
     {
         private readonly ISuggestionAppServices _suggestionAppServices;

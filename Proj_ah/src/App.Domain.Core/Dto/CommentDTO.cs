@@ -20,5 +20,9 @@ public class CommentDTO
     public Expert Expert { get; set; }
 
     public int Score { get; set; }
-  
+
+    public bool IsAccept { get; set; } = false;
+
+    public DateTime CreatAt { get; set; }
+
 }

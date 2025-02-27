@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tr+gvbIguGFE1kl7c7aJ0wLAJllugpzLv1wdl0u4tKE=",
+  "Hash": "aLPTrQSUKMTQ84F20CHfDknOwlH4GMlYuasgqRs3i98=",
   "Source": "App.EndPoint.Razor.ACH",
   "BasePath": "_content/App.EndPoint.Razor.ACH",
   "Mode": "Default",
@@ -5603,6 +5603,27 @@
       "OriginalItemSpec": "wwwroot\\AdminTemplate\\images\\sidebar-bg\\thumb\\no-image.png"
     },
     {
+      "Identity": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\113.jpg",
+      "SourceId": "App.EndPoint.Razor.ACH",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\",
+      "BasePath": "_content/App.EndPoint.Razor.ACH",
+      "RelativePath": "AdminTemplate/images/user/113#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hc42zl81lk",
+      "Integrity": "gbl9N8hxq+8k89zxCyGy5cK1wg5IDh5kF/gE/oQk0ZQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminTemplate\\images\\user\\113.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\128.png",
       "SourceId": "App.EndPoint.Razor.ACH",
       "SourceType": "Discovered",
@@ -5622,6 +5643,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AdminTemplate\\images\\user\\128.png"
+    },
+    {
+      "Identity": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\13.jpg",
+      "SourceId": "App.EndPoint.Razor.ACH",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\",
+      "BasePath": "_content/App.EndPoint.Razor.ACH",
+      "RelativePath": "AdminTemplate/images/user/13#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ahzijrkq54",
+      "Integrity": "4nzHEh1MWo6nsL0e0K6J4WBgtrlpD9MP+j6rfUM+b3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminTemplate\\images\\user\\13.jpg"
     },
     {
       "Identity": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\32.png",
@@ -23239,6 +23281,88 @@
       ]
     },
     {
+      "Route": "AdminTemplate/images/user/113.hc42zl81lk.jpg",
+      "AssetFile": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\113.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "949"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gbl9N8hxq+8k89zxCyGy5cK1wg5IDh5kF/gE/oQk0ZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 13:19:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hc42zl81lk"
+        },
+        {
+          "Name": "label",
+          "Value": "AdminTemplate/images/user/113.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gbl9N8hxq+8k89zxCyGy5cK1wg5IDh5kF/gE/oQk0ZQ="
+        }
+      ]
+    },
+    {
+      "Route": "AdminTemplate/images/user/113.jpg",
+      "AssetFile": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\113.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "949"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gbl9N8hxq+8k89zxCyGy5cK1wg5IDh5kF/gE/oQk0ZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 13:19:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gbl9N8hxq+8k89zxCyGy5cK1wg5IDh5kF/gE/oQk0ZQ="
+        }
+      ]
+    },
+    {
       "Route": "AdminTemplate/images/user/128.72w4wg26dm.png",
       "AssetFile": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\128.png",
       "Selectors": [],
@@ -23317,6 +23441,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-sYQVLytGrOnXWk+tG9SMLwIoMnhhONUpuR9bs832SkU="
+        }
+      ]
+    },
+    {
+      "Route": "AdminTemplate/images/user/13.ahzijrkq54.jpg",
+      "AssetFile": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4nzHEh1MWo6nsL0e0K6J4WBgtrlpD9MP+j6rfUM+b3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Sep 2023 19:00:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ahzijrkq54"
+        },
+        {
+          "Name": "label",
+          "Value": "AdminTemplate/images/user/13.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4nzHEh1MWo6nsL0e0K6J4WBgtrlpD9MP+j6rfUM+b3E="
+        }
+      ]
+    },
+    {
+      "Route": "AdminTemplate/images/user/13.jpg",
+      "AssetFile": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\images\\user\\13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4nzHEh1MWo6nsL0e0K6J4WBgtrlpD9MP+j6rfUM+b3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Sep 2023 19:00:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4nzHEh1MWo6nsL0e0K6J4WBgtrlpD9MP+j6rfUM+b3E="
         }
       ]
     },

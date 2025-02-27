@@ -2,6 +2,7 @@
 
 using App.Domain.Core.Contracts.AppServices;
 using App.Domain.Core.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -9,6 +10,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace App.EndPoint.Razor.ACH.Admin.Pages.Category
 {
+    [Authorize(Roles = "Admin")]
     public class ListCategoryModel : PageModel
     {
         private readonly ICategoryAppServices _categoryAppService;

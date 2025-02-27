@@ -9,9 +9,11 @@ using System.Threading.Tasks;
 using App.Domain.Core.Contracts.AppServices;
 using App.Domain.Core.Dto;
 using App.Domain.Core.Enum;
+using Microsoft.AspNetCore.Authorization;
 
 namespace App.EndPoint.Razor.ACH.Admin.Pages.Service
 {
+    [Authorize(Roles = "Admin")]
     public class RequestModel : PageModel
     {
         private readonly IRequestAppServices _requestAppService;

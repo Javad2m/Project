@@ -260,7 +260,9 @@ wwwroot\AdminTemplate\images\sidebar-bg\thumb\3.jpg
 wwwroot\AdminTemplate\images\sidebar-bg\thumb\4.jpg
 wwwroot\AdminTemplate\images\sidebar-bg\thumb\5.jpg
 wwwroot\AdminTemplate\images\sidebar-bg\thumb\no-image.png
+wwwroot\AdminTemplate\images\user\113.jpg
 wwwroot\AdminTemplate\images\user\128.png
+wwwroot\AdminTemplate\images\user\13.jpg
 wwwroot\AdminTemplate\images\user\32.png
 wwwroot\AdminTemplate\images\user\48.png
 wwwroot\AdminTemplate\images\user\64.png

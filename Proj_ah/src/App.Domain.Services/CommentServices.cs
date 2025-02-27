@@ -28,4 +28,7 @@ public class CommentServices : ICommentServices
 
     public async Task UpdateComment(CommentDTO model, CancellationToken cancellationToken)
     => await _commentRepository.UpdateComment(model, cancellationToken);
+
+    public async Task<bool> AcceptComment(CommentAcceptDto commentAcceptDto, CancellationToken cancellationToken)
+   => await _commentRepository.AcceptComment(commentAcceptDto, cancellationToken);
 }

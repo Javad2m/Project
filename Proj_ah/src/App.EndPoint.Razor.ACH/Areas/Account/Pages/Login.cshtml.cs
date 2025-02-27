@@ -23,6 +23,7 @@ namespace App.EndPoint.Razor.ACH.Account.Pages
 
         public void OnGet()
         {
+          
         }
 
         public async Task<IActionResult> OnPost(ApplicationUserLoginDTO accountLogin, CancellationToken cancellationToken)

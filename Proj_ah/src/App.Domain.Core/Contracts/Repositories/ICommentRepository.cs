@@ -13,4 +13,6 @@ public interface ICommentRepository
     Task DeleteCommentById(int id, CancellationToken cancellationToken);
     Task<List<CommentDTO>> GetAllComments(CancellationToken cancellationToken);
     Task UpdateComment(CommentDTO model, CancellationToken cancellationToken);
+
+    Task<bool> AcceptComment(CommentAcceptDto commentAcceptDto, CancellationToken cancellationToken);
 }
