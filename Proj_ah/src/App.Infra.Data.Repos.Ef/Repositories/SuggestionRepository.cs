@@ -58,10 +58,17 @@ public class SuggestionRepository : ISuggestionRepository
         var result = await _context.Suggestions
             .Select(model => new SuggestionDTO
             {
+                Id = model.Id,
+                Descripsion = model.Descripsion,
+                RequestId = model.RequestId,
                 Request = model.Request,
                 Expert = model.Expert,
                 IsWinner = model.IsWinner,
-                Amount = model.Amount
+                Amount = model.Amount,
+                ExpertName = model.Expert.FirstName + " " + model.Expert.LastName,
+                Status = model.Status,
+                SuggestedDo = model.SuggestedDo,
+                
             }).ToListAsync(cancellationToken);
 
         return result;
@@ -88,5 +95,18 @@ public class SuggestionRepository : ISuggestionRepository
         {
            return false;
         }
+    }
+
+
+    public async Task<bool> ChangeSuggestionStatus(SuggestionStatusDto status, CancellationToken cancellationToken)
+    {
+        var bid = await _context.Suggestions.FirstOrDefaultAsync(x => x.Id == status.Id, cancellationToken);
+        if (bid is null)
+        {
+            return false;
+        }
+        bid.Status = status.Status;
+        await _context.SaveChangesAsync(cancellationToken);
+        return true;
     }
 }

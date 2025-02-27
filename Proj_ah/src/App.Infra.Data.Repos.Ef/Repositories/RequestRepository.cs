@@ -54,6 +54,7 @@ public class RequestRepository : IRequestRepository
                 CustomerId = model.CustomerId,
                 Status = model.Status,
                 Description = model.Description,
+                BasePrice = model.BasePrice
 
             }).AsNoTracking().ToListAsync(cancellationToken);
 
@@ -80,7 +81,7 @@ public class RequestRepository : IRequestRepository
         }
     }
 
-    public async Task<bool> ChangeRequestStatus(RequestDTO status, CancellationToken cancellationToken)
+    public async Task<bool> ChangeRequestStatus(StatusRequestDto status, CancellationToken cancellationToken)
     {
         var request = await FindRequest(status.Id, cancellationToken);
         request.Status = status.Status;

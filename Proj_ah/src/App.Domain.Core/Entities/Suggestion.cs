@@ -23,7 +23,7 @@ public class Suggestion
 
     public DateTime SuggestedDate { get; set; }
 
-    public DateTime? SuggestedDo { get; set; }
+    public DateTime SuggestedDo { get; set; }
 
     public bool IsActive { get; set; }
 

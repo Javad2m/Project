@@ -19,7 +19,7 @@ public class RequestAppServices : IRequestAppServices
 
     }
 
-    public async Task<bool> ChangeRequestStatus(RequestDTO status, CancellationToken cancellationToken)
+    public async Task<bool> ChangeRequestStatus(StatusRequestDto status, CancellationToken cancellationToken)
     => await _requestServices.ChangeRequestStatus(status, cancellationToken);
 
     public async Task<bool> CreateRequest(RequestDTO model, CancellationToken cancellationToken)

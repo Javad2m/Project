@@ -13,5 +13,5 @@ public interface IRequestServices
     Task<List<RequestDTO>> GetAllRequests(CancellationToken cancellationToken);
     Task<bool> UpdateRequest(RequestDTO model, CancellationToken cancellationToken);
 
-    Task<bool> ChangeRequestStatus(RequestDTO status, CancellationToken cancellationToken);
+    Task<bool> ChangeRequestStatus(StatusRequestDto status, CancellationToken cancellationToken);
 }

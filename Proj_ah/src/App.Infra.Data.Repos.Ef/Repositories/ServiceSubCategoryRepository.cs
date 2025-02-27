@@ -50,6 +50,8 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
                 Title = model.Title,
                 SubCategory = model.SubCategory,
                 SubCategoryId = model.SubCategoryId,
+                ImagePath = model.ImagePath,
+                CategoryName = model.SubCategory.Title,
 
 
             }).ToListAsync(cancellationToken);

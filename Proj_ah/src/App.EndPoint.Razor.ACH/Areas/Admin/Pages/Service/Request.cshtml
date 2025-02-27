@@ -1,6 +1,6 @@
-﻿@* @page
+﻿@page
 @using System.ComponentModel.DataAnnotations
-@model Achar.Endpoint.Razor.Areas.Admin.Pages.Service.RequestModel
+@model App.EndPoint.Razor.ACH.Admin.Pages.Service.RequestModel
 @{
     ViewData["Title"] = "مدیریت درخواست‌ها";
     Layout = "_Layout";
@@ -31,7 +31,7 @@
         <thead>
             <tr>
                 <th>شناسه</th>
-                <th>عنوان</th>
+               @*  <th>عنوان</th> *@
                 <th>توضیحات</th>
                 <th>قیمت</th>
                 <th>تاریخ ایجاد</th>
@@ -44,18 +44,18 @@
             {
                 <tr>
                     <td>@request.Id</td>
-                    <td>@request.Title</td>
+                  @*   <td>@request.Title</td> *@
                     <td>@request.Description</td>
-                    <td>@request.Price</td>
-                    <td>@request.CreateAt.ToString("yyyy-MM-dd")</td>
+                    <td>@request.BasePrice</td>
+                    <td>@request.CreatedAt.ToString("yyyy-MM-dd")</td>
                     <td>@DisplayEnum(request.Status)</td>
                     <td>
                         <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#changeStatusModal-@request.Id">
                             تغییر وضعیت
                         </button>
-                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteRequestModal-@request.Id">
+                      @*   <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteRequestModal-@request.Id">
                             حذف
-                        </button>
+                        </button> *@
                     </td>
                 </tr>
             }
@@ -78,11 +78,11 @@
                         <div class="mb-3">
                             <label asp-for="Status.Status" class="form-label fw-semibold">وضعیت</label>
                             <select class="form-control" asp-for="Status.Status">
-                                <option value="AwaitingSuggestionExperts">در انتظار پیشنهاد کارشناسان</option>
-                                <option value="AwaitingCustomerConfirmation">در انتظار تایید مشتری</option>
-                                <option value="WaitingForExpert">در انتظار مراجعه کارشناس</option>
-                                <option value="Success">با‌موفقیت انجام‌شد</option>
-                                <option value="CancelledByExpert">توسط کارشناس کنسل‌شد</option>
+                                <option value="CheckingAndWaitingExpert">در انتظار پیشنهاد کارشناسان</option>
+                                <option value="RegisteredByExpert">تایید شده توسط کارشناس</option>
+                                
+                                <option value="Done">با‌موفقیت انجام‌شد</option>
+                                
                             </select>
                             <span asp-validation-for="Status.Status" class="text-danger"></span>
                         </div>
@@ -93,7 +93,7 @@
         </div>
     </div>
 
-    <div class="modal fade" id="deleteRequestModal-@request.Id" tabindex="-1" aria-labelledby="deleteRequestModalLabel-@request.Id" aria-hidden="true">
+@*     <div class="modal fade" id="deleteRequestModal-@request.Id" tabindex="-1" aria-labelledby="deleteRequestModalLabel-@request.Id" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -112,7 +112,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> *@
 }
 
 @functions {
@@ -124,4 +124,3 @@
         return attribute?.GetName() ?? enumValue.ToString();
     }
 }
- *@

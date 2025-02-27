@@ -18,12 +18,14 @@ public class SuggestionDTO
     public Request? Request { get; set; }
 
     public int ExpertId { get; set; }
+
+    public string ExpertName { get; set; }
     public Expert? Expert { get; set; }
     public float Amount { get; set; }
     public bool? IsWinner { get; set; }
 
 
-    public DateTime? SuggestedDo { get; set; }
+    public DateTime SuggestedDo { get; set; }
 
 
     public SuggestionStatusEnum? Status { get; set; }

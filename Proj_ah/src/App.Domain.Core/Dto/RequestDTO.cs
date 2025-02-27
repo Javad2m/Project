@@ -26,7 +26,7 @@ public class RequestDTO
     public RequestStatusEnum Status { get; set; }
     public List<Image>? Images { get; set; }
 
-
+    public DateTime CreatedAt { get; set; }
     public DateTime? DoneTime { get; set; }
 
     public float BasePrice { get; set; }

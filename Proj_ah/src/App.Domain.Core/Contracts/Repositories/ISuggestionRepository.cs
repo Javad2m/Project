@@ -14,4 +14,6 @@ public interface ISuggestionRepository
     Task<bool> UpdateSuggestion(SuggestionDTO model, CancellationToken cancellationToken);
 
     Task DeleteSuggestionById(int id, CancellationToken cancellationToken);
+
+    public Task<bool> ChangeSuggestionStatus(SuggestionStatusDto status, CancellationToken cancellationToken);
 }

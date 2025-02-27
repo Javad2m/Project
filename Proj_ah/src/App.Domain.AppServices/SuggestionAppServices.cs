@@ -30,4 +30,6 @@ public class SuggestionAppServices : ISuggestionAppServices
     public async Task<bool> UpdateSuggestion(SuggestionDTO model, CancellationToken cancellationToken)
     => await _suggestionServices.UpdateSuggestion(model, cancellationToken);
 
+    public async Task<bool> ChangeSuggestionStatus(SuggestionStatusDto status, CancellationToken cancellationToken)
+        => await _suggestionServices.ChangeSuggestionStatus(status, cancellationToken);
 }

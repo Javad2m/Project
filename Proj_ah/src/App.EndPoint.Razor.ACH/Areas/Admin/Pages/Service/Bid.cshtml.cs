@@ -1,75 +1,66 @@
-﻿//using AcharDomainCore.Contracts.Bid;
-//using AcharDomainCore.Contracts.Category;
-//using AcharDomainCore.Contracts.SubCategory;
-//using AcharDomainCore.Dtos.SubCategoryDto;
-//using AcharDomainCore.Dtos;
-//using AcharDomainCore.Dtos.BidDto;
-//using AcharDomainCore.Entites;
-//using Microsoft.AspNetCore.Mvc;
-//using Microsoft.AspNetCore.Mvc.RazorPages;
-//using Microsoft.Extensions.Logging;
-//using System;
-//using System.Collections.Generic;
-//using System.Threading;
-//using System.Threading.Tasks;
+﻿
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using App.Domain.Core.Contracts.AppServices;
+using App.Domain.Core.Dto;
 
-//namespace Achar.Endpoint.Razor.Areas.Admin.Pages.Service
-//{
-//    public class BidModel : PageModel
-//    {
-//        private readonly IBidAppService _bidAppService;
-//        private readonly ILogger<BidModel> _logger;
+namespace App.EndPoint.Razor.ACH.Admin.Pages.Service
+{
+    public class BidModel : PageModel
+    {
+        private readonly ISuggestionAppServices _suggestionAppServices;
 
-//        public BidModel(IBidAppService bidAppService, ILogger<BidModel> logger)
-//        {
-//            _bidAppService = bidAppService;
-//            _logger = logger;
-//        }
+        public BidModel(ISuggestionAppServices suggestionAppServices)
+        {
+            _suggestionAppServices = suggestionAppServices;
+        }
 
-//        [BindProperty]
-//        public List<GetBidDto> Bids { get; set; }
+        [BindProperty]
+        public List<SuggestionDTO> Bids { get; set; }
 
-//        [BindProperty]
-//        public SoftDeleteDto Delete { get; set; }
+        [BindProperty]
+        //public SoftDeleteDto Delete { get; set; }
+        public int Delete { get; set; }
 
-//        [BindProperty]
-//        public BidStatusDto Status { get; set; }
+        [BindProperty]
+        public SuggestionStatusDto Status { get; set; }
 
-//        public async Task OnGet(CancellationToken cancellationToken)
-//        {
-//            Bids = await _bidAppService.GetBids(cancellationToken);
-//        }
+        public async Task OnGet(CancellationToken cancellationToken)
+        {
+            Bids = await _suggestionAppServices.GetAllSuggestion(cancellationToken);
+        }
 
-//        public async Task<IActionResult> OnPostChangeStatusBid(CancellationToken cancellationToken)
-//        {
-//            try
-//            {
-//                await _bidAppService.ChangebidStatus(Status, cancellationToken);
-//                TempData["Success"] = "وضعیت پیشنهاد با موفقیت تغییر یافت.";
-//                _logger.LogInformation("[{Time}] وضعیت پیشنهاد با موفقیت تغییر یافت: {BidId}", DateTime.Now, Status.Id);
-//            }
-//            catch (Exception ex)
-//            {
-//                TempData["ErrorMessage"] = "خطا در انجام عملیات";
-//                _logger.LogError(ex, "[{Time}] خطا در تغییر وضعیت پیشنهاد: {BidId}", DateTime.Now, Status.Id);
-//            }
-//            return RedirectToPage("Bid");
-//        }
+        public async Task<IActionResult> OnPostChangeStatusBid(CancellationToken cancellationToken)
+        {
+            try
+            {
+                await _suggestionAppServices.ChangeSuggestionStatus(Status, cancellationToken);
+                TempData["Success"] = "وضعیت پیشنهاد با موفقیت تغییر یافت.";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "خطا در انجام عملیات";
+            }
+            return RedirectToPage("Bid");
+        }
 
-//        public async Task<IActionResult> OnPostDeleteBid(CancellationToken cancellationToken)
-//        {
-//            try
-//            {
-//                await _bidAppService.DeleteBid(Delete, cancellationToken);
-//                TempData["Success"] = "پیشنهاد با موفقیت حذف شد.";
-//                _logger.LogInformation("[{Time}] پیشنهاد با موفقیت حذف شد: {BidId}", DateTime.Now, Delete.Id);
-//            }
-//            catch (Exception ex)
-//            {
-//                TempData["ErrorMessage"] = "خطا در انجام عملیات";
-//                _logger.LogError(ex, "[{Time}] خطا در حذف پیشنهاد: {BidId}", DateTime.Now, Delete.Id);
-//            }
-//            return RedirectToPage("Bid");
-//        }
-//    }
-//}
+        public async Task<IActionResult> OnPostDeleteBid(CancellationToken cancellationToken)
+        {
+            try
+            {
+                await _suggestionAppServices.DeleteSuggestionById(Delete, cancellationToken);
+                TempData["Success"] = "پیشنهاد با موفقیت حذف شد.";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "خطا در انجام عملیات";
+            }
+            return RedirectToPage("Bid");
+        }
+    }
+}
