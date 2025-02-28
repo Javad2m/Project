@@ -350,8 +350,6 @@ C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\compressed\h7c1gdnfs9-muycvpuwrr.gz
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\compressed\p66d7h6fht-87fc7y1x7t.gz
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\compressed\jg0yl4gji1-mlv21k5csn.gz
-C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\compressed\dkhhnydtm7-1az5vhrcx9.gz
-C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\compressed\uzftgume81-1az5vhrcx9.gz
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -455,3 +453,6 @@ C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\compressed\6s18nub54i-fhpwpg6w7z.gz
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\compressed\3xpolxr3ms-7jztomqby3.gz
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\compressed\bc653wtfq8-go7kj9thz6.gz
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\scopedcss\Areas\Customer\Pages\Shared\_LayoutCustomer.cshtml.rz.scp.css
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\compressed\dkhhnydtm7-05qzn910qq.gz
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\compressed\uzftgume81-05qzn910qq.gz

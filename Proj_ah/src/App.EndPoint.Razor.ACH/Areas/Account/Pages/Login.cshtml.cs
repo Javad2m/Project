@@ -52,11 +52,12 @@ namespace App.EndPoint.Razor.ACH.Account.Pages
                     return LocalRedirect("/Customer/Index");
 
                 }
-                else
-                {
-                    TempData["Error"] = "نام کاربری یا رمز عبور نادرست است";
-                    return RedirectToPage("/User/Login");
-                }
+              
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "نام کاربری یا رمز عبور نادرست است";
+                return RedirectToPage("./Login");
             }
             return Page();
         }

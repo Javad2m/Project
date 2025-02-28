@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("App.Infra.Data.Db.SqlServer.Ef")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49ab4d87951570ed082d91ff1e87a2ebd31c8a0e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57286a5f222ee7988ea5980c8d07b90d82f502ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("App.Infra.Data.Db.SqlServer.Ef")]
 [assembly: System.Reflection.AssemblyTitleAttribute("App.Infra.Data.Db.SqlServer.Ef")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

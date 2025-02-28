@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+	<!-- Meta Data -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Goodup -  HTML</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="~/image/x-icon" href="~/assets/img/favicon.png">
+
+	<!-- Custom CSS -->
+	<link href="~/assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body dir="rtl">
+
+	<!-- ============================================================== -->
+	<!-- Preloader - style you can find in spinners.css -->
+	<!-- ============================================================== -->
+	<div class="preloader"></div>
+
+	<!-- ============================================================== -->
+	<!-- Main wrapper - style you can find in pages.scss -->
+	<!-- ============================================================== -->
+	<div id="main-wrapper">
+
+		<!-- ============================================================== -->
+		<!-- Top header  -->
+		<!-- ============================================================== -->
+		<div class="goodup-dashboard-wrap gray px-4 py-5">
+			<a class="mobNavigation" data-bs-toggle="collapse" href="#MobNav" role="button" aria-expanded="false" aria-controls="MobNav">
+				<i class="fas fa-bars ms-2"></i>منو
+			</a>
+			<div class="collapse" id="MobNav">
+				<div class="goodup-dashboard-nav sticky-top">
+					<div class="goodup-dashboard-inner">
+						<ul data-submenu-title="منو">
+@* 							<li class="active"><a href="dashboard.html"><i class="lni lni-dashboard ms-2"></i>داشبورد</a></li>
+ *@							<li><a href="dashboard-my-listings.html"><i class="lni lni-files ms-2"></i>درخواست های من</a></li>
+							<li><a href="dashboard-add-listings.html"><i class="lni lni-add-files ms-2"></i>افزودن درخواست</a></li>
+							
+							<li><a href="dashboard-my-bookings.html"><i class="lni lni-briefcase ms-2"></i>لیست پیشنهادها</a></li>
+							<li><a href="dashboard-wallet.html"><i class="lni lni-mastercard ms-2"></i>کیف پول</a></li>
+							
+						</ul>
+						<ul data-submenu-title="حساب کاربری">
+							<li><a href="dashboard-my-profile.html"><i class="lni lni-user ms-2"></i>تنظیمات </a></li>
+							<li><a href="dashboard-change-password.html"><i class="lni lni-lock-alt ms-2"></i>تغییر رمز عبور</a></li>
+							
+							<li><a href="login.html"><i class="lni lni-power-switch ms-2"></i>خروج</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="container mt-4">
+			<main role="main" class="pb-4">
+				@RenderBody()
+			</main>
+		</div>
+
+		<!-- ============================ Footer Start ================================== -->
+	
+		<!-- ============================ Footer End ================================== -->
+
+
+		<a id="tops-button" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+
+
+	</div>
+	<!-- ============================================================== -->
+	<!-- End Wrapper -->
+	<!-- ============================================================== -->
+	<!-- ============================================================== -->
+	<!-- All Jquery -->
+	<!-- ============================================================== -->
+
+	<script src="~/assets/js/jquery.min.js"></script>
+	<script src="~/assets/js/popper.min.js"></script>
+	<script src="~/assets/js/bootstrap.min.js"></script>
+	<script src="~/assets/js/slick.js"></script>
+	<script src="~/assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="~/assets/js/dropzone.js"></script>
+	<script src="~/assets/js/counterup.js"></script>
+	<script src="~/assets/js/lightbox.js"></script>
+	<script src="~/assets/js/moment.min.js"></script>
+	<script src="~/assets/js/daterangepicker.js"></script>
+	<script src="~/assets/js/lightbox.js"></script>
+	<script src="~/assets/js/jQuery.style.switcher.js"></script>
+	<script src="~/assets/js/custom.js"></script>
+	<!-- ============================================================== -->
+	<!-- This page plugins -->
+	<!-- ============================================================== -->
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

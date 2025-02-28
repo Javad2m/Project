@@ -623,6 +623,7 @@ wwwroot\assets\images\6.png
 wwwroot\assets\images\7.png
 wwwroot\assets\images\8.png
 wwwroot\assets\images\9.png
+wwwroot\assets\img\174.png
 wwwroot\assets\img\404.png
 wwwroot\assets\img\about.jpg
 wwwroot\assets\img\and.png

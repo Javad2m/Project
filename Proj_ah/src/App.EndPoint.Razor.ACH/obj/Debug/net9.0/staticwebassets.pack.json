@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\App.EndPoint.Razor.ACH.bundle.scp.css",
-      "PackagePath": "staticwebassets\\App.EndPoint.Razor.ACH.1az5vhrcx9.bundle.scp.css"
+      "PackagePath": "staticwebassets\\App.EndPoint.Razor.ACH.05qzn910qq.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\AdminTemplate\\css\\colors.css",
@@ -1771,6 +1771,10 @@
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\images\\9.png",
       "PackagePath": "staticwebassets\\assets\\images\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\174.png",
+      "PackagePath": "staticwebassets\\assets\\img\\174.png"
     },
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\404.png",
