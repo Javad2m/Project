@@ -1,7 +1,7 @@
 ﻿@page
 @model App.EndPoint.Razor.ACH.Admin.Pages.Users.IndexModel
 @{
-	ViewData["Title"] = "آچار > مدیریت کاربران > لیست کاربران";
+	ViewData["Title"] = "آچ آچ > مدیریت کاربران > لیست کاربران";
 }
 
 @if (TempData["ErrorMessage"] != null)
@@ -54,7 +54,7 @@
 						<thead>
 							<tr>
 								<th>شناسه</th>
-                                 <th>نام</th>
+								<th>نام</th>
 								<th>نام خانوادگی</th>
 								<th>نام کاربری</th>
 								<th>ایمیل</th>
@@ -66,10 +66,8 @@
 							@foreach (var admin in @Model.Admin)
 							{
 								<tr>
-									<td><input type="checkbox"></td>
 									<td>@admin.Id</td>
-									@*                                     <td><img style="border-radius: 50%" src="@(string.IsNullOrEmpty(admin.ApplicationUser.ProfileImageUrl) ?  "~/userassets/img/1.png" : admin.ApplicationUser.ProfileImageUrl)" width="80" height="80" /></td>
- *@                                    <td>@admin.FirstName</td>
+									<td>@admin.FirstName</td>
 									<td>@admin.LastName</td>
 									<td>@admin.ApplicationUser.UserName</td>
 									<td>@admin.ApplicationUser.Email</td>
@@ -91,8 +89,8 @@
 					<table class="table table-bordered table-hover table-striped" id="customer-table">
 						<thead>
 							<tr>
- 								<th>شناسه</th>
- 								<th>نام</th>
+								<th>شناسه</th>
+								<th>نام</th>
 								<th>نام خانوادگی</th>
 								<th>نام کاربری</th>
 								<th>ایمیل</th>
@@ -104,8 +102,8 @@
 							@foreach (var customer in @Model.Customer)
 							{
 								<tr>
- 									<td>@customer.Id</td>
- 									<td>@customer.FirstName</td>
+									<td>@customer.Id</td>
+									<td>@customer.FirstName</td>
 									<td>@customer.LastName</td>
 									<td>@customer.ApplicationUser.UserName</td>
 									<td>@customer.ApplicationUser.Email</td>
@@ -141,16 +139,16 @@
 							{
 								<tr>
 									<td>@expert.Id</td>
- 									<td>@expert.FirstName</td>
+									<td>@expert.FirstName</td>
 									<td>@expert.LastName</td>
 									<td>@expert.ApplicationUser.UserName</td>
 									<td>@expert.Email</td>
- 									<td>@expert.Wallet</td>
-							
+									<td>@expert.Wallet</td>
+
 									<td>
 										<a asp-page="ExpertUp" asp-route-id="@expert.Id" class="btn btn-info">ویرایش</a>
 										<a asp-page="DeleteUser" asp-route-id="@expert.Id" asp-route-userType="Expert" class="btn btn-danger">حذف</a>
-										
+
 
 
 									</td>

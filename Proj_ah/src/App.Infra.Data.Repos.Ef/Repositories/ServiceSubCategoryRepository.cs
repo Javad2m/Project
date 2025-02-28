@@ -3,6 +3,7 @@ using App.Domain.Core.Dto;
 using App.Domain.Core.Entities;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +15,13 @@ namespace App.Infra.Data.Repos.Ef.Repositories;
 public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
 {
     private readonly AppDbContext _context;
+    private readonly ILogger<ServiceSubCategoryRepository> _logger;
 
-    public ServiceSubCategoryRepository(AppDbContext context)
+
+    public ServiceSubCategoryRepository(AppDbContext context, ILogger<ServiceSubCategoryRepository> logger)
     {
         _context = context;
+        _logger = logger;
     }
     public async Task<bool> CreateService(ServiceSubCategoryDTO model, CancellationToken cancellationToken)
     {
@@ -34,10 +38,14 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
         {
             await _context.ServiceSubCategories.AddAsync(newService);
             await _context.SaveChangesAsync(cancellationToken);
+            _logger.LogInformation("Service created successfully: {ServiceId}", newService.Id);
+
             return true;
         }
         catch (Exception ex)
         {
+            _logger.LogError(ex, "Failed to create service: {ServiceId}", newService.Id);
+
             return false;
         }
     }
@@ -56,7 +64,7 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
 
 
             }).ToListAsync(cancellationToken);
-
+        _logger.LogInformation("Fetched services", result.Count);
         return result;
     }
 
@@ -68,6 +76,7 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
         service.Id = model.Id;
         service.Title = model.Title;
         service.SubCategoryId = model.SubCategoryId;
+        _logger.LogInformation("Service updated successfully: {ServiceId}", model.Id);
 
         await _context.SaveChangesAsync(cancellationToken);
 
@@ -82,6 +91,8 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
         if (service == null) return;
 
         service.IsDeleted = true;
+        _logger.LogInformation("Service deleted successfully");
+
         await _context.SaveChangesAsync(cancellationToken);
     }
 }

@@ -1,5 +1,5 @@
-﻿@* @page
-@model Achar.Endpoint.Razor.Areas.Admin.Pages.Users.CreateAdminModel
+﻿@page
+@model App.EndPoint.Razor.ACH.Admin.Pages.Users.CreateAdminModel
 @{
 }
 @{
@@ -18,11 +18,27 @@
         <div class="portlet-body">
             <form enctype="multipart/form-data" id="simple-form" role="form" method="post">
                 <div class="form-body">
+
+                    <!-- FirstName Field -->
+                    <div class="form-group mb-4">
+                        <label for="UserName" class="fw-semibold">نام</label>
+                        <div class="input-group">
+                            <input asp-for="User.FirstName" class="form-control" type="text" placeholder="نام " id="FirstName" required="نام  اجباری است">
+                        </div>
+                    </div>
+
+                    <!-- LastName Field -->
+                    <div class="form-group mb-4">
+                        <label for="UserName" class="fw-semibold"> نام خانوادگی</label>
+                        <div class="input-group">
+                            <input asp-for="User.LastName" class="form-control" type="text" placeholder="نام " id="LastName" required="نام خانوادگی اجباری است">
+                        </div>
+                    </div>
                     <!-- UserName Field -->
                     <div class="form-group mb-4">
                         <label for="UserName" class="fw-semibold">نام کاربری</label>
                         <div class="input-group">
-                            <input asp-for="User.UserName" class="form-control" type="text" placeholder="نام کاربری" id="UserName" required="نام کاربری اجباری است">
+                            <input asp-for="User.Email" class="form-control" type="text" placeholder="نام کاربری" id="Email" required="ایمیل اجباری است">
                         </div>
                     </div>
 
@@ -48,4 +64,3 @@
         </div><!-- /.portlet-body -->
     </div><!-- /.portlet -->
 </div><!-- /.col-lg-12 -->
- *@

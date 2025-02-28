@@ -11,7 +11,7 @@ namespace App.Domain.Core.Contracts.Services;
 public interface IExpertServices
 {
     Task<bool> CreateExpert(ExpertDTO model, CancellationToken cancellationToken);
-    Task DeleteExpertById(int id, CancellationToken cancellationToken);
+    Task<bool> DeleteExpertById(int id, CancellationToken cancellationToken);
     Task<List<Expert>> GetAllExperts(CancellationToken cancellationToken);
     Task UpdateExpert(ExpertDTO model, CancellationToken cancellationToken);
 

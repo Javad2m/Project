@@ -1,28 +1,28 @@
-﻿@* @page "{id}"
-@model Achar.Endpoint.Razor.Areas.Admin.Pages.Users.DeleteUserModel
+﻿@page "{id}"
+@model App.EndPoint.Razor.ACH.Admin.Pages.Users.DeleteUserModel
 
 @{
-    ViewData["Title"] = "حذف کاربر";
+	ViewData["Title"] = "حذف کاربر";
 }
 
 <h2>@ViewData["Title"]</h2>
 
 <div class="alert alert-warning">
-    <strong>اخطار:</strong> قبل از حذف کاربر، لطفاً مطمئن شوید که قصد حذف این کاربر را دارید.
+	<strong>اخطار:</strong> قبل از حذف کاربر، لطفاً مطمئن شوید که قصد حذف این کاربر را دارید.
 </div>
 
 @{
-    ViewData["Title"] = "حذف تسک";
+	ViewData["Title"] = "حذف کاربر";
 }
 
 <h3>حذف تسک</h3>
 
 <div>
-    <h4>آیا از حذف این کاربر اطمینان دارید؟</h4>
-    <form method="post" asp-page-handler="Delete" asp-route-id="@Model.delete.Id" asp-route-userType="@ViewData["UserType"]">
-        <button type="submit" class="btn btn-danger btn-sm">حذف</button>
-        <a href="@Url.Page("/Account/Users/Index")" class="btn btn-secondary btn-sm">بازگشت</a>
-    </form>
+	<h4>آیا از حذف این کاربر اطمینان دارید؟</h4>
+	<form method="post" asp-page-handler="Delete" asp-route-id="@Model.delete" asp-route-userType="@ViewData["UserType"]">
+		<button type="submit" class="btn btn-danger btn-sm">حذف</button>
+		<a href="@Url.Page("/Account/Users/Index")" class="btn btn-secondary btn-sm">بازگشت</a>
+	</form>
 
 
-</div> *@
+</div>

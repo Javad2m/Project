@@ -989,8 +989,984 @@
       "PackagePath": "staticwebassets\\AdminTemplate\\plugins\\switchery\\dist\\switchery.min.css"
     },
     {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\IRANSansWeb\\IRANSansWeb(FaNum).woff",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\IRANSansWeb\\IRANSansWeb(FaNum).woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\IRANSansWeb\\IRANSansWeb.eot",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\IRANSansWeb\\IRANSansWeb.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\IRANSansWeb\\IRANSansWeb.ttf",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\IRANSansWeb\\IRANSansWeb.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\IRANSansWeb\\IRANSansWeb.woff",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\IRANSansWeb\\IRANSansWeb.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\materialdesignicons-webfont772b.eot",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\materialdesignicons-webfont772b.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\materialdesignicons-webfont772b.html",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\materialdesignicons-webfont772b.html"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\materialdesignicons-webfont772b.ttf",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\materialdesignicons-webfont772b.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\materialdesignicons-webfont772b.woff",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\materialdesignicons-webfont772b.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\materialdesignicons-webfont772b.woff2",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\materialdesignicons-webfont772b.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\materialdesignicons-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\materialdesignicons-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\vazir\\Vazir-Bold-FD.woff",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\vazir\\Vazir-Bold-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\vazir\\Vazir-Bold.eot",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\vazir\\Vazir-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\vazir\\Vazir-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\vazir\\Vazir-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\vazir\\Vazir-Bold.woff",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\vazir\\Vazir-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\vazir\\Vazir-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\vazir\\Vazir-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\vazir\\Vazir-Meduim-FD.woff",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\vazir\\Vazir-Meduim-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\vazir\\Vazir.eot",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\vazir\\Vazir.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\vazir\\Vazir.ttf",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\vazir\\Vazir.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\vazir\\Vazir.woff",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\vazir\\Vazir.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\fonts\\vazir\\Vazir.woff2",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\vazir\\Vazir.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\images\\1.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\images\\2.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\images\\3.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\images\\4.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\images\\5.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\images\\6.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\images\\7.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\images\\8.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\images\\9.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\d-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\d-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\d-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\d-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\d-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\d-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\d-4.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\d-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\d-5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\d-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\d-6.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\d-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\envato-icon.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\envato-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\h-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\h-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\h-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\h-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\h-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\h-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\h-4.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\h-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\h-5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\h-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\home.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\l-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\l-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\l-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\l-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\l-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\l-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\l-4.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\l-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\l-5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\l-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\l-6.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\l-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\loader.svg",
+      "PackagePath": "staticwebassets\\assets2\\img\\loader.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\nh-1.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\nh-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\nh-2.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\nh-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\nh-3.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\nh-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\nh-4.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\nh-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\s-1.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\s-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\s-2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\s-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\s-3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\s-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\s-4.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\s-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\s-5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\s-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\s-6.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\s-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\s-7.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\s-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\img\\s-8.jpg",
+      "PackagePath": "staticwebassets\\assets2\\img\\s-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\js\\feather.min.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\js\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\jquery.easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\js\\scrollspy.min.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\scrollspy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\js\\typed.init.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\typed.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\js\\typed.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\typed.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets2\\js\\unicons.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\unicons.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\Flaticond41d.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\Flaticond41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansWeb\\IRANSansWeb(FaNum).woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansWeb\\IRANSansWeb(FaNum).woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansWeb\\IRANSansWeb.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansWeb\\IRANSansWeb.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansWeb\\IRANSansWeb.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansWeb\\IRANSansWeb.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansWeb\\IRANSansWeb.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansWeb\\IRANSansWeb.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansX\\IRANSansX-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansX\\IRANSansX-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansX\\IRANSansX-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansX\\IRANSansX-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\IRANSansX\\IRANSansXFaNum-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\LineIcons.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\LineIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\LineIcons.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\LineIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\LineIcons.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\LineIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\LineIcons.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\LineIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\LineIcons.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\LineIcons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\houses.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\houses.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\houses.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\houses.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\houses.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\houses.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\houses.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\houses.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\housesd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\housesd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\slickd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\slickd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\themify9f24.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\themify9f24.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\themify9f24.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\themify9f24.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\themify9f24.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\themify9f24.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\themifyd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\vazir\\Vazir-Bold-FD.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\vazir\\Vazir-Bold-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\vazir\\Vazir-Bold.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\vazir\\Vazir-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\vazir\\Vazir-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\vazir\\Vazir-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\vazir\\Vazir-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\vazir\\Vazir-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\vazir\\Vazir-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\vazir\\Vazir-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\vazir\\Vazir-Meduim-FD.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\vazir\\Vazir-Meduim-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\vazir\\Vazir.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\vazir\\Vazir.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\vazir\\Vazir.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\vazir\\Vazir.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\vazir\\Vazir.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\vazir\\Vazir.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\fonts\\vazir\\Vazir.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\vazir\\Vazir.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\animation.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\animation.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\date-picker.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\date-picker.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\dropzone.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\filepond.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\filepond.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\fonts\\LineIcons.html",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fonts\\LineIcons.html"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\fonts\\slick.html",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fonts\\slick.html"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\iconfont.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\iconfont.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\images\\layers-2x.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\layers-2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\images\\layers.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\layers.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\images\\marker-icon-2x.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\marker-icon-2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\images\\marker-icon.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\marker-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\images\\marker-shadow.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\marker-shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\leaflet.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\leaflet.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\line-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\line-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\magnificpopup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\magnificpopup.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\slick-theme.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\plugins\\themify.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\themify.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\IRANSansWeb\\IRANSansWeb(FaNum).woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IRANSansWeb\\IRANSansWeb(FaNum).woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\IRANSansWeb\\IRANSansWeb.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IRANSansWeb\\IRANSansWeb.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\IRANSansWeb\\IRANSansWeb.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IRANSansWeb\\IRANSansWeb.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\IRANSansWeb\\IRANSansWeb.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IRANSansWeb\\IRANSansWeb.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\materialdesignicons-webfont772b.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont772b.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\materialdesignicons-webfont772b.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont772b.html"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\materialdesignicons-webfont772b.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont772b.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\materialdesignicons-webfont772b.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont772b.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\materialdesignicons-webfont772b.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont772b.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\materialdesignicons-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\vazir\\Vazir-Bold-FD.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Bold-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\vazir\\Vazir-Bold.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\vazir\\Vazir-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\vazir\\Vazir-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\vazir\\Vazir-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\vazir\\Vazir-Meduim-FD.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir-Meduim-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\vazir\\Vazir.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir.eot"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\vazir\\Vazir.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\vazir\\Vazir.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir.woff"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\fonts\\vazir\\Vazir.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\vazir\\Vazir.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\images\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\images\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\images\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\images\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\images\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\images\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\images\\7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\images\\8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\images\\9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\404.png",
+      "PackagePath": "staticwebassets\\assets\\img\\404.png"
+    },
+    {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\Background.png",
       "PackagePath": "staticwebassets\\assets\\img\\Background.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\and.png",
+      "PackagePath": "staticwebassets\\assets\\img\\and.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\app.png",
+      "PackagePath": "staticwebassets\\assets\\img\\app.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\b-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\b-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\b-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\b-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\b-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\b-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\banner-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\bn-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bn-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\bn-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bn-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\burger-king.png",
+      "PackagePath": "staticwebassets\\assets\\img\\burger-king.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-10.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-11.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\c-9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\c-9.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\car\\c-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\car\\c-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\car\\c-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\car\\c-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\car\\c-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\car\\c-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\car\\c-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\car\\c-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\car\\c-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\car\\c-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\car\\c-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\car\\c-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\car\\c-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\car\\c-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\car\\c-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\car\\c-8.jpg"
     },
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\category\\16913018-ba12-4348-85d2-2994ff98fe6c2.png",
@@ -1115,6 +2091,122 @@
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\category\\zibaii.png",
       "PackagePath": "staticwebassets\\assets\\img\\category\\zibaii.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\cityTour.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cityTour.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\custom-img-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\custom-img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\custom-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\custom-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\d-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\d-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\d-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\d-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\d-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\d-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\d-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\d-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\d-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\d-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\d-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\d-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\debit.png",
+      "PackagePath": "staticwebassets\\assets\\img\\debit.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\doc-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doc-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\doc-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doc-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\doc-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doc-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\doc-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doc-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\doc-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doc-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\doc-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doc-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\doc-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doc-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\doc-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doc-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\envato-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\envato-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\h-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\h-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\h-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\h-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\h-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\h-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\h-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\h-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\h-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\h-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\hero-curve.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-curve.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\home.png",
+      "PackagePath": "staticwebassets\\assets\\img\\home.png"
     },
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\homeservice\\1.jpg",
@@ -1477,8 +2569,568 @@
       "PackagePath": "staticwebassets\\assets\\img\\homeservice\\90.jpg"
     },
     {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\basket.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\basket.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\booking.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\booking.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\broken-cable.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\broken-cable.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\burger.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\burger.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\car-wash.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\car-wash.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\chinese-food.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\chinese-food.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\cocktail.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\cocktail.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\coconut-tree.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\coconut-tree.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\delivery-truck.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\delivery-truck.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\dish.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\dish.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\fast-delivery.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\fast-delivery.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\hammer.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\hammer.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\home.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\house.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\house.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\mexican-hat.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\mexican-hat.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\oil.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\oil.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\online-shopping.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\online-shopping.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\padlock.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\padlock.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\parking.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\parking.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\plumbering.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\plumbering.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\poinsettia.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\poinsettia.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\rental-car.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\rental-car.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\salon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\salon.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\shopping-bag.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\shopping-bag.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\sketch.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\sketch.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\smartphone.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\smartphone.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\spa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\spa.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\tom-yum.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\tom-yum.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\tow-truck.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\tow-truck.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\towel-hanger.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\towel-hanger.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\weights.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\weights.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\icons\\wrench.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\wrench.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\imgSlide-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\imgSlide-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\imgSlide-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\imgSlide-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\imgSlide-03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\imgSlide-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\imgSlide-04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\imgSlide-04.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\ios.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ios.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\l-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-10.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-11.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-12.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-13.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-13.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-14.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-14.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-15.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-15.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-16.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-16.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-17.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-17.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-18.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-18.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\l-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\l-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\l-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\l-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\l-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\l-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\l-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\l-9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\l-9.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\landing-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\landing-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\lg-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lg-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\lg-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lg-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\lg-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lg-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\lg-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lg-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\lg-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lg-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\lg-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lg-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\lg-7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lg-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\lg-8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lg-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\list.png",
+      "PackagePath": "staticwebassets\\assets\\img\\list.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\listing\\l-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\listing\\l-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\loader.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\loader.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\logo-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-light.png"
+    },
+    {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\logo.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\m-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\m-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\m-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\m-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\m-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\m-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\m-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\m-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\m-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\m-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\m-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\m-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\med\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\med\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\med\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\med\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\med\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\med\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\med\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\med\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\med\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\med\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\med\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\med\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\med\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\med\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\med\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\med\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\menu-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\menu-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\menu-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\menu-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\menu-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\menu-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\nh-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\nh-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\nh-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\nh-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\nh-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\nh-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\nh-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\nh-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\real\\r-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\real\\r-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\real\\r-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\real\\r-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\real\\r-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\real\\r-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\real\\r-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\real\\r-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\real\\r-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\real\\r-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\real\\r-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\real\\r-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\real\\r-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\real\\r-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\real\\r-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\real\\r-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\rooms\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\rooms\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\rooms\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\rooms\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\rooms\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\rooms\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\rooms\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\rooms\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\rooms\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\rooms\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\rooms\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\rooms\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\rooms\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\rooms\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\rooms\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\rooms\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\s-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\s-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\s-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\s-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\s-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\s-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\s-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\s-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\s-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\s-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\s-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\s-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\s-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\s-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\s-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\s-8.jpg"
     },
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\services\\1.jpg",
@@ -1801,6 +3453,18 @@
       "PackagePath": "staticwebassets\\assets\\img\\services\\9.jpg"
     },
     {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\slide-banner-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slide-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\slide-banner-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slide-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\slide-banner-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slide-banner-3.jpg"
+    },
+    {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\subcategory\\Khodro-1-image.png",
       "PackagePath": "staticwebassets\\assets\\img\\subcategory\\Khodro-1-image.png"
     },
@@ -1897,6 +3561,74 @@
       "PackagePath": "staticwebassets\\assets\\img\\subcategory\\asbabkeshi.jpg"
     },
     {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\t-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\t-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\t-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\t-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\t-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\t-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\t-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\t-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\t-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\t-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\t-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\t-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\t-7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\t-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\t-8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\t-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\team-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\user-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\user-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\user-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\user-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\user-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\user-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\user-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\user-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\user-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\user-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\user-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\user-8.jpg"
+    },
+    {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\user\\0c471ef4-c089-40cd-af8c-8f89b7f43e591.png",
       "PackagePath": "staticwebassets\\assets\\img\\user\\0c471ef4-c089-40cd-af8c-8f89b7f43e591.png"
     },
@@ -1955,6 +3687,146 @@
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\user\\ec7d692b-64da-4f9d-9872-b12325b79ff41.png",
       "PackagePath": "staticwebassets\\assets\\img\\user\\ec7d692b-64da-4f9d-9872-b12325b79ff41.png"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\verify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\verify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\veryfy.html",
+      "PackagePath": "staticwebassets\\assets\\img\\veryfy.html"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\img\\video-header.mp4",
+      "PackagePath": "staticwebassets\\assets\\img\\video-header.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\counterup.js",
+      "PackagePath": "staticwebassets\\assets\\js\\counterup.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\daterangepicker-fa-ex.js",
+      "PackagePath": "staticwebassets\\assets\\js\\daterangepicker-fa-ex.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\dropzone.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\feather.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\filepond.js",
+      "PackagePath": "staticwebassets\\assets\\js\\filepond.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\jQuery.style.switcher.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jQuery.style.switcher.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\leaflet.js",
+      "PackagePath": "staticwebassets\\assets\\js\\leaflet.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\map.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\map_infobox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map_infobox.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\markerclusterer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\markerclusterer.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\moment-jalaali.js",
+      "PackagePath": "staticwebassets\\assets\\js\\moment-jalaali.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\moment.js",
+      "PackagePath": "staticwebassets\\assets\\js\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\plugins\\dashboard-2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dashboard-2.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\plugins\\morris.js\\morris.css",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\morris.js\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\plugins\\morris.js\\morris.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\morris.js\\morris.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\plugins\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\scrollspy.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scrollspy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\slick.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\typed.init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\typed.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\typed.js",
+      "PackagePath": "staticwebassets\\assets\\js\\typed.js"
+    },
+    {
+      "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\assets\\js\\unicons.js",
+      "PackagePath": "staticwebassets\\assets\\js\\unicons.js"
     },
     {
       "Id": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\wwwroot\\calendar-dist\\jalalidatepicker.css",

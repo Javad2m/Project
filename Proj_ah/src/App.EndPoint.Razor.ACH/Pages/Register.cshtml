@@ -61,13 +61,12 @@
                         <!-- Role Selection -->
                         <div class="mb-3">
                             <label class="form-label fw-semibold">انتخاب نقش</label>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" asp-for="@Model.AccountRegister.Role" value="Expert" id="roleExpert">
-                                <label class="form-check-label" for="roleExpert">متخصص</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" asp-for="@Model.AccountRegister.Role" value="Customer" id="roleCustomer" checked>
-                                <label class="form-check-label" for="roleCustomer">مشتری</label>
+                            <div class="input-group">
+                                <span class="input-group-text border-0"><i class="bi bi-person-badge"></i></span>
+                                <select asp-for="@Model.AccountRegister.Role" class="form-select">
+                                    <option value="Expert">متخصص</option>
+                                    <option value="Customer" selected>مشتری</option>
+                                </select>
                             </div>
                             <span asp-validation-for="@Model.AccountRegister.Role" class="text-danger"></span>
                         </div>

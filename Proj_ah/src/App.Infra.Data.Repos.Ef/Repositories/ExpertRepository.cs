@@ -3,6 +3,7 @@ using App.Domain.Core.Dto;
 using App.Domain.Core.Entities;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,12 @@ namespace App.Infra.Data.Repos.Ef.Repositories;
 public class ExpertRepository : IExpertRepository
 {
     private readonly AppDbContext _context;
-    public ExpertRepository(AppDbContext context)
+    private readonly ILogger<ExpertRepository> _logger;
+
+    public ExpertRepository(AppDbContext context, ILogger<ExpertRepository> logger)
     {
         _context = context;
+        _logger = logger;
     }
     public async Task<bool> CreateExpert(ExpertDTO model, CancellationToken cancellationToken)
     {
@@ -33,23 +37,30 @@ public class ExpertRepository : IExpertRepository
         {
             await _context.Experts.AddAsync(newExpert);
             await _context.SaveChangesAsync(cancellationToken);
+            _logger.LogInformation("Expert Create Succesfully");
+
             return true;
         }
         catch (Exception ex)
         {
+            _logger.LogError("Customer not created Maybe it has already been added Or there is another error {exception}", ex.Message);
+
             return false;
         }
     }
 
-    public async Task DeleteExpertById(int id, CancellationToken cancellationToken)
+    public async Task<bool> DeleteExpertById(int id, CancellationToken cancellationToken)
     {
         var expert = await _context.Experts
             .FirstOrDefaultAsync(e => e.Id == id, cancellationToken);
 
-        if (expert == null) return;
+        if (expert == null) return false;
 
         expert.IsDeleted = true;
+        _logger.LogInformation("Expert Delete Succesfully");
+
         await _context.SaveChangesAsync(cancellationToken);
+        return true;
     }
 
     public async Task<List<Expert>> GetAllExperts(CancellationToken cancellationToken)
@@ -58,6 +69,7 @@ public class ExpertRepository : IExpertRepository
             .Include(a => a.ApplicationUser)
              .Where(d => d.IsDeleted == false)
             .ToListAsync(cancellationToken);
+        _logger.LogInformation("Expert GetAll Succesfully");
 
         return result;
     }
@@ -78,6 +90,7 @@ public class ExpertRepository : IExpertRepository
         expert.City = model.City;
         expert.Description = model.Description;
 
+        _logger.LogInformation("Expert Update Succesfully");
 
         await _context.SaveChangesAsync(cancellationToken);
 

@@ -20,6 +20,11 @@ public class CustomerAppServices : ICustomerAppServices
         _customerServices = customerServices;
     }
 
+    public async Task<bool> DeleteCustomerById(int id, CancellationToken cancellationToken)
+    => await _customerServices.DeleteCustomerById(id, cancellationToken);
+
     public async Task<List<Customer>> GetAllCustomers(CancellationToken cancellationToken)
      => await _customerServices.GetAllCustomers(cancellationToken);
+
+
 }

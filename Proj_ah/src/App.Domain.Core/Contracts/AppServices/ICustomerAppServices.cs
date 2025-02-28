@@ -11,4 +11,6 @@ namespace App.Domain.Core.Contracts.AppServices;
 public interface ICustomerAppServices
 {
     Task<List<Customer>> GetAllCustomers(CancellationToken cancellationToken);
+    Task<bool> DeleteCustomerById(int id, CancellationToken cancellationToken);
+
 }

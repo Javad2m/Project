@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.endpoint.razor.ach\\areas\\admin\\pages\\users\\adminup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|solutionrelative:src\\app.endpoint.razor.ach\\areas\\admin\\pages\\users\\adminup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Users\\AdminUp.cshtml",
+              "RelativeDocumentMoniker": "src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Users\\AdminUp.cshtml",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Users\\AdminUp.cshtml",
+              "RelativeToolTip": "src\\App.EndPoint.Razor.ACH\\Areas\\Admin\\Pages\\Users\\AdminUp.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T01:44:18.191Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"

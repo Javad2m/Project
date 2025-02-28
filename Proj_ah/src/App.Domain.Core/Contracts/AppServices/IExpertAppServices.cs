@@ -11,4 +11,6 @@ namespace App.Domain.Core.Contracts.AppServices;
 public interface IExpertAppServices
 {
     Task<List<Expert>> GetAllExperts(CancellationToken cancellationToken);
+    Task<bool> DeleteExpertById(int id, CancellationToken cancellationToken);
+
 }

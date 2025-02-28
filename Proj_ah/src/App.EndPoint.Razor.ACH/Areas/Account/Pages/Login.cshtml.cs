@@ -37,7 +37,7 @@ namespace App.EndPoint.Razor.ACH.Account.Pages
                 if (User.IsInRole("Admin"))
                 {
                     TempData["Success"] = "ادمین با موفقیت وارد شد";
-                    return LocalRedirect("/Admin/Index");
+                    return LocalRedirect("/Admin/Users/Index");
                 }
 
                 if (User.IsInRole("Expert"))

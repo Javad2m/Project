@@ -10,11 +10,13 @@ namespace App.Domain.Core.Enum;
 public enum RequestStatusEnum
 {
 
-
+    [Display(Name = "در ارنتظار بررسی کارشناس")]
     CheckingAndWaitingExpert = 1,
 
+    [Display(Name = "تایید شده توسط کارشناس")]
     RegisteredByExpert = 2,
 
+    [Display(Name = "انجام شده")]
     Done = 3,
 
     

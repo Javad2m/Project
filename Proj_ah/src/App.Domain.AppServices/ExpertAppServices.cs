@@ -19,6 +19,9 @@ public class ExpertAppServices : IExpertAppServices
         _expertServices = expertServices;
     }
 
+    public async Task<bool> DeleteExpertById(int id, CancellationToken cancellationToken)
+    => await _expertServices.DeleteExpertById(id, cancellationToken);
+
     public async Task<List<Expert>> GetAllExperts(CancellationToken cancellationToken)
     => await _expertServices.GetAllExperts(cancellationToken);
 }

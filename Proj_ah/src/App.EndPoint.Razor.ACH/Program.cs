@@ -113,6 +113,9 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapStaticAssets();
+
+//app.UseSerilogRequestLogging();
+
 app.MapRazorPages()
    .WithStaticAssets();
 

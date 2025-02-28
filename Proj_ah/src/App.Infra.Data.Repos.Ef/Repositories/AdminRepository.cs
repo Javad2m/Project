@@ -88,6 +88,7 @@ public class AdminRepository : IAdminRepository
 
        => await _context.Admins
          .Include(a => a.ApplicationUser)
+        .Where(d => d.IsDeleted == false)
         .AsNoTracking().ToListAsync(cancellationToken);
 
 
@@ -118,7 +119,7 @@ public class AdminRepository : IAdminRepository
 
     public async Task<bool> Delete(int adminId, CancellationToken cancellationToken)
     {
-        var targetAdmin = await GetById(adminId, cancellationToken);
+        var targetAdmin = await _context.Admins.FirstOrDefaultAsync(a => a.Id == adminId);
         targetAdmin.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
         _logger.LogInformation("Admin Delete Succesfully");

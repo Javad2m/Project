@@ -3,6 +3,7 @@ using App.Domain.Core.Dto;
 using App.Domain.Core.Entities;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,12 @@ namespace App.Infra.Data.Repos.Ef.Repositories;
 public class CustomerRepository : ICustomerRepository
 {
     private readonly AppDbContext _context;
-    public CustomerRepository(AppDbContext context)
+    private readonly ILogger<CustomerRepository> _logger;
+
+    public CustomerRepository(AppDbContext context, ILogger<CustomerRepository> logger)
     {
         _context = context;
+        _logger = logger;
     }
 
     public async Task<bool> CreateCustomer(CustomerDTO model, CancellationToken cancellationToken)
@@ -33,10 +37,14 @@ public class CustomerRepository : ICustomerRepository
         {
             await _context.Customers.AddAsync(newCustomer);
             await _context.SaveChangesAsync(cancellationToken);
+            _logger.LogInformation("Customer Create Succesfully");
+
             return true;
         }
         catch (Exception ex)
         {
+            _logger.LogError("Customer not created Maybe it has already been added Or there is another error {exception}", ex.Message);
+
             return false;   
         }
     }
@@ -61,6 +69,7 @@ public class CustomerRepository : ICustomerRepository
     {
         var result = await _context.Customers
              .Include(a => a.ApplicationUser)
+             .Where(d => d.IsDeleted == false)
            .AsNoTracking().ToListAsync(cancellationToken);
 
         return result;

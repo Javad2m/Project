@@ -22,7 +22,7 @@ public class ExpertServices : IExpertServices
     public async Task<bool> CreateExpert(ExpertDTO model, CancellationToken cancellationToken)
     => await _expertRepository.CreateExpert(model, cancellationToken);
 
-    public async Task DeleteExpertById(int id, CancellationToken cancellationToken)
+    public async Task<bool> DeleteExpertById(int id, CancellationToken cancellationToken)
     => await _expertRepository.DeleteExpertById(id, cancellationToken);
 
     public async Task<List<Expert>> GetAllExperts(CancellationToken cancellationToken)

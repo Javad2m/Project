@@ -4,6 +4,7 @@ using App.Domain.Core.Entities;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +16,12 @@ namespace App.Infra.Data.Repos.Ef.Repositories;
 public class CategoryRepository : ICategoryRepository
 {
     private readonly AppDbContext _context;
+    private readonly ILogger<CategoryRepository> _logger;
 
-    public CategoryRepository(AppDbContext context)
+    public CategoryRepository(AppDbContext context, ILogger<CategoryRepository> logger)
     {
         _context = context;
+        _logger = logger;
     }
 
     public async Task<bool> CreateCategory(CategoryDTO model, CancellationToken cancellationToken)
@@ -57,6 +60,7 @@ public class CategoryRepository : ICategoryRepository
         var result = await _context.Categories
             .Where(d=>d.IsDeleted ==  false ) 
            .AsNoTracking().ToListAsync(cancellationToken);
+        _logger.LogInformation("Get All Categories");
 
         return result;
     }

@@ -61,6 +61,8 @@ public class SubCategoryRepository : ISubCategoryRepository
                Id = model.Id,
                Title = model.Title,
                CategoryId = model.CategoryId,
+               CategoryName = model.Category.Title, 
+               CreatAt = model.CreatAt,
 
 
            }).ToListAsync(cancellationToken);

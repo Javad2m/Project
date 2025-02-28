@@ -68,7 +68,7 @@
 		<tr>
 			<th>شناسه</th>
 			<th>عنوان</th>
-		@* 	<th>دسته‌بندی</th> *@
+			<th>دسته‌بندی</th>
 		@* 	<th>عکس</th> *@
 			<th>تاریخ ایجاد</th>
 			<th>عملیات</th>
@@ -80,7 +80,7 @@
 			<tr>
 				<td>@subCategory.Id</td>
 				<td>@subCategory.Title</td>
-				@*  <td>@subCategory.CategoryName</td> *@
+				 <td>@subCategory.CategoryName</td>
 			@* 	<td>
 					@if (!string.IsNullOrEmpty(subCategory.ImagePath))
 					{
@@ -131,11 +131,11 @@
 							</select>
 							<span asp-validation-for="NewSubCategory.CategoryId" class="text-danger"></span>
 						</div>
-						<div class="mb-3">
+						@* <div class="mb-3">
 							<label asp-for="NewSubCategory.ImagePath" class="form-label fw-semibold">عکس</label>
 							<input type="file" asp-for="NewSubCategory.ImagePath" class="form-control">
 							<span asp-validation-for="NewSubCategory.ImagePath" class="text-danger"></span>
-						</div>
+						</div> *@
 						<button type="submit" class="btn btn-success w-100 rounded-pill">ذخیره</button>
 					</form>
 				</div>
