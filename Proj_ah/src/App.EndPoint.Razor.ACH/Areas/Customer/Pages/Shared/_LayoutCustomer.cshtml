@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<!DOCTYPE html>
 <html lang="fa">
 
 <head>
@@ -31,36 +34,39 @@
 		<!-- Top header  -->
 		<!-- ============================================================== -->
 		<div class="goodup-dashboard-wrap gray px-4 py-5">
-			<a class="mobNavigation" data-bs-toggle="collapse" href="#MobNav" role="button" aria-expanded="false" aria-controls="MobNav">
-				<i class="fas fa-bars ms-2"></i>منو
-			</a>
-			<div class="collapse" id="MobNav">
-				<div class="goodup-dashboard-nav sticky-top">
-					<div class="goodup-dashboard-inner">
-						<ul data-submenu-title="منو">
-@* 							<li class="active"><a href="dashboard.html"><i class="lni lni-dashboard ms-2"></i>داشبورد</a></li>
- *@							<li><a href="dashboard-my-listings.html"><i class="lni lni-files ms-2"></i>درخواست های من</a></li>
-							<li><a href="dashboard-add-listings.html"><i class="lni lni-add-files ms-2"></i>افزودن درخواست</a></li>
-							
-							<li><a href="dashboard-my-bookings.html"><i class="lni lni-briefcase ms-2"></i>لیست پیشنهادها</a></li>
-							<li><a href="dashboard-wallet.html"><i class="lni lni-mastercard ms-2"></i>کیف پول</a></li>
-							
-						</ul>
-						<ul data-submenu-title="حساب کاربری">
-							<li><a href="dashboard-my-profile.html"><i class="lni lni-user ms-2"></i>تنظیمات </a></li>
-							<li><a href="dashboard-change-password.html"><i class="lni lni-lock-alt ms-2"></i>تغییر رمز عبور</a></li>
-							
-							<li><a href="login.html"><i class="lni lni-power-switch ms-2"></i>خروج</a></li>
-						</ul>
+			<div class="container-fluid">
+				<div class="row">
+					<!-- سایدبار -->
+					<div class="col-md-3">
+						<div class="goodup-dashboard-nav sticky-top">
+							<div class="goodup-dashboard-inner">
+								<ul data-submenu-title="منو">
+									<li>
+										<a asp-page="/Req/Request">
+											<i class="lni lni-files ms-2"></i> درخواست های من
+										</a>
+									</li>
+									<li><a asp-page="/Req/Create">><i class="lni lni-add-files ms-2"></i>افزودن درخواست</a></li>
+									<li><a asp-page="/Sug/Suggestion"><i class="lni lni-briefcase ms-2"></i>لیست پیشنهادها</a></li>
+									<li><a asp-page="/Wallet/Balance"><i class="lni lni-mastercard ms-2"></i>کیف پول</a></li>
+								</ul>
+								<ul data-submenu-title="حساب کاربری">
+									<li><a asp-page="/Prof/Profile"><i class="lni lni-user ms-2"></i>تنظیمات</a></li>
+									<li><a asp-page="/Prof/Pass"><i class="lni lni-lock-alt ms-2"></i>تغییر رمز عبور</a></li>
+									<li><a href="login.html"><i class="lni lni-power-switch ms-2"></i>خروج</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- محتوای اصلی -->
+					<div class="col-md-9">
+						<main role="main" class="pb-4">
+							@RenderBody()
+						</main>
 					</div>
 				</div>
 			</div>
-
-
-			<div class="container mt-4">
-			<main role="main" class="pb-4">
-				@RenderBody()
-			</main>
 		</div>
 
 		<!-- ============================ Footer Start ================================== -->
