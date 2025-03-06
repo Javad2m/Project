@@ -20,7 +20,7 @@ public class ServiceSubCategoryDTO
     public int SubCategoryId { get; set; }
     public SubCategory? SubCategory { get; set; }
     public List<Request>? Requests { get; set; }
-    public string CategoryName { get; set; }
+    public string? CategoryName { get; set; }
 
     public List<Expert>? Experts { get; set; }
 

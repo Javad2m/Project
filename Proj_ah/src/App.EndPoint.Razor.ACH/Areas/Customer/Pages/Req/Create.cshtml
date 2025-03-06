@@ -1,50 +1,85 @@
 ﻿@page
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @model App.EndPoint.Razor.ACH.Areas.Customer.Pages.Req.CreateModel
 @{
 	ViewData["Title"] = "مدیریت پیشنهادها";
 	Layout = "_LayoutCustomer";
 }
-<div class="dashboard-list-wraps bg-white rounded mb-4">
-	<div class="dashboard-list-wraps-head br-bottom py-3 px-3">
-		<div class="dashboard-list-wraps-flx">
-			<h4 class="mb-0 ft-medium fs-md"><i class="fa fa-file ms-2 theme-cl fs-sm"></i>اطلاعات آگهی</h4>
+<form method="post" asp-page-handler="Create" enctype="multipart/form-data">
+	<div class="dashboard-list-wraps bg-white rounded mb-4">
+		<div class="dashboard-list-wraps-head br-bottom py-3 px-3">
+			<div class="dashboard-list-wraps-flx">
+				<h4 class="mb-0 ft-medium fs-md">درخواست خدمات</h4>
+			</div>
 		</div>
-	</div>
 
-	<div class="dashboard-list-wraps-body py-3 px-3">
-		<div class="row">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-				<div class="form-group">
-					<label class="mb-1">عنوان</label>
-					<input type="text" class="form-control rounded" placeholder="رستوران ماهان" />
+		<div class="dashboard-list-wraps-body py-3 px-3">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<div class="form-group">
+						<label class="mb-1">انتخاب سرویس</label>
+						<select asp-for="@Model.Request.ServiceSubCategoryId" class="form-control">
+							@foreach (var item in Model.Services)
+							{
+								<option value="@item.Id" selected="@(item.Id == Model.Request.ServiceSubCategoryId ? "selected" : null)">
+									@item.Title
+								</option>
+							}
+						</select>
+					</div>
 				</div>
-			</div>
-			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-				<div class="form-group">
-					<label class="mb-1">دسته بندی</label>
-					<select class="form-control">
-						<option>رستوران</option>
-						<option>مرکز آموزشی</option>
-						<option>سالن عقد</option>
-						<option>سالن زیبایی</option>
-						<option>کافی شاپ</option>
-						<option>هتل</option>
-						<option>نظافت منزل</option>
-					</select>
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<div class="form-group">
+						<label class="mb-1">تاریخ مورد نظر</label>
+						<input asp-for="@Model.Request.DoneTime" id="doneTime" class="form-control rounded" type="date" />
+						<span asp-validation-for="@Model.Request.DoneTime" class="text-danger"></span>
+					</div>
 				</div>
-			</div>
-			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-				<div class="form-group">
-					<label class="mb-1">کلمات کلیدی</label>
-					<input type="text" class="form-control rounded" placeholder="کلمات کلیدی را با کاما وارد کنید" />
+
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+					<div class="form-group">
+						<label class="mb-1">توضیحات</label>
+						<textarea asp-for="@Model.Request.Description" class="form-control rounded ht-80"></textarea>
+						<span asp-validation-for="@Model.Request.Description" class="text-danger"></span>
+
+					</div>
 				</div>
-			</div>
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-				<div class="form-group">
-					<label class="mb-1">توضیحات</label>
-					<textarea class="form-control rounded ht-150" placeholder="درباره کسب و کار..."></textarea>
+
+
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<div class="form-group">
+						<label class="mb-1">قیمت پایه مورد نظر</label>
+						<input asp-for="@Model.Request.BasePrice" class="form-control rounded" type="number" min="0.01" step="0.01" placeholder="قیمت را وارد کنید" />
+						<span asp-validation-for="@Model.Request.BasePrice" class="text-danger"></span>
+					</div>
+				</div>
+
+
+			
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+					<div class="form-group p-2">
+						<button type="submit" class="btn theme-cl rounded theme-bg-light ft-medium">ثبت درخواست</button>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</form>
+
+
+@section Scripts {
+
+<script>
+    document.querySelector("form").addEventListener("submit", function(event) {
+        var basePrice = parseFloat(document.querySelector("input[name='Request.BasePrice']").value);
+        if (basePrice <= 0) {
+            event.preventDefault(); // جلوگیری از ارسال فرم
+            alert("قیمت باید بزرگتر از صفر باشد.");
+        }
+    });
+</script>
+
+
+}

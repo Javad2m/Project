@@ -1,6 +1,7 @@
 ﻿using App.Domain.Core.Entities;
 using App.Domain.Core.Entities.BaseEntities;
 using App.Domain.Core.Enum;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,13 +19,14 @@ public class RequestDTO
 
     public string? Description { get; set; }
 
-    public int? ServiceSubCategoryId { get; set; }
+    public int ServiceSubCategoryId { get; set; }
     public ServiceSubCategory? ServiceSubCategory { get; set; }
 
     public List<Suggestion>? Suggestions { get; set; }
 
     public RequestStatusEnum Status { get; set; }
-    public List<Image>? Images { get; set; }
+    public List<IFormFile>? Images { get; set; }
+
 
     public DateTime CreatedAt { get; set; }
     public DateTime? DoneTime { get; set; }

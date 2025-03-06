@@ -156,6 +156,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcUGFnZXNcUmVxXFJlcXVlc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Notebook/Desktop/Proj/Proj_ah/src/App.EndPoint.Razor.ACH/Areas/Customer/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Notebook/Desktop/Proj/Proj_ah/src/App.EndPoint.Razor.ACH/Areas/Customer/Pages/Sug/Suggestion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcUGFnZXNcU3VnXFN1Z2dlc3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
