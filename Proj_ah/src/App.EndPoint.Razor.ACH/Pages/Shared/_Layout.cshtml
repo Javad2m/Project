@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="fa">
 
 <head>
@@ -55,19 +56,17 @@
 							<li class="active">
 								<a href="javascript:void(0);">صفحه اصلی</a>
 								<ul class="nav-dropdown nav-submenu">
-									<li><a href="index.html">تمیز کاری</a></li>
-									<li><a href="home-2.html">ساختمان</a></li>
-									<li><a href="home-3.html">تعمیرات اشیا</a></li>
-									<li><a href="home-4.html">اسباب کشی و حمل بار</a></li>
-									<li><a href="home-5.html">خودرو </a></li>
-									<li><a href="home-5.html">سلامت و زیبایی </a></li>
-
+									<li><a asp-page="/Index">صفحه اصلی</a></li>
+									<li><a asp-page="/SubCategory"> دسته بندی</a></li>
+									<li><a asp-page="/SubCategory"> زیر دسته بندی</a></li>
+									<li><a asp-page="/HomeService"> خدمات</a></li>
 								</ul>
+							
 							</li>
 
 						</ul>
 
-						<ul class="nav-menu nav-menu-social align-to-left">
+						<ul class="nav-menu nav-menu-social align-to-left ">
 							<li>
 								<a asp-area="Account" asp-page="/Login" class="ft-bold">
 									<i class="fas fa-sign-in-alt ms-1 theme-cl"></i>ورود
@@ -75,7 +74,7 @@
 							</li>
 							<li class="add-listing">
 								<a asp-area="Account" asp-page="/Customer/dashboard">
-									<i class="fas fa-plus ms-2"></i>ورود کاربر
+									<i class="fas fa-plus ms-2"></i>ثبت نام
 								</a>
 							</li>
 						</ul>

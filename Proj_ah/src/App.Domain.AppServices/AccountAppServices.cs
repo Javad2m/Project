@@ -38,7 +38,7 @@ public class AccountAppServices : IAccountAppServices
     {
         _logger.LogInformation("Login attempt for user: {Email}", email);
         var result = await _signInManager.PasswordSignInAsync(email, password, true, lockoutOnFailure: false);
-
+        _logger.LogError("Login attempt for user: {Email} یسبببببببببتدسیدمبسیدبمسیدبمییسبسی", email);
         return result.Succeeded;
     }
 

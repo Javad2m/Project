@@ -15,4 +15,9 @@ public interface IServiceSubCategoryAppServices
     Task UpdateService(ServiceSubCategoryDTO model, CancellationToken cancellationToken);
 
     Task DeleteService(int id, CancellationToken cancellationToken);
+
+    Task<List<ServiceSubCategoryDTO?>> GetAllBySubId(int subCategory, CancellationToken cancellationToken);
+
+    Task<ServiceSubCategoryDTO> GetServiceById(int id, CancellationToken cancellationToken);
+
 }

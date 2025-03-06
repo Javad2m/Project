@@ -6,24 +6,16 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace App.EndPoint.Razor.ACH.Pages
 {
-    public class IndexModel : PageModel
+    public class SubCategoryModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
-        private readonly ICategoryAppServices _categoryAppServices;
         private readonly ISubCategoryAppServices _subCategoryAppServices;
         private readonly IServiceSubCategoryAppServices _serviceSubCategoryAppServices;
 
-        public IndexModel(ILogger<IndexModel> logger, ICategoryAppServices categoryAppServices, ISubCategoryAppServices subCategoryAppServices, IServiceSubCategoryAppServices serviceSubCategoryAppServices)
+        public SubCategoryModel(ISubCategoryAppServices subCategoryAppServices, IServiceSubCategoryAppServices serviceSubCategoryAppServices )
         {
-            _logger = logger;
-            _categoryAppServices = categoryAppServices;
-            _subCategoryAppServices = subCategoryAppServices;
             _serviceSubCategoryAppServices = serviceSubCategoryAppServices;
+            _subCategoryAppServices = subCategoryAppServices;
         }
-
-
-        [BindProperty]
-        public List<Category> Categories { get; set; }
 
         [BindProperty]
         public List<ServiceSubCategoryDTO> HomeServices { get; set; }
@@ -38,7 +30,6 @@ namespace App.EndPoint.Razor.ACH.Pages
 
         public async Task OnGet(CancellationToken cancellationToken)
         {
-            Categories = await _categoryAppServices.GetAllCategories(cancellationToken);
             SubCategories = await _subCategoryAppServices.GetAllSub(cancellationToken);
             HomeServices = await _serviceSubCategoryAppServices.GetAllServices(cancellationToken);
         }

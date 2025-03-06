@@ -6,3 +6,44 @@
     ViewData["Title"] = "مدیریت پیشنهادها";
     Layout = "_LayoutCustomer";
 }
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Message"]
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+
+
+<div class="dashboard-tlbar d-block mb-5">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+            <h3 class="breadcrumb-item">
+                <a href="#" class="theme-cl">داشبورد</a>
+            </h3>
+
+            <div class="customer-info card shadow-sm p-4 rounded-lg mt-3">
+                <h5 class="fw-bold text-primary mb-3">اطلاعات کاربر</h5>
+                <p class="mb-2"><strong>نام:</strong> @Model.Customer.FirstName</p>
+                <p class="mb-2"><strong>نام خانوادگی:</strong> @Model.Customer.LastName</p>
+                <p class="mb-0"><strong>موجودی:</strong> <span class="text-success">@Model.Customer.Wallet تومان</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+

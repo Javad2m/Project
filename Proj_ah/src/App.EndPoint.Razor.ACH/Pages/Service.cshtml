@@ -1,0 +1,52 @@
+﻿@page
+@model App.EndPoint.Razor.ACH.Pages.ServiceModel
+@{
+}
+
+
+
+<section class="gray py-5 position-relative">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+				<div class="bg-white rounded mb-4" style="padding: 2rem; font-size: 1.2rem;">
+					<div class="jbd-01 px-4 py-4">
+						<div class="jbd-details mb-4">
+							<h5 class="ft-bold fs-lg">جزئیات خدمات</h5>
+							<div class="Goodup-lot-wrap d-block">
+								<div class="row g-4">
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="Goodup-sng-menu-thumb">
+											@if (!string.IsNullOrEmpty(Model.Service.ImagePath))
+											{
+												<img src="@Model.Service.ImagePath" class="img-fluid" alt="Service Image" width="400" height="400" />
+											}
+											else
+											{
+												<span>بدون عکس</span>
+											}
+										</div>
+										<div class="list-map-capt" style="margin-top: 1rem;">
+											<div class="lio-pact">
+												<span class="ft-medium text-info" style="font-size: 1.2rem;">عنوان: @Model.Service.Title</span>
+											</div>
+											<div class="lio-pact">
+												<p class="ft-medium" style="font-size: 1.2rem;">دسته بندی: @Model.Service.CategoryName</p>
+											</div>
+
+
+										</div>
+										<a asp-area="Customer" asp-page="/Req/Create" asp-route-id="@Model.Service.Id" class="btn btn-primary mt-2">ثبت درخواست</a>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</section>

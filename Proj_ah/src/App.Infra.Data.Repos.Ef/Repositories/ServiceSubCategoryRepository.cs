@@ -95,4 +95,37 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
 
         await _context.SaveChangesAsync(cancellationToken);
     }
+
+    public async Task<List<ServiceSubCategoryDTO?>> GetAllBySubId(int subCategory, CancellationToken cancellationToken)
+    {
+        var services = await _context.ServiceSubCategories
+              .AsNoTracking()
+              .Where(e => e.SubCategoryId == subCategory)
+              .Select(e => new ServiceSubCategoryDTO()
+              {
+                  Id = e.Id,
+                  Title = e.Title,
+                  ImagePath = e.ImagePath,
+                  SubCategoryId = e.SubCategoryId,
+                  CategoryName = e.SubCategory.Title,
+              }).AsNoTracking().ToListAsync(cancellationToken);
+        return services;
+    }
+
+    public async Task<ServiceSubCategoryDTO> GetServiceById(int id, CancellationToken cancellationToken)
+    {
+        var service = await _context.ServiceSubCategories.AsNoTracking().Include(x => x.SubCategory).FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
+        if (service is null)
+        {
+            throw new Exception("خدمات  پیدا نشد.");
+        }
+        return new ServiceSubCategoryDTO
+        {
+            Id = service.Id,
+            Title = service.Title,
+            ImagePath = service.ImagePath,
+            SubCategoryId = service.SubCategoryId,
+            CategoryName = service.SubCategory.Title
+        };
+    }
 }

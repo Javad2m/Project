@@ -22,8 +22,14 @@ public class ServiceSubCategoryAppServices : IServiceSubCategoryAppServices
     public async Task DeleteService(int id, CancellationToken cancellationToken)
      => await _serviceSubCategoryServices.DeleteService(id, cancellationToken);
 
+    public async Task<List<ServiceSubCategoryDTO?>> GetAllBySubId(int subCategory, CancellationToken cancellationToken)
+    => await _serviceSubCategoryServices.GetAllBySubId(subCategory, cancellationToken);
+
     public async Task<List<ServiceSubCategoryDTO>> GetAllServices(CancellationToken cancellationToken)
     => await _serviceSubCategoryServices.GetAllServices(cancellationToken);
+
+    public async Task<ServiceSubCategoryDTO> GetServiceById(int id, CancellationToken cancellationToken)
+    => await _serviceSubCategoryServices.GetServiceById(id, cancellationToken);
 
     public async Task UpdateService(ServiceSubCategoryDTO model, CancellationToken cancellationToken)
     => await _serviceSubCategoryServices.UpdateService(model, cancellationToken);
