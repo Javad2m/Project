@@ -65,6 +65,10 @@ builder.Services.AddScoped<IServiceSubCategoryAppServices, ServiceSubCategoryApp
 builder.Services.AddScoped<ISubCategoryAppServices, SubCategoryAppServices>();
 builder.Services.AddScoped<ICityAppServices, CityAppServices>();
 
+
+
+
+
 var connectionString = builder.Configuration.GetConnectionString("AppDbContextConnection") ?? throw new InvalidOperationException("Connection string 'AppDbContextConnection' not found."); ;
 
 
@@ -78,6 +82,10 @@ builder.Services.AddSingleton(siteSetting);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(siteSetting.ConnectionStrings.SqlConnection));
+
+
+
+builder.Services.AddMemoryCache();
 
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>(options =>

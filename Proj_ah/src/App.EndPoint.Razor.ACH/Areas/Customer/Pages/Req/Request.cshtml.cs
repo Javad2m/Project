@@ -34,19 +34,27 @@ namespace App.EndPoint.Razor.ACH.Areas.Customer.Pages.Req
         }
 
 
-        public async Task<IActionResult> OnPostAcceptRequest(int id, int expertId, CancellationToken cancellationToken)
+        public async Task<IActionResult> OnPostAcceptRequest(int id,int suggestionId, CancellationToken cancellationToken)
         {
+
             try
             {
                 var userCustomerId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == "userCustomerId")?.Value ?? "0");
-                await _requestAppServices.AcceptExpert(id, userCustomerId, cancellationToken);
-                TempData["Success"] = "??????? ????? ??";
+              var checl =  await _requestAppServices.AcceptExpert(id, suggestionId, cancellationToken);
+                if (checl)
+                {
+                    TempData["Success"] = "Sugg Accepted";
+                } else
+                {
+                    TempData["Success"] = "U Have any Accept Sug";
+                }
+               
             }
             catch (Exception ex)
             {
-                TempData["ErrorMessage"] = "??? ?? ????? ???????";
+                TempData["ErrorMessage"] = "Error Accept Sugg";
             }
-            return RedirectToPage("ListRequest");
+            return RedirectToPage();
         }
 
         public async Task<IActionResult> OnPostDoneRequest(int id, CancellationToken cancellationToken)
@@ -60,7 +68,7 @@ namespace App.EndPoint.Razor.ACH.Areas.Customer.Pages.Req
             {
                 TempData["ErrorMessage"] = "??? ?? ????? ??????";
             }
-            return RedirectToPage("ListRequest");
+            return RedirectToPage();
         }
 
         public async Task<IActionResult> OnPostCancellRequest(int id, CancellationToken cancellationToken)
@@ -74,14 +82,14 @@ namespace App.EndPoint.Razor.ACH.Areas.Customer.Pages.Req
             {
                 TempData["ErrorMessage"] = "??? ???? ???";
             }
-            return RedirectToPage("ListRequest");
+            return RedirectToPage();
         }
 
         public async Task<IActionResult> OnPostDeleteRequest(int id, CancellationToken cancellationToken)
         {
             try
             {
-                await _requestAppServices.DeleteRequest(id, cancellationToken);  
+                await _requestAppServices.DeleteRequest(id, cancellationToken);
                 TempData["Success"] = "Delete Succec";
                 return RedirectToPage();
             }

@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.endpoint.razor.ach\\areas\\customer\\pages\\com\\comment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|solutionrelative:src\\app.endpoint.razor.ach\\areas\\customer\\pages\\com\\comment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.endpoint.razor.ach\\areas\\customer\\pages\\com\\comment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|solutionrelative:src\\app.endpoint.razor.ach\\areas\\customer\\pages\\com\\comment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,32 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Comment.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\Areas\\Customer\\Pages\\Com\\Comment.cshtml.cs",
-              "RelativeDocumentMoniker": "src\\App.EndPoint.Razor.ACH\\Areas\\Customer\\Pages\\Com\\Comment.cshtml.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\Areas\\Customer\\Pages\\Com\\Comment.cshtml.cs",
-              "RelativeToolTip": "src\\App.EndPoint.Razor.ACH\\Areas\\Customer\\Pages\\Com\\Comment.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T05:56:37.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Comment.cshtml",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\Areas\\Customer\\Pages\\Com\\Comment.cshtml",
-              "RelativeDocumentMoniker": "src\\App.EndPoint.Razor.ACH\\Areas\\Customer\\Pages\\Com\\Comment.cshtml",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\Areas\\Customer\\Pages\\Com\\Comment.cshtml",
-              "RelativeToolTip": "src\\App.EndPoint.Razor.ACH\\Areas\\Customer\\Pages\\Com\\Comment.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T05:56:34.935Z",
-              "EditorCaption": ""
             }
           ]
         },

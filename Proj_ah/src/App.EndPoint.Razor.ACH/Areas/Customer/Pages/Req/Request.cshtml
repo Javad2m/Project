@@ -56,9 +56,9 @@
 									<table class="table">
 										<thead class="table-dark">
 											<tr>
-												<th>نام متخصص</th>
+												@* <th>نام متخصص</th> *@
 												<th>قیمت پیشنهادی</th>
-												<th>تاریخ پیشنهادی</th>
+												@* <th>تاریخ پیشنهادی</th> *@
 												<th>وضعیت</th>
 												<th>عمل‌ها</th>
 											</tr>
@@ -67,27 +67,30 @@
 											@foreach (var sug in item.Suggestions)
 											{
 												<tr>
-													<td>@sug.Expert.ApplicationUser.Email </td>
+													@* <td>@sug.Expert.ApplicationUser.Email </td> *@
 													<td>@sug.Amount</td>
 													<td>@DisplayEnum(sug.Status)</td>
 													<td>
 														@if (sug.Status == App.Domain.Core.Enum.SuggestionStatusEnum.AwaitingReview)
 														{
-															<form method="post" asp-page-handler="AcceptRequest" asp-route-id="@item.Id" asp-route-expertId="@sug.ExpertId">
+															<!-- فرم تایید درخواست فقط زمانی که هنوز تایید نشده است -->
+															<form method="post" asp-page-handler="AcceptRequest" asp-route-id="@item.Id" asp-route-suggestionId="@sug.Id" @* asp-route-expertId="@sug.ExpertId" *@>
 																<button type="submit" class="btn btn-success">تایید متخصص</button>
 															</form>
 														}
+														else if (sug.Status == App.Domain.Core.Enum.SuggestionStatusEnum.Accept)
+														{
+															<!-- اگر درخواست تایید شده باشد، هیچ دکمه‌ای نمایش داده نشود -->
+															<span class="text-success">درخواست تایید شده است</span>
+														}
 														else
 														{
-
-
-															<form method="post" asp-page-handler="CancellRequest" asp-route-id="@item.Id" asp-route-expertId="@sug.ExpertId">
-																<button type="submit" class="btn btn-danger">کنسل کردن درخواست</button>
-															</form>
-
+															<!-- اگر وضعیت دیگری باشد (مثلاً رد درخواست یا وضعیت دیگر)، نمایش پیام یا دکمه متفاوت -->
+															<span class="text-danger">درخواست رد شده است</span>
 														}
-
 													</td>
+
+
 												</tr>
 											}
 										</tbody>

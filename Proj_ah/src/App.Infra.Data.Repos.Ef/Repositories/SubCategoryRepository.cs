@@ -3,6 +3,7 @@ using App.Domain.Core.Dto;
 using App.Domain.Core.Entities;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,12 @@ namespace App.Infra.Data.Repos.Ef.Repositories;
 public class SubCategoryRepository : ISubCategoryRepository
 {
     private readonly AppDbContext _context;
-    public SubCategoryRepository(AppDbContext context)
+    private readonly IMemoryCache _memoryCache;
+
+    public SubCategoryRepository(AppDbContext context, IMemoryCache memoryCache)
     {
         _context = context;
+        _memoryCache = memoryCache;
     }
     public async Task<bool> CreateSub(SubCategoryDTO model, CancellationToken cancellationToken)
     {
@@ -33,6 +37,7 @@ public class SubCategoryRepository : ISubCategoryRepository
         {
             await _context.SubCategories.AddAsync(newSub);
             await _context.SaveChangesAsync(cancellationToken);
+            _memoryCache.Remove("AllSubCategories");
             return true;
         }
         catch (Exception ex)
@@ -50,22 +55,26 @@ public class SubCategoryRepository : ISubCategoryRepository
 
         sub.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
+        _memoryCache.Remove("AllSubCategories");
     }
 
     public async Task<List<SubCategoryDTO>> GetAllSub(CancellationToken cancellationToken)
     {
-        var result = await _context.SubCategories
-             .Where(d => d.IsDeleted == false)
-           .Select(model => new SubCategoryDTO
-           {
-               Id = model.Id,
-               Title = model.Title,
-               CategoryId = model.CategoryId,
-               CategoryName = model.Category.Title, 
-               CreatAt = model.CreatAt,
+        if (!_memoryCache.TryGetValue("AllSubCategories", out List<SubCategoryDTO> result))
+        {
+            result = await _context.SubCategories
+                .Where(d => d.IsDeleted == false)
+                .Select(model => new SubCategoryDTO
+                {
+                    Id = model.Id,
+                    Title = model.Title,
+                    CategoryId = model.CategoryId,
+                    CategoryName = model.Category.Title,
+                    CreatAt = model.CreatAt,
+                }).ToListAsync(cancellationToken);
 
-
-           }).ToListAsync(cancellationToken);
+            _memoryCache.Set("AllSubCategories", result, TimeSpan.FromMinutes(5));
+        }
 
         return result;
     }
@@ -80,5 +89,6 @@ public class SubCategoryRepository : ISubCategoryRepository
         service.CategoryId = model.CategoryId;
 
         await _context.SaveChangesAsync(cancellationToken);
+        _memoryCache.Remove("AllSubCategories");
     }
 }

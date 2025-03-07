@@ -3,8 +3,8 @@
 @using System.ComponentModel.DataAnnotations
 @model App.EndPoint.Razor.ACH.Areas.Customer.Pages.Com.CommentModel
 @{
-    ViewData["Title"] = "مدیریت پیشنهادها";
-    Layout = "_LayoutCustomer";
+	ViewData["Title"] = "مدیریت پیشنهادها";
+	Layout = "_LayoutCustomer";
 }
 
 @if (TempData["ErrorMessage"] != null)
@@ -24,47 +24,60 @@
 
 @if (Model.RequestDTOs == null || !Model.RequestDTOs.Any())
 {
-    <div class="alert alert-warning" role="alert">
-        شما سفارش انجام شده ای ندارید.
-    </div>
+	<div class="alert alert-warning" role="alert">
+		شما سفارش انجام شده ای ندارید.
+	</div>
 }
 else
 {
-    @foreach (var item in Model.RequestDTOs)
-    {
-        <div class="container dsd-single-listing-wraps">
-            <div class="row dsd-single-lst-caption">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-text"><strong>تاریخ انجام: </strong>@item.DoneTime</p>
-                            <p class="card-text"><strong>وضعیت: </strong>@DisplayEnum(item.Status)</p>
-                            <p class="card-text"><strong>هزینه درخواست: </strong>@item.BasePrice تومان</p>
-                            <p class="card-text"><strong>توضیحات: </strong>@item.Description</p>
+	@foreach (var item in Model.RequestDTOs)
+	{
+		<div class="container dsd-single-listing-wraps">
+			<div class="row dsd-single-lst-caption">
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<p class="card-text"><strong>تاریخ انجام: </strong>@item.DoneTime</p>
+							<p class="card-text"><strong>وضعیت: </strong>@DisplayEnum(item.Status)</p>
+							<p class="card-text"><strong>هزینه درخواست: </strong>@item.BasePrice تومان</p>
+							<p class="card-text"><strong>توضیحات: </strong>@item.Description</p>
 
-                            <!-- فرم درج کامنت -->
-                            <form method="post" asp-page-handler="AddComment" asp-route-id="@item.Id">
-                                <div class="mb-3">
-                                    <label for="commentText" class="form-label">کامنت شما:</label>
-                                    <textarea class="form-control" id="commentText" name="commentText" rows="3" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">ارسال کامنت</button>
-                            </form>
+							<!-- فرم درج کامنت و امتیاز -->
+							<form method="post" asp-page-handler="CreateComment" asp-route-id="@item.Id">
+								<div class="mb-3">
+									<label for="commentText" class="form-label">کامنت شما:</label>
+									<textarea class="form-control" id="commentText" name="commentText" rows="3" required></textarea>
+								</div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    }
+								<div class="mb-3">
+									<label for="rating" class="form-label">امتیاز شما:</label>
+									<select class="form-control" id="rating" name="rating" required>
+										<option value="1">1 - ضعیف</option>
+										<option value="2">2 - متوسط</option>
+										<option value="3">3 - خوب</option>
+										<option value="4">4 - خیلی خوب</option>
+										<option value="5">5 - عالی</option>
+									</select>
+								</div>
+
+								<button type="submit" class="btn btn-primary">ارسال نظر و امتیاز</button>
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	}
 }
 
-@functions {
-    public string DisplayEnum(Enum enumValue)
-    {
-        var field = enumValue.GetType().GetField(enumValue.ToString());
-        var attribute = (DisplayAttribute)field.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault();
 
-        return attribute?.GetName() ?? enumValue.ToString();
-    }
+@functions {
+	public string DisplayEnum(Enum enumValue)
+	{
+		var field = enumValue.GetType().GetField(enumValue.ToString());
+		var attribute = (DisplayAttribute)field.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault();
+
+		return attribute?.GetName() ?? enumValue.ToString();
+	}
 }

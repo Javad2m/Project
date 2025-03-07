@@ -152,7 +152,9 @@ public class RequestRepository : IRequestRepository
                   CreatedAt = r.CreatedAt,
                   CustomerId = r.CustomerId,
                   ServiceSubCategoryId = r.ServiceSubCategoryId,
+
                   Suggestions = r.Suggestions.ToList()
+
 
               })
               .ToListAsync(cancellationToken);
@@ -167,10 +169,10 @@ public class RequestRepository : IRequestRepository
             return false;
         }
 
-        acceptRequest.Suggestions = null;
+        //acceptRequest.Suggestions = null;
         acceptRequest.Status = Domain.Core.Enum.RequestStatusEnum.RegisteredByExpert;
 
-        var sug = await _context.Suggestions.FirstOrDefaultAsync(x => x.RequestId == id, cancellationToken);
+        var sug = await _context.Suggestions.FirstOrDefaultAsync(x => x.Id == expertId, cancellationToken);
         if (sug is null)
         {
             return false;
@@ -189,7 +191,7 @@ public class RequestRepository : IRequestRepository
             return false;
         }
         acceptRequest.Status = Domain.Core.Enum.RequestStatusEnum.Done;
-        var sug = await _context.Suggestions.FirstOrDefaultAsync(x => x.RequestId == acceptRequest.Id, cancellationToken); // Corrected to use expertId instead of acceptRequest.AcceptedExpertId
+        var sug = await _context.Suggestions.FirstOrDefaultAsync(x => x.RequestId == acceptRequest.Id, cancellationToken);
         if (sug is null)
         {
             return false;
@@ -205,8 +207,8 @@ public class RequestRepository : IRequestRepository
         {
             return false;
         }
-        acceptRequest.IsDeleted = true;
-        var sug = await _context.Suggestions.FirstOrDefaultAsync(x => x.RequestId == acceptRequest.Id, cancellationToken); // Corrected to use expertId instead of acceptRequest.AcceptedExpertId
+        acceptRequest.Status = RequestStatusEnum.CheckingAndWaitingExpert;
+        var sug = await _context.Suggestions.FirstOrDefaultAsync(x => x.RequestId == acceptRequest.Id, cancellationToken);
         if (sug is null)
         {
             return false;

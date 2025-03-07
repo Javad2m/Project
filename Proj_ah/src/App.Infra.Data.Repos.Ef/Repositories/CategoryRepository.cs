@@ -17,11 +17,13 @@ public class CategoryRepository : ICategoryRepository
 {
     private readonly AppDbContext _context;
     private readonly ILogger<CategoryRepository> _logger;
+    private readonly IMemoryCache _memoryCache;
 
-    public CategoryRepository(AppDbContext context, ILogger<CategoryRepository> logger)
+    public CategoryRepository(AppDbContext context, ILogger<CategoryRepository> logger, IMemoryCache memoryCache)
     {
         _context = context;
         _logger = logger;
+        _memoryCache = memoryCache;
     }
 
     public async Task<bool> CreateCategory(CategoryDTO model, CancellationToken cancellationToken)
@@ -37,6 +39,7 @@ public class CategoryRepository : ICategoryRepository
         {
             await _context.Categories.AddAsync(newCategory);
             await _context.SaveChangesAsync(cancellationToken);
+            _memoryCache.Remove("AllCategories");
             return true;
         }
         catch (Exception ex)
@@ -53,13 +56,16 @@ public class CategoryRepository : ICategoryRepository
 
         category.IsDeleted = true;
         await _context.SaveChangesAsync(cancellationToken);
+        _memoryCache.Remove("AllCategories");
     }
 
     public async Task<List<Category>> GetAllCategories(CancellationToken cancellationToken)
     {
         var result = await _context.Categories
-            .Where(d=>d.IsDeleted ==  false ) 
+            .Where(d => d.IsDeleted == false)
            .AsNoTracking().ToListAsync(cancellationToken);
+
+        _memoryCache.Set("AllCategories", result, TimeSpan.FromMinutes(5));
         _logger.LogInformation("Get All Categories");
 
         return result;
@@ -79,6 +85,8 @@ public class CategoryRepository : ICategoryRepository
 
 
             await _context.SaveChangesAsync(cancellationToken);
+
+            _memoryCache.Remove("AllCategories");
             return true;
         }
         catch (Exception ex)
@@ -96,6 +104,12 @@ public class CategoryRepository : ICategoryRepository
                 Id = c.Id,
                 Title = c.Title,
             }).AsNoTracking().FirstOrDefaultAsync(a => a.Id == categoryId, cancellationToken);
+
+
+        if (category != null)
+        {
+            _memoryCache.Set($"Category_{categoryId}", category, TimeSpan.FromMinutes(5));
+        }
 
         return category;
     }

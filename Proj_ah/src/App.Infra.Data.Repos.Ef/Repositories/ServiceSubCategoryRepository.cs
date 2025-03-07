@@ -3,6 +3,7 @@ using App.Domain.Core.Dto;
 using App.Domain.Core.Entities;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -16,12 +17,15 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
 {
     private readonly AppDbContext _context;
     private readonly ILogger<ServiceSubCategoryRepository> _logger;
+    private readonly IMemoryCache _memoryCache;
 
 
-    public ServiceSubCategoryRepository(AppDbContext context, ILogger<ServiceSubCategoryRepository> logger)
+
+    public ServiceSubCategoryRepository(AppDbContext context, ILogger<ServiceSubCategoryRepository> logger, IMemoryCache memoryCache)
     {
         _context = context;
         _logger = logger;
+        _memoryCache = memoryCache;
     }
     public async Task<bool> CreateService(ServiceSubCategoryDTO model, CancellationToken cancellationToken)
     {
@@ -38,6 +42,10 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
         {
             await _context.ServiceSubCategories.AddAsync(newService);
             await _context.SaveChangesAsync(cancellationToken);
+
+
+            _memoryCache.Remove("AllServices");
+            _memoryCache.Remove($"ServicesBySubCategory_{model.SubCategoryId}");
             _logger.LogInformation("Service created successfully: {ServiceId}", newService.Id);
 
             return true;
@@ -51,20 +59,24 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
     }
     public async Task<List<ServiceSubCategoryDTO>> GetAllServices(CancellationToken cancellationToken)
     {
-        var result = await _context.ServiceSubCategories
-             .Where(d => d.IsDeleted == false)
-            .Select(model => new ServiceSubCategoryDTO
-            {
-                Id = model.Id,
-                Title = model.Title,
-                SubCategory = model.SubCategory,
-                SubCategoryId = model.SubCategoryId,
-                ImagePath = model.ImagePath,
-                CategoryName = model.SubCategory.Title,
+        if (!_memoryCache.TryGetValue("AllServices", out List<ServiceSubCategoryDTO> result))
+        {
+            result = await _context.ServiceSubCategories
+                .Where(d => d.IsDeleted == false)
+                .Select(model => new ServiceSubCategoryDTO
+                {
+                    Id = model.Id,
+                    Title = model.Title,
+                    SubCategory = model.SubCategory,
+                    SubCategoryId = model.SubCategoryId,
+                    ImagePath = model.ImagePath,
+                    CategoryName = model.SubCategory.Title,
+                }).ToListAsync(cancellationToken);
 
+            _memoryCache.Set("AllServices", result, TimeSpan.FromMinutes(5));
+        }
 
-            }).ToListAsync(cancellationToken);
-        _logger.LogInformation("Fetched services", result.Count);
+        _logger.LogInformation("Fetched services from cache, total: {Count}", result.Count);
         return result;
     }
 
@@ -79,6 +91,8 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
         _logger.LogInformation("Service updated successfully: {ServiceId}", model.Id);
 
         await _context.SaveChangesAsync(cancellationToken);
+        _memoryCache.Remove("AllServices");
+        _memoryCache.Remove($"ServicesBySubCategory_{model.SubCategoryId}");
 
 
     }
@@ -94,21 +108,29 @@ public class ServiceSubCategoryRepository : IServiceSubCategoryRepository
         _logger.LogInformation("Service deleted successfully");
 
         await _context.SaveChangesAsync(cancellationToken);
+        _memoryCache.Remove("AllServices");
+        _memoryCache.Remove($"ServicesBySubCategory_{service.SubCategoryId}");
     }
 
     public async Task<List<ServiceSubCategoryDTO?>> GetAllBySubId(int subCategory, CancellationToken cancellationToken)
     {
-        var services = await _context.ServiceSubCategories
-              .AsNoTracking()
-              .Where(e => e.SubCategoryId == subCategory)
-              .Select(e => new ServiceSubCategoryDTO()
-              {
-                  Id = e.Id,
-                  Title = e.Title,
-                  ImagePath = e.ImagePath,
-                  SubCategoryId = e.SubCategoryId,
-                  CategoryName = e.SubCategory.Title,
-              }).AsNoTracking().ToListAsync(cancellationToken);
+        if (!_memoryCache.TryGetValue($"ServicesBySubCategory_{subCategory}", out List<ServiceSubCategoryDTO> services))
+        {
+            services = await _context.ServiceSubCategories
+                .AsNoTracking()
+                .Where(e => e.SubCategoryId == subCategory && !e.IsDeleted)
+                .Select(e => new ServiceSubCategoryDTO()
+                {
+                    Id = e.Id,
+                    Title = e.Title,
+                    ImagePath = e.ImagePath,
+                    SubCategoryId = e.SubCategoryId,
+                    CategoryName = e.SubCategory.Title,
+                }).ToListAsync(cancellationToken);
+
+            _memoryCache.Set($"ServicesBySubCategory_{subCategory}", services, TimeSpan.FromMinutes(5));
+        }
+
         return services;
     }
 
