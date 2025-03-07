@@ -13,6 +13,9 @@ public interface ICustomerAppServices
     Task<List<Customer>> GetAllCustomers(CancellationToken cancellationToken);
     Task<bool> DeleteCustomerById(int id, CancellationToken cancellationToken);
 
+    Task<bool> UpdateCustomer(CustomerDTO model, CancellationToken cancellationToken);
+
     Task<CustomerDTO>? GetById(int? id, CancellationToken cancellationToken);
+    Task<bool> UpdateBalance(int id, float balance, CancellationToken cancellationToken);
 
 }

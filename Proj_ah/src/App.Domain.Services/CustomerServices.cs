@@ -32,6 +32,9 @@ public class CustomerServices : ICustomerServices
     public async Task<CustomerDTO>? GetById(int? id, CancellationToken cancellationToken)
     => await _customerRepository.GetById(id, cancellationToken);
 
+    public async Task<bool> UpdateBalance(int id, float balance, CancellationToken cancellationToken)
+    => await _customerRepository.UpdateBalance(id, balance, cancellationToken);
+
     public async Task<bool> UpdateCustomer(CustomerDTO model, CancellationToken cancellationToken)
      => await _customerRepository.UpdateCustomer(model, cancellationToken);
 }

@@ -1,21 +1,48 @@
 ﻿@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @model App.EndPoint.Razor.ACH.Areas.Customer.Pages.Wallet.BalanceModel
 @{
 	ViewData["Title"] = "مدیریت پیشنهادها";
 	Layout = "_LayoutCustomer";
 }
+
+@if (TempData["ErrorMessage"] != null)
+{
+	<div class="alert alert-danger">
+		@TempData["ErrorMessage"]
+	</div>
+}
+@if (TempData["Success"] != null)
+{
+	<div class="alert alert-success">
+		@TempData["Success"]
+	</div>
+}
+
 <div class="row">
 	<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 		<div class="dsd-boxed-widget py-5 px-4 bg-danger rounded">
-			<h2 class="ft-medium mb-1 text-light"><span class="count ms-1">12500</span>تومان</h2>
+			<h2 class="ft-medium mb-1 text-light">
+				<span class="count ms-1">@Model.Balance</span> تومان
+			</h2>
 			<p class="p-0 m-0 text-light fs-md">موجودی قابل برداشت</p>
 			<i class="fas fa-credit-card"></i>
 		</div>
 	</div>
-	<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-		<div class="dsd-boxed-widget py-5 px-4 bg-success rounded">
-			<h2 class="ft-medium mb-1 text-light"><span class="count ms-1">18000</span>تومان</h2>
-			<p class="p-0 m-0 text-light fs-md">درآمد کل</p>
-			<i class="fas fa-wallet"></i>
+</div>
+
+<div class="container mt-5">
+	<div class="row">
+		<div class="col-md-6 offset-md-3">
+			<h2 class="text-center mb-4">افزایش موجودی</h2>
+			<form method="post" asp-page-handler="Balance">
+				<div class="form-group">
+					<label for="Balance">مقدار افزایش موجودی</label>
+					<input type="number" class="form-control" asp-for="Balance" value="100" min="100.01" step="0.01" required />
+					<span asp-validation-for="Balance" class="text-danger"></span>
+				</div>
+				<button type="submit" class="btn btn-primary mt-3">افزایش موجودی</button>
+			</form>
 		</div>
 	</div>
+</div>

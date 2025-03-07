@@ -28,9 +28,9 @@ public class CustomerRepository : ICustomerRepository
         var newCustomer = new Customer()
         {
             FirstName = model.FirstName,
-            LastName = model.LastName,   
-            PhoneNumber = model.PhoneNumber,          
-            City = model.City,           
+            LastName = model.LastName,
+            PhoneNumber = model.PhoneNumber,
+            City = model.City,
             CreatedAt = DateTime.Now,
         };
         try
@@ -45,7 +45,7 @@ public class CustomerRepository : ICustomerRepository
         {
             _logger.LogError("Customer not created Maybe it has already been added Or there is another error {exception}", ex.Message);
 
-            return false;   
+            return false;
         }
     }
 
@@ -55,10 +55,11 @@ public class CustomerRepository : ICustomerRepository
             .FirstOrDefaultAsync(e => e.Id == id, cancellationToken);
 
         if (customer == null) return false;
-        try { 
-        customer.IsDeleted = true;
-        await _context.SaveChangesAsync(cancellationToken);
-        return true;
+        try
+        {
+            customer.IsDeleted = true;
+            await _context.SaveChangesAsync(cancellationToken);
+            return true;
         }
         catch (Exception ex)
         {
@@ -78,18 +79,18 @@ public class CustomerRepository : ICustomerRepository
     public async Task<bool> UpdateCustomer(CustomerDTO model, CancellationToken cancellationToken)
     {
         var customer = await _context.Customers
+            .Include(a => a.City)
             .FirstOrDefaultAsync(x => x.Id == model.Id, cancellationToken);
 
         if (customer == null) return false;
 
         try
         {
-            
+
             customer.FirstName = model.FirstName;
             customer.LastName = model.LastName;
-            customer.PhoneNumber = model.PhoneNumber;
-            customer.City = model.City;
-          
+            customer.CityId = model.CityId;
+
 
             await _context.SaveChangesAsync(cancellationToken);
             return true;
@@ -103,16 +104,31 @@ public class CustomerRepository : ICustomerRepository
     public async Task<CustomerDTO>? GetById(int? id, CancellationToken cancellationToken)
     {
         var customer = await _context.Customers
+              .Include(a => a.City)
             .Select(model => new CustomerDTO
             {
                 Id = model.Id,
                 FirstName = model.FirstName,
-                LastName = model.LastName,                
+                LastName = model.LastName,
                 City = model.City,
-                
+                CityId = model.CityId,
+                Wallet = model.Wallet,
+
             }).AsNoTracking()
             .FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
 
         return customer ?? new CustomerDTO();
+    }
+
+    public async Task<bool> UpdateBalance(int id, float balance, CancellationToken cancellationToken)
+    {
+        var customer = await _context.Customers.FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
+        if (customer is null)
+        {
+            return false;
+        }
+        customer.Wallet += balance;
+        await _context.SaveChangesAsync(cancellationToken);
+        return true;
     }
 }

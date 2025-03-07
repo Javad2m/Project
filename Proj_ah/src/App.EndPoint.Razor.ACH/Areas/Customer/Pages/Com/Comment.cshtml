@@ -1,0 +1,70 @@
+﻿@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using System.ComponentModel.DataAnnotations
+@model App.EndPoint.Razor.ACH.Areas.Customer.Pages.Com.CommentModel
+@{
+    ViewData["Title"] = "مدیریت پیشنهادها";
+    Layout = "_LayoutCustomer";
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+	<div class="alert alert-danger">
+		@TempData["ErrorMessage"]
+	</div>
+}
+@if (TempData["Success"] != null)
+{
+	<div class="alert alert-success">
+		@TempData["Success"]
+	</div>
+}
+
+
+
+@if (Model.RequestDTOs == null || !Model.RequestDTOs.Any())
+{
+    <div class="alert alert-warning" role="alert">
+        شما سفارش انجام شده ای ندارید.
+    </div>
+}
+else
+{
+    @foreach (var item in Model.RequestDTOs)
+    {
+        <div class="container dsd-single-listing-wraps">
+            <div class="row dsd-single-lst-caption">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text"><strong>تاریخ انجام: </strong>@item.DoneTime</p>
+                            <p class="card-text"><strong>وضعیت: </strong>@DisplayEnum(item.Status)</p>
+                            <p class="card-text"><strong>هزینه درخواست: </strong>@item.BasePrice تومان</p>
+                            <p class="card-text"><strong>توضیحات: </strong>@item.Description</p>
+
+                            <!-- فرم درج کامنت -->
+                            <form method="post" asp-page-handler="AddComment" asp-route-id="@item.Id">
+                                <div class="mb-3">
+                                    <label for="commentText" class="form-label">کامنت شما:</label>
+                                    <textarea class="form-control" id="commentText" name="commentText" rows="3" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">ارسال کامنت</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+@functions {
+    public string DisplayEnum(Enum enumValue)
+    {
+        var field = enumValue.GetType().GetField(enumValue.ToString());
+        var attribute = (DisplayAttribute)field.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault();
+
+        return attribute?.GetName() ?? enumValue.ToString();
+    }
+}
