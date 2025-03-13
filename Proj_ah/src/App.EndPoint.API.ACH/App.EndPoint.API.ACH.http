@@ -1,0 +1,6 @@
+@App.EndPoint.API.ACH_HostAddress = http://localhost:5080
+
+GET {{App.EndPoint.API.ACH_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

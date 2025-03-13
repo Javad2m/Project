@@ -9,6 +9,8 @@ namespace App.Domain.Core.Entities.Configs;
 public class SiteSettings
 {
     public Connectionstrings ConnectionStrings { get; set; }
+
+    public string ApiKey { get; set; }
 }
 
 public class Connectionstrings
