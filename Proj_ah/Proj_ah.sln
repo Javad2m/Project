@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.EndPoint.Razor.ACH", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.EndPoint.API.ACH", "src\App.EndPoint.API.ACH\App.EndPoint.API.ACH.csproj", "{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Infra.Access.Dapper", "src\App.Infra.Access.Dapper\App.Infra.Access.Dapper.csproj", "{860F6BBB-B377-479B-8CB1-9AB9EE9B6BDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860F6BBB-B377-479B-8CB1-9AB9EE9B6BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860F6BBB-B377-479B-8CB1-9AB9EE9B6BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860F6BBB-B377-479B-8CB1-9AB9EE9B6BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860F6BBB-B377-479B-8CB1-9AB9EE9B6BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,5 +109,6 @@ Global
 		{23AD9CF7-EAB8-4420-8E50-B6B3A2C94C27} = {8C3D3F1E-FEC6-4209-9E81-C4F71E662E12}
 		{B39D8A2F-7757-4D66-A673-387156BFC336} = {EE1D7C46-206B-4222-9A33-A56AF00AB981}
 		{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727} = {EE1D7C46-206B-4222-9A33-A56AF00AB981}
+		{860F6BBB-B377-479B-8CB1-9AB9EE9B6BDD} = {196D6DD0-EACF-49F9-8DDA-D0E6B7168B7D}
 	EndGlobalSection
 EndGlobal

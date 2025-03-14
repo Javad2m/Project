@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727}|src\\App.EndPoint.API.ACH\\App.EndPoint.API.ACH.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.endpoint.api.ach\\actionfillter\\fillterapikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727}|src\\App.EndPoint.API.ACH\\App.EndPoint.API.ACH.csproj|solutionrelative:src\\app.endpoint.api.ach\\actionfillter\\fillterapikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727}|src\\App.EndPoint.API.ACH\\App.EndPoint.API.ACH.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.endpoint.api.ach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727}|src\\App.EndPoint.API.ACH\\App.EndPoint.API.ACH.csproj|solutionrelative:src\\app.endpoint.api.ach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727}|src\\App.EndPoint.API.ACH\\App.EndPoint.API.ACH.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.endpoint.api.ach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BAB8AF7D-9242-4E2D-9A2F-742D0EED7727}|src\\App.EndPoint.API.ACH\\App.EndPoint.API.ACH.csproj|solutionrelative:src\\app.endpoint.api.ach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|c:\\users\\notebook\\desktop\\proj\\proj_ah\\src\\app.endpoint.razor.ach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B39D8A2F-7757-4D66-A673-387156BFC336}|src\\App.EndPoint.Razor.ACH\\App.EndPoint.Razor.ACH.csproj|solutionrelative:src\\app.endpoint.razor.ach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,21 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FillterApiKey.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.API.ACH\\ActionFillter\\FillterApiKey.cs",
-              "RelativeDocumentMoniker": "src\\App.EndPoint.API.ACH\\ActionFillter\\FillterApiKey.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.API.ACH\\ActionFillter\\FillterApiKey.cs*",
-              "RelativeToolTip": "src\\App.EndPoint.API.ACH\\ActionFillter\\FillterApiKey.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T22:04:01.767Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -56,45 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.API.ACH\\Program.cs",
-              "RelativeDocumentMoniker": "src\\App.EndPoint.API.ACH\\Program.cs",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.API.ACH\\Program.cs",
-              "RelativeToolTip": "src\\App.EndPoint.API.ACH\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:59:21.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.API.ACH\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\App.EndPoint.API.ACH\\appsettings.json",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.API.ACH\\appsettings.json",
-              "RelativeToolTip": "src\\App.EndPoint.API.ACH\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-13T21:59:00.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\App.EndPoint.Razor.ACH\\appsettings.json",
-              "ToolTip": "C:\\Users\\Notebook\\Desktop\\Proj\\Proj_ah\\src\\App.EndPoint.Razor.ACH\\appsettings.json",
-              "RelativeToolTip": "src\\App.EndPoint.Razor.ACH\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-13T21:59:04.737Z",
-              "EditorCaption": ""
             }
           ]
         },

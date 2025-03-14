@@ -1,16 +1,19 @@
 using App.Domain.AppServices;
+using App.Domain.Core.Contracts;
 using App.Domain.Core.Contracts.AppServices;
 using App.Domain.Core.Contracts.Repositories;
 using App.Domain.Core.Contracts.Services;
 using App.Domain.Core.Entities;
 using App.Domain.Core.Entities.Configs;
 using App.Domain.Services;
+using App.Infra.Access.Dapper;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using App.Infra.Data.Repos.Ef.Repositories;
 using Framework;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -64,6 +67,9 @@ builder.Services.AddScoped<ICommentAppServices, CommentAppServices>();
 builder.Services.AddScoped<IServiceSubCategoryAppServices, ServiceSubCategoryAppServices>();
 builder.Services.AddScoped<ISubCategoryAppServices, SubCategoryAppServices>();
 builder.Services.AddScoped<ICityAppServices, CityAppServices>();
+
+
+
 
 
 

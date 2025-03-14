@@ -1,4 +1,5 @@
 using App.Domain.AppServices;
+using App.Domain.Core.Contracts;
 using App.Domain.Core.Contracts.AppServices;
 using App.Domain.Core.Contracts.Repositories;
 using App.Domain.Core.Contracts.Services;
@@ -6,12 +7,14 @@ using App.Domain.Core.Entities;
 using App.Domain.Core.Entities.Configs;
 using App.Domain.Services;
 using App.EndPoint.API.ACH.ActionFillter;
+using App.Infra.Access.Dapper;
 using App.Infra.Data.Db.SqlServer.Ef.Common;
 using App.Infra.Data.Repos.Ef.Repositories;
 using Framework;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
+using Dapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -76,6 +79,7 @@ builder.Services.AddScoped<ICityAppServices, CityAppServices>();
 
 
 builder.Services.AddScoped<FillterApiKey>();
+
 
 builder.Services.AddMemoryCache();
 

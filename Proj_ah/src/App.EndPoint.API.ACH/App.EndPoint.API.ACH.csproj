@@ -23,6 +23,7 @@
     <ProjectReference Include="..\App.Domain.Services\App.Domain.Services.csproj" />
     <ProjectReference Include="..\App.EndPoint.MVC.ACH\App.EndPoint.MVC.ACH.csproj" />
     <ProjectReference Include="..\App.EndPoint.Razor.ACH\App.EndPoint.Razor.ACH.csproj" />
+    <ProjectReference Include="..\App.Infra.Access.Dapper\App.Infra.Access.Dapper.csproj" />
     <ProjectReference Include="..\App.Infra.Data.Db.SqlServer.Ef\App.Infra.Data.Db.SqlServer.Ef.csproj" />
     <ProjectReference Include="..\App.Infra.Data.Repos.Ef\App.Infra.Data.Repos.Ef.csproj" />
     <ProjectReference Include="..\Framework\Framework.csproj" />

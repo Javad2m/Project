@@ -15,7 +15,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 
-
+//sasasa
 
 // repo
 builder.Services.AddScoped<IAdminRepository, AdminRepository>();

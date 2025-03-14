@@ -14,3 +14,17 @@ C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\obj\Debug\net9.0
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.MVC.ACH\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Notebook\Desktop\Proj\Proj_ah\src\App.EndPoint.Razor.ACH\obj\Debug\net9.0\staticwebassets.build.json
