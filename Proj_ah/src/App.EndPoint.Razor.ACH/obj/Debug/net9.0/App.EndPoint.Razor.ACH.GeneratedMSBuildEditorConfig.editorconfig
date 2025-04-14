@@ -172,6 +172,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcUGFnZXNcV2FsbGV0XEJhbGFuY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Notebook/Desktop/Proj/Proj_ah/src/App.EndPoint.Razor.ACH/Areas/Customer/Pages/Wallet/Pay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcUGFnZXNcV2FsbGV0XFBheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Notebook/Desktop/Proj/Proj_ah/src/App.EndPoint.Razor.ACH/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\App.EndPoint.MVC.ACH.props" />
-</Project>

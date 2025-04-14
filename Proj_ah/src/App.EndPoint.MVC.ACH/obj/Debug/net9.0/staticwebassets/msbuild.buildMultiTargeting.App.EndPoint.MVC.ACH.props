@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\App.EndPoint.MVC.ACH.props" />
-</Project>
